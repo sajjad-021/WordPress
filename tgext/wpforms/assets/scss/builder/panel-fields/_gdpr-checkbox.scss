@@ -1,0 +1,33 @@
+// GDPR Checkbox field type.
+
+// Field options area (left side).
+.wpforms-panel-sidebar {
+
+	.wpforms-field-option-gdpr-checkbox {
+
+		// Choices.
+		.wpforms-field-option-row-choices {
+
+			// Hide choices elements that are not relevant to this field type.
+			.wpforms-help-tooltip,
+			.toggle-bulk-add-display,
+			.add,
+			.remove,
+			.move,
+			.default {
+				display: none;
+			}
+
+			// Make Agreement text field full width.
+			li {
+				input[type=text] {
+					width: 99%;
+				}
+			}
+		}
+	}
+}
+
+// Form preview area (right side).
+.wpforms-panel-content-wrap {
+}

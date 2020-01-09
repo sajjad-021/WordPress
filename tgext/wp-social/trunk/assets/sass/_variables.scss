@@ -1,0 +1,40 @@
+$social: (
+    facebook: #3B5998,
+    twitter: #1DA1F2,
+    dribbble: #EA4C89,
+    pinterest: #bd081c,
+    instagram: #5851DB,
+    github: #6E5494,
+    linkedin: #0077B5,
+    vkontakte: #45668E,
+    reddit: #FF4500,
+    skype: #00aff0,
+    wordpress: #21759B,
+    google: #4285F4,
+    youtube: #ff0000,
+    vimeo: #1ab7ea,
+    whatsapp: #25d366,
+    mailchimp: #6dc5dc,
+    posts: #36454f,
+    comments: #000000,
+    facebook-messenger: #3b5998,
+    kik: #82bc23,
+    trello: #0079bf,
+    viber: #59267c,
+    telegram: #0088cc,
+    email: #ea4335,
+    digg: #005be2,
+    stumbleupon: #eb4924,
+);
+
+$primary_bg: #4285F4;
+$default_font_size: 16px;
+
+
+@mixin round($height: $height, $width: $height, $lineHeight: $height) {
+    height: $height;
+    width: $width;
+    line-height: $lineHeight;
+    border-radius: ($height / 2);
+    text-align: center;
+}

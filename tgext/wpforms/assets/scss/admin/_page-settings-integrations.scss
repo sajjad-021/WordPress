@@ -1,0 +1,159 @@
+// Integrations tab content.
+// Legacy CSS and should be cleaned up when time permits.
+#wpforms-settings-providers {
+
+	.wpforms-settings-provider {
+		border-bottom: 1px solid #ddd;
+		padding: 30px 0;
+
+		&.focus-out {
+			opacity: 0.4;
+		}
+	}
+
+	.wpforms-settings-provider-header {
+		cursor: pointer;
+		max-width: 1000px;
+	}
+
+	.wpforms-settings-provider-logo {
+		float: left;
+		position: relative;
+
+		.fa {
+			position: absolute;
+			top: 50%;
+			margin: -9px 0 0 0;
+			left: 10px;
+			color: #666;
+			font-size: 18px;
+		}
+
+		img {
+			background: #fff;
+			border: 1px solid #ddd;
+			max-width: 90px;
+			display: block;
+			margin: 0 0 0 40px;
+		}
+	}
+
+	.wpforms-settings-provider-info {
+		margin: 0 0 0 160px;
+		position: relative;
+		padding: 20px 0 0;
+
+		h3 {
+			margin: 0 0 10px 0;
+			font-size: 20px;
+			font-weight: 600;
+		}
+
+		p {
+			margin: 0;
+			font-size: 14px;
+		}
+
+		.connected-indicator {
+			color: #83c11f;
+			width: 135px;
+			border: 1px solid #83c11f;
+			border-radius: 4px;
+			padding: 8px 14px;
+			font-size: 16px;
+			position: absolute;
+			top: 28px;
+			right: 0;
+			display: none;
+		}
+	}
+
+	.connected .wpforms-settings-provider-info .connected-indicator {
+		display: block;
+	}
+
+	.wpforms-settings-provider-accounts {
+		margin: 0 0 0 160px;
+		display: none;
+		max-width: 840px;
+	}
+
+	.focus-in .wpforms-settings-provider-accounts {
+		display: block;
+	}
+
+	.wpforms-settings-provider-accounts-list ul {
+		padding: 0;
+		margin: 0;
+
+		li {
+			border-bottom: 1px solid #ddd;
+			margin: 0;
+			padding: 10px 0;
+			font-size: 14px;
+
+			&:first-of-type {
+				border-top: 1px solid #ddd;
+			}
+
+			&:last-of-type {
+				margin-bottom: 16px;
+			}
+		}
+
+		span.label {
+			float: left;
+			width: 50%;
+		}
+
+		span.date {
+			color: #999;
+			float: left;
+			width: 35%;
+		}
+
+		span.remove {
+			float: right;
+			width: 15%;
+			text-align: right
+		}
+	}
+
+	.wpforms-settings-provider-accounts-connect {
+		display: none;
+		padding: 20px;
+		background-color: $lightBlue;
+		border: 1px solid $blue;
+
+		input[type=text] {
+			background-color: #fff;
+			border: 1px solid #ddd;
+			border-radius: 3px;
+			box-shadow: none;
+			color: #333;
+			display: block;
+			padding: 7px 12px;
+			margin: 5px 0;
+			width: 400px;
+			min-height: 35px;
+
+			&:focus {
+				border-color: #bbb;
+			}
+		}
+	}
+
+	.focus-in .wpforms-settings-provider-accounts-connect  {
+		display: block;
+	}
+
+	.wpforms-settings-provider-accounts-connect .fa {
+		display: none;
+	}
+
+	.wpforms-settings-provider-accounts-connect p,
+	.wpforms-settings-provider-accounts p {
+		margin: 0 0 15px 0;
+		font-size: 14px;
+	}
+}

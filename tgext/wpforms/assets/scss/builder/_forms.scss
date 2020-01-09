@@ -1,0 +1,15 @@
+// Form element styles.
+
+#wpforms-builder {
+
+	.wpforms-panel-field {
+
+		select {
+			max-width: 100%;
+		}
+
+		input[readonly].readonly-active {
+			background-color: white;
+		}
+	}
+}

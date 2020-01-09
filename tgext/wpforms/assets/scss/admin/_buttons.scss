@@ -1,0 +1,95 @@
+// Button styles.
+.wpforms-admin-page {
+
+	.wpforms-btn {
+		border: 0;
+		border-radius: 3px;
+		cursor: pointer;
+		display: inline-block;
+		margin: 0;
+		text-decoration: none;
+		text-align: center;
+		vertical-align: middle;
+		white-space: nowrap;
+		box-shadow: none;
+	}
+
+	.wpforms-btn-block {
+		display: block;
+		width: 100%;
+	}
+
+	.wpforms-btn-md {
+		font-size: 13px;
+		font-weight: 600;
+		padding: 8px 12px;
+		min-height: 35px;
+	}
+
+	.wpforms-btn-lg {
+		font-size: 16px;
+		font-weight: 600;
+		padding: 16px 28px;
+	}
+
+	.wpforms-btn-orange {
+		background-color: $orange;
+		border-color: $orange;
+		color: #fff;
+
+		&:hover {
+			background-color: $darkorange;
+			border-color: $darkorange;
+		}
+	}
+
+	.wpforms-btn-grey {
+		background-color: #eee;
+		border-color: #ccc;
+		color: #666;
+
+		&:hover {
+			background-color: #d7d7d7;
+			border-color: #ccc;
+			color: #444;
+		}
+	}
+
+	.wpforms-btn-light-grey {
+		background-color: #f5f5f5;
+		border: 1px solid #ccc;
+		color: #666;
+
+		&:hover {
+			background-color: #eee;
+			color: #444;
+		}
+	}
+
+	.wpforms-btn-trans-green {
+		background-color: none;
+		color: $green;
+
+		&:hover {
+			background-color: $green;
+			color: #fff;
+		}
+
+		.underline {
+			position: relative;
+
+			&:after {
+				content: " ";
+				border-bottom: 1px dashed $green;
+				position: absolute;
+				bottom: -5px;
+				left: 0;
+				width: 100%;
+			}
+		}
+
+		.dashicons {
+			height: 18px;
+		}
+	}
+}

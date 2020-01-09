@@ -1,0 +1,29 @@
+// Form Overview - admin.php?page=wpforms-overview
+#wpforms-overview {
+
+	// Remove the top margin so it displays 20px between the header area
+	// and the content, consistent with our other admin pages.
+	.tablenav.top {
+		margin-top: 0;
+	}
+
+	// Set certain column widths.
+	.wp-list-table {
+
+		.column-id {
+			width: 30px;
+		}
+
+		.column-entries {
+			width: 70px;
+		}
+
+		.column-shortcode {
+			width: 150px;
+		}
+
+		.column-created {
+			width: 145px;
+		}
+	}
+}

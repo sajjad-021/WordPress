@@ -1,0 +1,296 @@
+// Entries Single (Details) - admin.php?page=wpforms-entries&view=details
+#wpforms-entries-single {
+
+	#poststuff {
+		padding: 0;
+	}
+
+	// Metaboxes are not movable so don't let the user think so.
+	.postbox .hndle {
+		cursor: default !important;
+	}
+
+	// Entry navigation - next/prev.
+	.wpforms-entry-navigation {
+		font-size: 13px;
+		line-height: 29px;
+		float: right;
+		position: relative;
+		padding-top: 2px;
+		padding-right: 1px;
+		white-space: nowrap;
+
+		@include media("<=phone") {
+			display: none;
+		}
+
+		.add-new-h2 {
+			top: auto;
+			margin: 0;
+			padding: 4px 0px;
+			text-align: center;
+
+			@include media("<=tablet") {
+				font-size: 13px;
+			}
+
+			.dashicons {
+				font-size: 16px;
+				height: auto;
+				width: 28px;
+				line-height: 29px;
+			}
+
+			&.inactive {
+				opacity: 0.5;
+				pointer-events: none;
+				cursor: default;
+			}
+		}
+
+		.wpforms-entry-navigation-text {
+			display: inline-block;
+			margin-right: 10px;
+		}
+
+		.wpforms-entry-current {
+			top: auto;
+			margin: 0 -5px 0 -3px;
+			text-align: center;
+			padding: 4px 10px;
+			position: relative;
+			text-decoration: none;
+			border: 1px solid #ccc;
+			-webkit-border-radius: 2px;
+			border-radius: 2px;
+			background: #fff;
+			font-size: 13px;
+			line-height: 29px;
+			text-transform: center;
+		}
+
+	}
+
+	// Entry fields metabox.
+	#wpforms-entry-fields {
+
+		h2.hndle {
+			font-size: 18px;
+
+			.dashicons {
+				font-size: 16px;
+				height: 16px;
+				width: 16px;
+				margin: 4px 4px 0 0;
+				color: $orange;
+			}
+		}
+
+		.no-fields {
+			padding: 12px;
+			margin: 0;
+		}
+
+		.inside {
+			padding: 0;
+			margin: 0;
+
+			p {
+				padding: 0;
+				margin: 0;
+			}
+
+			.wpforms-entry-field-name {
+				font-weight: 600;
+				background: #ebf3fb;
+				padding: 8px 12px;
+			}
+
+			.wpforms-entry-field-value {
+				background: #fff;
+				padding: 8px 12px;
+			}
+
+			.empty .wpforms-entry-field-value {
+				font-style: italic;
+				color: #999;
+			}
+		}
+
+		.wpforms-empty-field-toggle {
+			float: right;
+			text-decoration: none;
+			padding: 5px 0 0;
+		}
+	}
+
+	// Entry Notes metabox.
+	#wpforms-entry-notes {
+
+		.inside {
+			margin: 0;
+			padding: 0;
+		}
+
+		.wpforms-entry-notes-new {
+			padding: 10px;
+		}
+
+		form {
+			display: none;
+		}
+
+		.btns {
+			overflow: auto;
+			padding: 8px 0;
+		}
+
+		.no-notes {
+			margin: 0;
+			padding: 4px 10px 8px;
+		}
+
+		.wpforms-entry-notes-single {
+			padding: 10px;
+			border-top: 1px solid #e3e1e3;
+
+			p:last-of-type {
+				margin-bottom: 0;
+			}
+
+			&.even {
+				background-color: #f9f9f9;
+			}
+		}
+
+		.wpforms-entry-notes-byline {
+			color: #888;
+			margin-bottom: 10px;
+
+			.sep {
+				color: #ddd;
+			}
+
+			.notes-user {
+				text-decoration: none;
+				font-weight: 600;
+			}
+
+			.note-delete {
+				color: #a00;
+				text-decoration: none;
+
+				&:hover {
+					color: red;
+					text-decoration: none;
+				}
+			}
+		}
+	}
+
+	// Entry Details, Actions, and Payments.
+	#wpforms-entry-details .inside,
+	#wpforms-entry-payment .inside,
+	#wpforms-entry-actions .inside {
+		margin: 0;
+		padding: 0;
+	}
+
+	.wpforms-entry-details-meta,
+	.wpforms-entry-actions-meta  {
+		padding: 6px 0 0;
+	}
+
+	.wpforms-entry-details-meta p,
+	.wpforms-entry-payment-meta p,
+	.wpforms-entry-actions-meta p {
+		padding: 6px 10px 8px;
+		margin: 0;
+	}
+
+	.wpforms-entry-payment-meta {
+		padding: 0;
+	}
+
+	.wpforms-entry-payment-meta p {
+		border-bottom: 1px solid #eee;
+		padding: 10px;
+	}
+
+	.wpforms-entry-payment-meta p:last-of-type {
+		border-bottom: 0;
+	}
+
+	.wpforms-entry-details-meta strong,
+	.wpforms-entry-actions-meta strong {
+		font-weight: 600;
+	}
+
+	.wpforms-entry-details-meta .dashicons,
+	.wpforms-entry-actions-meta .dashicons {
+		padding: 0 2px 0 0;
+		color: #82878A;
+		top: -1px;
+		left: -1px;
+		position: relative;
+		text-decoration: none;
+	}
+
+	#wpforms-entry-details .submitdelete {
+		color: #a00;
+		text-decoration: none;
+		padding: 1px 2px;
+	}
+
+	#wpforms-entry-details .submitdelete:hover {
+		color: red;
+	}
+
+	.wpforms-entry-actions-meta a {
+		text-decoration: none;
+	}
+
+	.wpforms-entry-actions-meta a:hover {
+		text-decoration: underline;
+	}
+
+	// Entry Location.
+	#wpforms-entry-geolocation {
+
+		.inside {
+			padding: 0;
+			margin: 0;
+		}
+
+		ul {
+			margin: 0;
+
+			li {
+				border-bottom: 1px solid #eee;
+				margin: 0;
+				overflow: auto;
+
+				&:last-of-type {
+					border-bottom: 0;
+				}
+			}
+		}
+
+		.wpforms-geolocation-meta {
+			width: 85px;
+			float: left;
+			border-right: 1px solid #eee;
+			padding: 10px 20px 10px 12px;
+		}
+
+		.wpforms-geolocation-value {
+			display: inline-block;
+			padding: 10px 12px 10px 20px;
+		}
+
+		.wpforms-flag {
+			vertical-align: text-top;
+			margin-right: 4px;
+		}
+	}
+}

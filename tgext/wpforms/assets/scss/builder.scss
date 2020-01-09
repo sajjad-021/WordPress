@@ -1,0 +1,28 @@
+// WPForms form builder styles.
+
+@import 'variables';
+@import 'admin/confirm';
+@import 'admin/buttons';
+@import 'admin/alerts';
+@import 'builder/forms';
+@import 'builder/panel-fields';
+@import 'builder/panel-settings';
+@import 'builder/panel-payments';
+@import 'builder/providers/providers';
+
+.wpforms-screen-reader-element {
+	position: absolute !important;
+	clip: rect(0, 0, 0, 0) !important;
+	height: 1px !important;
+	width: 1px !important;
+	border: 0 !important;
+	margin: 0 !important;
+	padding: 0 !important;
+	overflow: hidden !important;
+	word-wrap: normal !important;
+}
+
+/* flatpickr 4.5.5 fix */
+.wpforms_page_wpforms-builder .flatpickr-calendar.open {
+	z-index: 99999999999;
+}

@@ -1,0 +1,189 @@
+// General admin styling.
+
+// Core admin style overrides.
+#wpcontent {
+	padding-left: 0 !important;
+	position: relative;
+
+	@include media("<=phone") {
+		padding-top: 46px;
+	}
+}
+
+#wpbody {
+	@include media("<=phone") {
+		padding-top: 0;
+	}
+}
+
+// This class is auto applied to _all_ WPForms admin pages/screens.
+.wpforms-admin-page {
+
+	// This is hidden on load, then made visible with JS, to
+	// prevent it from "jumping".
+	#screen-meta-links,
+	#screen-meta {
+		display: none;
+	}
+
+	// Responsive video container, replaces JS method.
+	.video-container {
+		position: relative;
+		padding-bottom: 56.1%;
+		// padding-top: 30px;
+		height: 0;
+		overflow: hidden;
+	}
+
+	.video-container iframe,
+	.video-container object,
+	.video-container embed {
+		position: absolute;
+		top: 0;
+		left: 0;
+		width: 100%;
+		height: 100%;
+	}
+
+	// Fancy file upload.
+	.wpforms-file-upload {
+
+		input[type=file] {
+			width: 0.1px;
+			height: 0.1px;
+			opacity: 0;
+			overflow: hidden;
+			position: absolute;
+			z-index: -1;
+		}
+
+		label {
+			text-overflow: ellipsis;
+			white-space: nowrap;
+			cursor: pointer;
+			display: inline-block;
+			overflow: hidden;
+			padding: 0;
+		}
+
+		input[type=file]:focus + label,
+		input[type=file].has-focus + label {
+			outline: 1px dotted #000;
+			outline: -webkit-focus-ring-color auto 5px;
+		}
+
+		.fld {
+			text-overflow: ellipsis;
+			white-space: nowrap;
+			overflow: hidden;
+			background-color: #fff;
+			border: 1px solid #ddd;
+			border-radius: 3px;
+			box-shadow: none;
+			color: #333;
+			display: inline-block;
+			vertical-align: middle;
+			padding: 7px 12px;
+			margin: 0 10px 0 0;
+			width: 400px;
+			min-height: 35px;
+
+			.placeholder {
+				color: #ccc;
+			}
+		}
+
+		strong .fa {
+			margin-right: 8px;
+		}
+	}
+
+	// Genric class for hiding display;
+	.wpforms-hide {
+		display: none;
+	}
+
+	// Placeholder h1 for admin notices.
+	.wpforms-h1-placeholder {
+		display: none;
+	}
+
+	// Hide notices on load to prevent jumping. JS will reveal them.
+	.notice {
+		display: none;
+	}
+}
+
+// Admin wrap - contains everything except the header.
+.wpforms-admin-wrap {
+
+	margin: 0;
+
+	.notice {
+		margin-left: 20px !important;
+		margin-right: 20px !important;
+	}
+}
+
+// Admin content.
+.wpforms-admin-content {
+	padding-left: 20px;
+	padding-right: 20px;
+
+	&:before {
+		content: " ";
+		display: table;
+	}
+
+	&:after {
+		clear: both;
+		content: " ";
+		display: table;
+	}
+
+	hr {
+		border: none;
+		border-top: 1px solid #e4e4e4;
+		margin: 20px 0;
+		background: none;
+	}
+}
+
+.wpforms-clear {
+
+	&:before {
+		content: " ";
+		display: table;
+	}
+
+	&:after {
+		clear: both;
+		content: " ";
+		display: table;
+	}
+}
+
+.wpforms-admin-columns {
+
+	& > div[class*="-column-"] {
+		float: left;
+	}
+
+	.wpforms-admin-column-20 {width: 20%}
+	.wpforms-admin-column-33 {width: 33.33333%}
+	.wpforms-admin-column-40 {width: 40%}
+	.wpforms-admin-column-50 {width: 50%}
+	.wpforms-admin-column-60 {width: 60%}
+	.wpforms-admin-column-80 {width: 80%}
+
+	.wpforms-admin-column-last {float: right !important}
+
+	&:after {
+		content: "";
+		display: table;
+		clear: both;
+	}
+}
+
+
+

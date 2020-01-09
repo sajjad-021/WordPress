@@ -1,0 +1,51 @@
+// Page title and tabs styles.
+.wpforms-admin-wrap {
+
+	// Title area.
+	.page-title {
+		background-color: #fff;
+		margin: 0 0 20px 0;
+		padding: 15px 20px;
+
+		.add-new-h2 {
+			margin-left: 28px;
+		}
+	}
+}
+
+// Tab navigation.
+.wpforms-admin-tabs {
+	background-color: #fff;
+	margin: 0 0 20px 0;
+	padding: 0 20px;
+	list-style: none;
+	overflow: auto;
+	font-size: 14px;
+
+	li {
+		margin: 0 30px 0 0;
+		padding: 0;
+		float: left;
+
+		&:last-of-type {
+			margin: 0;
+		}
+
+		a {
+			color: #666;
+			display: block;
+			padding: 20px 0 18px 0;
+			text-decoration: none;
+			border-bottom: 2px solid #fff;
+			box-shadow: none;
+
+			&:hover {
+				border-color: #999;
+			}
+
+			&.active {
+				border-color: $orange;
+			}
+		}
+	}
+}

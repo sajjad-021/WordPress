@@ -1,0 +1,30 @@
+// WPForms admin styles.
+// These styles are loaded on all WPForms related admin pages.
+
+@import 'variables';
+@import 'vendor/partials/include-media';
+@import 'vendor/partials/choices';
+
+$breakpoints: (
+	'xs-phone': 320px,
+	'phone': 600px,
+	'ipad': 768px,
+	'tablet': 782px,
+	'desktop': 960px,
+);
+
+@import 'admin/buttons';
+@import 'admin/confirm';
+@import 'admin/alerts';
+@import 'admin/flags';
+@import 'admin/header';
+@import 'admin/title-tabs';
+@import 'admin/general';
+@import 'admin/page-forms-overview';
+@import 'admin/page-entries-single';
+@import 'admin/page-entries-list';
+@import 'admin/page-welcome';
+@import 'admin/page-addons';
+@import 'admin/page-about';
+@import 'admin/page-settings-tools';
+@import 'admin/page-settings-integrations';

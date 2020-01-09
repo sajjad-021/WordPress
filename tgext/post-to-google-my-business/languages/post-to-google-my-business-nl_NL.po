@@ -1,0 +1,651 @@
+# Copyright (C) 2018 Post to Google My Business
+# This file is distributed under the same license as the Post to Google My Business package.
+msgid ""
+msgstr ""
+"Project-Id-Version: Post to Google My Business 2.0.10\n"
+"Report-Msgid-Bugs-To: https://wordpress.org/support/plugin/post-to-google-my-"
+"business\n"
+"POT-Creation-Date: 2018-08-15 14:51+0200\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"PO-Revision-Date: 2018-08-15 16:32+0200\n"
+"Language-Team: \n"
+"X-Generator: Poedit 2.1.1\n"
+"Last-Translator: \n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"Language: nl_NL\n"
+
+#: inc/class.settings-api.php:370
+msgid "Choose File"
+msgstr "Kies Bestand"
+
+#: mbp-connector.php:23 mbp-connector.php:48
+msgid "No permission to edit options"
+msgstr "Geen toestemming om instellingen aan te passen"
+
+#: mbp-connector.php:36
+msgid "Something went wrong: %s"
+msgstr "Er ging iets fout: %s"
+
+#: mbp-connector.php:50
+msgid "Invalid nonce"
+msgstr "Ongeldige nonce"
+
+#: mbp-metabox.php:218
+msgid ""
+"You're working on a Google My Business post, but it has not yet been "
+"published/scheduled. Press OK to publish/schedule it now, or Cancel to save "
+"it as a draft."
+msgstr ""
+"Je werkt aan een Google Mijn Bedrijf post, maar deze is nog niet "
+"gepubliceerd of ingepland. Druk op OK om deze nu in te plannen/plaatsen, of "
+"Annuleren om hem als concept op te slaan."
+
+#: mbp-metabox.php:219
+msgid "Please Wait..."
+msgstr "Even wachten..."
+
+#: mbp-metabox.php:220
+msgid "Publish"
+msgstr "Publiceren"
+
+#: mbp-metabox.php:221
+msgid "Update"
+msgstr "Bijwerken"
+
+#: mbp-metabox.php:222 templates/main_metabox.php:228
+msgid "Save draft"
+msgstr "Concept opslaan"
+
+#: mbp-metabox.php:223 templates/main_metabox.php:182
+msgid "Schedule post"
+msgstr "Post inplannen"
+
+#. Plugin Name of the plugin/theme
+#: mbp-metabox.php:241
+msgid "Post to Google My Business"
+msgstr "Post op Google Mijn Bedrijf"
+
+#: mbp-metabox.php:260
+msgid "Please configure Post to Google My Business first"
+msgstr "Configureer Post op Google Mijn Bedrijf eerst"
+
+#: mbp-metabox.php:279
+msgid "Quick Publish to GMB"
+msgstr "Snel publiceren op GMB"
+
+#: mbp-metabox.php:281
+msgid "Do NOT publish to GMB"
+msgstr "NIET publiceren op GMB"
+
+#: mbp-metabox.php:400 templates/main_metabox.php:10
+msgid "What's New"
+msgstr "Wat is er nieuw"
+
+#: mbp-metabox.php:404 templates/main_metabox.php:11
+msgid "Event"
+msgstr "Evenement"
+
+#: mbp-metabox.php:408 templates/main_metabox.php:12
+msgid "Offer"
+msgstr "Aanbieding"
+
+#: mbp-metabox.php:412 templates/main_metabox.php:13
+msgid "Product"
+msgstr "Product"
+
+#: mbp-metabox.php:427
+msgid "You do not have permission to publish posts"
+msgstr "Je hebt geen toestemming om berichten te plaatsen"
+
+#: mbp-metabox.php:454
+msgid "Schedule date is in the past"
+msgstr "Geplande datum is in het verleden"
+
+#: mbp-metabox.php:743
+msgid "Every 7 days"
+msgstr "Elke 7 dagen"
+
+#: mbp-metabox.php:744
+msgid "Every 14 days"
+msgstr "Elke 14 dagen"
+
+#: mbp-metabox.php:745
+msgid "Every 21 days"
+msgstr "Elke 21 dagen"
+
+#: mbp-metabox.php:746
+msgid "Every 28 days"
+msgstr "Elke 28 dagen"
+
+#: mbp-metabox.php:789
+msgid "You do not have permission to edit posts"
+msgstr "Je hebt geen toestemming om berichten aan te passen"
+
+#: mbp-metabox.php:806
+msgid "Post could not be loaded"
+msgstr "Post kon niet worden geladen"
+
+#: mbp-metabox.php:814
+msgid "You do not have permission to delete posts"
+msgstr "Je hebt geen toestemming om berichten te verwijderen"
+
+#: mbp-metabox.php:863
+msgid "No GMB posts found."
+msgstr "Geen GMB posts gevonden."
+
+#: mbp-metabox.php:914 post-types/mbp_google_posts.php:28
+msgid "Edit"
+msgstr "Bewerk"
+
+#: mbp-metabox.php:915
+msgid "Duplicate"
+msgstr "Dupliceren"
+
+#: mbp-metabox.php:916
+msgid "Delete"
+msgstr "Verwijderen"
+
+#: mbp-metabox.php:918
+msgid "View on Google My Business"
+msgstr "Bekijk op Google Mijn Bedrijf"
+
+#: mbp-metabox.php:924
+msgid "Immediately"
+msgstr "Onmiddelijk"
+
+#: mbp-metabox.php:926
+msgid "ago"
+msgstr "geleden"
+
+#: mbp-settings.php:38
+msgid "Google settings"
+msgstr "Google instellingen"
+
+#: mbp-settings.php:43
+msgid "Auto-post settings"
+msgstr "Auto-post instellingen"
+
+#: mbp-settings.php:50
+msgid "Post type settings"
+msgstr "Post type instellingen"
+
+#: mbp-settings.php:70
+msgid "Default location"
+msgstr "Standaard locatie"
+
+#: mbp-settings.php:71 mbp-settings.php:124
+msgid "Select the post-types where the GMB metabox should be displayed"
+msgstr "Selecteer de post-types waar de GMB metabox getoond moet worden"
+
+#: mbp-settings.php:78
+msgid "Quick post template"
+msgstr "Snel posten sjabloon"
+
+#: mbp-settings.php:79
+msgid ""
+"The template for new Google posts when using quick post. Supports <a target="
+"\"_blank\" href=\"%s\">variables</a> and <a target=\"_blank\" href=\"%s"
+"\">spintax</a> (premium only)"
+msgstr ""
+"Het sjabloon voor nieuwe Google posts wanneer er gebruik word gemaakt van "
+"auto-post. Ondersteund <a target=\"_blank\" href=\"%s\">variabelen</a> en <a "
+"target=\"_blank\" href=\"%s\">spintax</a> (alleen Premium)"
+
+#: mbp-settings.php:82
+msgid "New post: %post_title% - %post_content%"
+msgstr "Nieuwe post: %post_title% - %post_content%"
+
+#: mbp-settings.php:86
+msgid "Default call to action"
+msgstr "Standaard call-to-action"
+
+#: mbp-settings.php:87
+msgid "The default button text"
+msgstr "De standaard knoptekst"
+
+#: mbp-settings.php:91 templates/main_metabox.php:147
+msgid "Book"
+msgstr "Reserveren"
+
+#: mbp-settings.php:92 templates/main_metabox.php:148
+msgid "Order"
+msgstr "Bestellen"
+
+#: mbp-settings.php:93 templates/main_metabox.php:149
+msgid "Shop"
+msgstr "Online bestellen"
+
+#: mbp-settings.php:94 templates/main_metabox.php:150
+msgid "Learn more"
+msgstr "Meer informatie"
+
+#: mbp-settings.php:95 templates/main_metabox.php:151
+msgid "Sign up"
+msgstr "Registreren"
+
+#: mbp-settings.php:96 templates/main_metabox.php:152
+msgid "Get offer"
+msgstr "Aanbod bekijken"
+
+#: mbp-settings.php:101
+msgid "Post to GMB by default"
+msgstr "Standaard op GMB plaatsen"
+
+#: mbp-settings.php:102
+msgid ""
+"Invert the function of the \"Auto-post\" checkbox. Your posts will be "
+"automatically published to GMB, unless you tell it not to."
+msgstr ""
+"Keert de functie van de \"Auto-post\" checkbox om. Je berichten worden "
+"automatisch op GMB geplaatst, tenzij je aangeeft dat dit niet moet gebeuren."
+
+#: mbp-settings.php:113
+msgid "Button URL"
+msgstr "Link voor je knop"
+
+#: mbp-settings.php:114
+msgid "The URL where people should be redirected after clicking the button"
+msgstr ""
+"De link waar mensen naar toe worden gezonden wanneer ze op je knop klikken"
+
+#: mbp-settings.php:123
+msgid "Enabled for post types"
+msgstr "Ingeschakeld voor post-types"
+
+#: mbp-settings.php:156
+msgid "Select a user or location group"
+msgstr "Selecteer een gebruiker of locatie-groep"
+
+#: mbp-settings.php:167
+msgid "No user accounts found"
+msgstr "Geen gebruikers gevonden"
+
+#: mbp-settings.php:170
+msgid "Connect your Google account first."
+msgstr "Verbind eerst je Google account."
+
+#: mbp-settings.php:183
+msgid "Refresh locations"
+msgstr "Locaties vernieuwen"
+
+#: mbp-settings.php:206 mbp-settings.php:216 templates/settings.php:2
+msgid "Post to Google My Business settings"
+msgstr "Post op Google Mijn Bedrijf instellingen"
+
+#: mbp-settings.php:207
+msgid "Post to GMB"
+msgstr "Post op GMB"
+
+#: mbp-settings.php:217
+msgid "Settings"
+msgstr "Instellingen"
+
+#: mbp-settings.php:227
+msgid "Connected"
+msgstr "Verbonden"
+
+#: mbp-settings.php:229
+msgid "Not connected"
+msgstr "Niet verbonden"
+
+#: mbp-settings.php:235
+msgid "You do not have sufficient permissions to access this page."
+msgstr ""
+"Je hebt niet de juiste permissies om toegang tot deze pagina te krijgen."
+
+#: mbp-settings.php:260
+msgid "Reconnect to Google My Business"
+msgstr "Opnieuw verbinden met Google Mijn Bedrijf"
+
+#: mbp-settings.php:260
+msgid "Connect to Google My Business"
+msgstr "Verbinden met Google Mijn Bedrijf"
+
+#: mbp-settings.php:266
+msgid "Disconnect this website from Google My Business"
+msgstr "Verbinding tussen Google Mijn Bedrijf en website verbreken"
+
+#: mbp-settings.php:271
+msgid "Revoke Google account authorization"
+msgstr "Google account toestemming intrekken"
+
+#: post-to-google-my-business.php:290
+msgid "No businesses found. Did you log in to the correct Google account?"
+msgstr ""
+"Geen bedrijfslocaties gevonden. Heb je het juiste Google account gebruikt?"
+
+#: post-to-google-my-business.php:295
+msgid "No user account or location groups found"
+msgstr "Geen gebruiksaccount of locatie-groepen gevonden"
+
+#: post-to-google-my-business.php:370
+msgid "Manage multiple businesses or locations?"
+msgstr "Beheer je meerdere bedrijven of locaties?"
+
+#: post-to-google-my-business.php:372 post-to-google-my-business.php:378
+#: post-to-google-my-business.php:384 post-to-google-my-business.php:390
+#: post-to-google-my-business.php:396 post-to-google-my-business.php:407
+msgid "Upgrade to Premium"
+msgstr "Upgrade naar Premium"
+
+#: post-to-google-my-business.php:373
+msgid "to pick a location per post, or post to multiple locations at once."
+msgstr ""
+"om een locatie te kiezen per post, of naar meerdere locaties tegelijk te "
+"posten."
+
+#: post-to-google-my-business.php:376
+msgid "Not the right time?"
+msgstr "Niet het juiste moment?"
+
+#: post-to-google-my-business.php:379
+msgid "and schedule your posts to be automagically published at a later time."
+msgstr ""
+"en plan je berichten in om automagisch op een later moment te publiceren."
+
+#: post-to-google-my-business.php:382
+msgid "Wonder how well your My Business post is doing?"
+msgstr "Vraag je je af hoe je Google Mijn Bedrijf post presteert?"
+
+#: post-to-google-my-business.php:385
+msgid ""
+"to view post statistics and easily include Google Analytics UTM parameters."
+msgstr ""
+"om post statistieken in te zien en Google Analytics UTM parameters toe te "
+"voegen."
+
+#: post-to-google-my-business.php:388
+msgid ""
+"Use Post to Google My Business for your pages, projects, WooCommerce "
+"products and more."
+msgstr ""
+"Gebruik Post op Google Mijn Bedrijf voor je pagina's, projecten, WooCommerce "
+"producten en meer."
+
+#: post-to-google-my-business.php:391
+msgid "to enable Post to Google my Business for any post type."
+msgstr "om Post op Google Mijn Bedrijf in te schakelen voor elk post-type."
+
+#: post-to-google-my-business.php:394
+msgid ""
+"Automatically repost your GMB posts a specific or unlimited amount of times."
+msgstr ""
+"Plaats je GMB posts automatisch een specifiek, of onbeperkt aantal keer "
+"opnieuw."
+
+#: post-to-google-my-business.php:397
+msgid "to set custom intervals and specify the amount of reposts."
+msgstr "om een eigen interval en het aantal reposts in te stellen."
+
+#: post-to-google-my-business.php:400
+msgid ""
+"I hope you enjoy using my Post to Google My Business plugin! Help spread the "
+"word with a"
+msgstr ""
+"Ik hoop dat je mijn Post op Google Mijn Bedrijf plugin fijn vindt werken! "
+"Draag een steentje bij met een"
+
+#: post-to-google-my-business.php:401
+msgid "5-star rating on WordPress.org"
+msgstr "5-sterren beoordeling op WordPress.org"
+
+#: post-to-google-my-business.php:402
+msgid ". Many thanks! - Koen Reus, plugin developer"
+msgstr ". Onwijs bedankt! - Koen Reus, plugin ontwikkelaar"
+
+#: post-to-google-my-business.php:405
+msgid "Create unique posts every time."
+msgstr "Maak steeds opnieuw unieke posts."
+
+#: post-to-google-my-business.php:408
+msgid "to use spintax and %variables% in your post text."
+msgstr "om spintax en %variabelen% te gebruiken in je post tekst."
+
+#: post-types/mbp_google_posts.php:24
+msgid "Post campaigns"
+msgstr "Post campagnes"
+
+#: post-types/mbp_google_posts.php:25
+msgid "Post campaign"
+msgstr "Post campagne"
+
+#: post-types/mbp_google_posts.php:26
+msgid "New"
+msgstr "Nieuw"
+
+#: post-types/mbp_google_posts.php:27
+msgid "Add new GMB campaign"
+msgstr "Nieuwe GMB campagne"
+
+#: post-types/mbp_google_posts.php:29
+msgid "Edit GMB post campaign"
+msgstr "Bewerk GMB post campagne"
+
+#: post-types/mbp_google_posts.php:30
+msgid "New GMB post campaign"
+msgstr "Nieuwe GMB post campagne"
+
+#: post-types/mbp_google_posts.php:31
+msgid "View"
+msgstr "Bekijk"
+
+#: post-types/mbp_google_posts.php:32
+msgid "View GMB post campaign"
+msgstr "Bekijk GMB post campagne"
+
+#: post-types/mbp_google_posts.php:33
+msgid "Find GMB post campaign"
+msgstr "Zoek GMB post campagne"
+
+#: post-types/mbp_google_posts.php:34
+msgid "No GMB post campaigns found"
+msgstr "Geen GMB post campagnes gevonden"
+
+#: post-types/mbp_google_posts.php:35
+msgid "No GMB post campaigns found in the trash"
+msgstr "Geen GMB post campagnes gevonden in de prullenbak"
+
+#: templates/main_metabox.php:5
+msgid "New GMB Post"
+msgstr "Nieuwe GMB Post"
+
+#: templates/main_metabox.php:27
+msgid "Post image/video"
+msgstr "Post afbeelding/video"
+
+#: templates/main_metabox.php:33
+msgid "JPG or PNG, 720x540px minimum size"
+msgstr "JPG of PNG, 720x540px minimum afmeting"
+
+#: templates/main_metabox.php:37
+msgid "Post text"
+msgstr "Post tekst"
+
+#: templates/main_metabox.php:40
+msgid "Characters:"
+msgstr "Karakters:"
+
+#: templates/main_metabox.php:40
+msgid "Word count:"
+msgstr "Woordentelling:"
+
+#: templates/main_metabox.php:41
+msgid ""
+"The text that should appear on your post. Recommended 150-300 characters. 80 "
+"characters show in the Google Search results. 1500 characters maximum."
+msgstr ""
+"De tekst voor je post. 150-300 karakters is aanbevolen. 80 karakters zijn "
+"zichtbaar in de zoekresultaten. 1500 karakters maximaal."
+
+#: templates/main_metabox.php:48
+msgid "Event title"
+msgstr "Evenement titel"
+
+#: templates/main_metabox.php:54
+msgid "Start date"
+msgstr "Startdatum"
+
+#: templates/main_metabox.php:60
+msgid "End date"
+msgstr "Einddatum"
+
+#: templates/main_metabox.php:69
+msgid "Offer title"
+msgstr "Titel aanbieding"
+
+#: templates/main_metabox.php:72
+msgid "Example: 20% off in store or online"
+msgstr "Voorbeeld: 20% korting in de winkel of online"
+
+#: templates/main_metabox.php:76
+msgid "Coupon code (optional)"
+msgstr "Kortingscode (optioneel)"
+
+#: templates/main_metabox.php:82
+msgid "Link to redeem offer (optional)"
+msgstr "Link om aanbieding in te wisselen (optioneel)"
+
+#: templates/main_metabox.php:88
+msgid "Terms and conditions (optional)"
+msgstr "Algemene voorwaarden (optioneel)"
+
+#: templates/main_metabox.php:97 templates/main_metabox.php:174
+#: templates/main_metabox.php:258
+msgid "Upgrade now!"
+msgstr "Upgrade nu!"
+
+#: templates/main_metabox.php:105
+msgid ""
+"The Product post type is currently not yet supported by the Google API. Stay "
+"tuned!"
+msgstr ""
+"Helaas worden Product posts nog niet ondersteund door de Google API. Nog "
+"even geduld!"
+
+#: templates/main_metabox.php:139
+msgid "Button"
+msgstr "Knop"
+
+#: templates/main_metabox.php:141
+msgid "Add a button"
+msgstr "Voeg een knop toe"
+
+#: templates/main_metabox.php:145
+msgid "Button type"
+msgstr "Knop type"
+
+#: templates/main_metabox.php:153
+msgid "Call now (uses primary phone number of business)"
+msgstr "Bel nu (Primaire telefoonnummer van bedrijf)"
+
+#: templates/main_metabox.php:154
+msgid "The text that should appear on your button"
+msgstr "De tekst die op je knop moet verschijnen"
+
+#: templates/main_metabox.php:158
+msgid "Alternative button URL"
+msgstr "Alternatieve button link"
+
+#: templates/main_metabox.php:161
+msgid ""
+"Optional. Where the user should go when clicking the button. Leave empty to "
+"send them to your newly created WordPress post."
+msgstr ""
+"Optioneel. Waar de bezoeker heengaat als deze op de knop drukt. Leeglaten om "
+"ze naar je nieuwe WordPress post te sturen."
+
+#: templates/main_metabox.php:168
+msgid "Advanced post settings"
+msgstr "Geavanceerde post instellingen"
+
+#: templates/main_metabox.php:172
+msgid ""
+"Schedule your Google My Business posts, automatically repost them at "
+"specified interval, and pick one or more locations to post to. And many more "
+"features!"
+msgstr ""
+"Plan je Google Mijn Bedrijf posts in, repost ze automatisch op bepaalde "
+"interval, en kies één of meerdere locaties om naar te posten. En nog veel "
+"meer functies!"
+
+#: templates/main_metabox.php:186
+msgid "When the post should be published"
+msgstr "Wanneer de post gepubliceerd moet worden"
+
+#: templates/main_metabox.php:193
+msgid "Automatic repost"
+msgstr "Automatische repost"
+
+#: templates/main_metabox.php:197
+msgid "Amount of reposts. 0 for infinite."
+msgstr "Hoeveelheid reposts. 0 voor onbeperkt."
+
+#: templates/main_metabox.php:204
+msgid "Interval between posts"
+msgstr "Interval tussen posts"
+
+#: templates/main_metabox.php:208
+msgid "Post to location(s)"
+msgstr "Plaatsen op locatie(s)"
+
+#: templates/main_metabox.php:227
+msgid "Cancel"
+msgstr "Annuleren"
+
+#: templates/main_metabox.php:229
+msgid "Publish Now"
+msgstr "Nu publiceren"
+
+#: templates/main_metabox.php:239
+msgid "Post type"
+msgstr "Post type"
+
+#: templates/main_metabox.php:240
+msgid "Post date"
+msgstr "Post datum"
+
+#: templates/main_metabox.php:241
+msgid "Business"
+msgstr "Bedrijf"
+
+#: templates/main_metabox.php:242
+msgid "Created"
+msgstr "Aangemaakt"
+
+#: templates/settings.php:3
+msgid ""
+"Thanks for choosing Post to Google My Business! The easiest and most "
+"versatile Google My Business plugin for WordPress."
+msgstr ""
+"Bedankt dat je hebt gekozen voor Post op Google Mijn Bedrijf. De simpelste "
+"en meest veelzijdige Google Mijn Bedrijf plugin voor WordPress."
+
+#: templates/settings.php:4
+msgid ""
+"Need help getting started? Check out the <a target=\"_blank\" href=\"https://"
+"tycoonmedia.net/gmb-tutorial-video/\">tutorial video</a>"
+msgstr ""
+"Hulp nodig om te starten? Check de <a target=\"_blank\" href=\"https://"
+"tycoonmedia.net/gmb-tutorial-video/\">tutorial video (Engels)</a>"
+
+#. Plugin URI of the plugin/theme
+msgid "https://tycoonmedia.net/wordpress-google-my-business-post/"
+msgstr "https://tycoonmedia.net/wordpress-google-my-business-post/"
+
+#. Description of the plugin/theme
+msgid ""
+"Automatically create a post on Google My Business when creating a new "
+"WordPress post"
+msgstr ""
+"Maak automatisch posts op Google Mijn Bedrijf wanneer je nieuwe WordPress "
+"posts maakt"
+
+#. Author of the plugin/theme
+msgid "tyCoon Media"
+msgstr "tyCoon Media"
+
+#. Author URI of the plugin/theme
+msgid "https://tycoonmedia.net"
+msgstr "https://tycoonmedia.net"

@@ -1,0 +1,56 @@
+// Radio field type.
+
+// Field options area (left side).
+.wpforms-panel-sidebar {
+
+	.wpforms-field-option-radio {
+
+		// Choices file upload.
+		.wpforms-field-option-row-choices .wpforms-image-upload {
+			margin: 6px 0 0 50px;
+			width: 68%;
+
+			.preview {
+				background-color: rgba( 255,255,255,0.65);
+				display: block;
+				width: 100%;
+
+				a {
+					display: block;
+					position: relative;
+				}
+
+				a:hover {
+					&:after {
+						content: "\f057";
+						font-family: FontAwesome;
+						width: 25px;
+						height: 25px;
+						border: 1px solid red;
+						position: absolute;
+						top: 50%;
+						left: 50%;
+						margin: -12.5px 0 0 -12.5px;
+						font-size: 30px;
+						color: red;
+						background-color: #fff;
+						vertical-align: unset;
+						line-height: 0.8;
+						border-radius: 50%;
+					}
+				}
+
+				img {
+					display: block;
+					margin: 0 auto;
+					max-width: 100%;
+					max-height: 100px;
+				}
+			}
+		}
+	}
+}
+
+// Form preview area (right side).
+.wpforms-panel-content-wrap {
+}

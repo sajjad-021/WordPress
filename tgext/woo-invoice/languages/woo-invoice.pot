@@ -1,0 +1,384 @@
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: WooCommerce Invoice\n"
+"POT-Creation-Date: 2019-04-13 23:59+0600\n"
+"PO-Revision-Date: 2019-04-13 23:55+0600\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 2.2.1\n"
+"X-Poedit-Basepath: ..\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"Language: en\n"
+"X-Poedit-KeywordsList: _e;__\n"
+"X-Poedit-SearchPath-0: templates\n"
+"X-Poedit-SearchPath-1: includes\n"
+"X-Poedit-SearchPath-2: includes/classes\n"
+"X-Poedit-SearchPath-3: templates/invoice-templates\n"
+
+#: includes/classes/class-functions.php:39
+msgid "New Order"
+msgstr ""
+
+#: includes/classes/class-functions.php:40
+msgid "Cancelled order"
+msgstr ""
+
+#: includes/classes/class-functions.php:41
+msgid "Failed order"
+msgstr ""
+
+#: includes/classes/class-functions.php:42
+msgid "Order on-hold"
+msgstr ""
+
+#: includes/classes/class-functions.php:43
+msgid "Processing order"
+msgstr ""
+
+#: includes/classes/class-functions.php:44
+msgid "Completed order"
+msgstr ""
+
+#: includes/classes/class-functions.php:45
+msgid "Refunded order"
+msgstr ""
+
+#: includes/classes/class-functions.php:46
+msgid "Customer invoice / Order details"
+msgstr ""
+
+#: includes/classes/class-functions.php:47
+msgid "Customer note"
+msgstr ""
+
+#: includes/classes/class-functions.php:58
+msgid "Flat"
+msgstr ""
+
+#: includes/classes/class-functions.php:59
+msgid "Teamplate A"
+msgstr ""
+
+#: includes/classes/class-functions.php:60
+msgid "Teamplate B"
+msgstr ""
+
+#: includes/classes/class-functions.php:81
+#: includes/classes/class-functions.php:116
+#: includes/classes/class-functions.php:148 includes/functions.php:135
+msgid "Invalid order id provided"
+msgstr ""
+
+#: includes/classes/class-functions.php:106
+#: templates/invoice-templates/flat/template.php:37
+#: templates/invoice-templates/header-styled/template.php:30
+msgid "Invoice"
+msgstr ""
+
+#: includes/classes/class-order-columns.php:41
+msgid "Preview invoice"
+msgstr ""
+
+#: includes/classes/class-order-columns.php:43
+msgid "Download invoice"
+msgstr ""
+
+#: includes/classes/class-pick-settings.php:642
+msgid "Irks! An error has occurred."
+msgstr ""
+
+#: includes/classes/class-shortcodes.php:61
+#, php-format
+msgid "Template file not found for shortcode : [%s]"
+msgstr ""
+
+#: includes/functions-settings.php:14
+msgid "Shop info"
+msgstr ""
+
+#: includes/functions-settings.php:19
+msgid "Shop Information"
+msgstr ""
+
+#: includes/functions-settings.php:20
+msgid "Set your shop's basic information here"
+msgstr ""
+
+#: includes/functions-settings.php:24
+msgid "Shop name"
+msgstr ""
+
+#: includes/functions-settings.php:25
+msgid "Add your shop name here."
+msgstr ""
+
+#: includes/functions-settings.php:27
+msgid "Cofee house"
+msgstr ""
+
+#: includes/functions-settings.php:31
+msgid "Shop tagline"
+msgstr ""
+
+#: includes/functions-settings.php:32
+msgid "Add a perfect tagline for your business"
+msgstr ""
+
+#: includes/functions-settings.php:34
+msgid "Take cofee remove stress"
+msgstr ""
+
+#: includes/functions-settings.php:38
+msgid "Shop address"
+msgstr ""
+
+#: includes/functions-settings.php:39
+msgid "Add your shop address, so that anyone can find easily"
+msgstr ""
+
+#: includes/functions-settings.php:41
+msgid "Jahaj Company Moor, Rangpur"
+msgstr ""
+
+#: includes/functions-settings.php:45
+msgid "Shop logo"
+msgstr ""
+
+#: includes/functions-settings.php:46
+msgid "Add your shop logo, it may be visible at the invoice"
+msgstr ""
+
+#: includes/functions-settings.php:58
+msgid "Settings"
+msgstr ""
+
+#: includes/functions-settings.php:63
+msgid "General"
+msgstr ""
+
+#: includes/functions-settings.php:64
+msgid "Update some basic settings here"
+msgstr ""
+
+#: includes/functions-settings.php:68
+msgid "Attach invoice"
+msgstr ""
+
+#: includes/functions-settings.php:69
+msgid "Do you want to send the invoice as attachment on WooCommerce email?"
+msgstr ""
+
+#: includes/functions-settings.php:72
+msgid "Yes"
+msgstr ""
+
+#: includes/functions-settings.php:73
+msgid "No"
+msgstr ""
+
+#: includes/functions-settings.php:78
+msgid "Select E-Mail type"
+msgstr ""
+
+#: includes/functions-settings.php:79
+msgid "For which email type you want to send the invoice as attachment."
+msgstr ""
+
+#: includes/functions-settings.php:80
+msgid "This will not measure if <b>Attach Invoice</b> is set not enable!"
+msgstr ""
+
+#: includes/functions-settings.php:81
+msgid "Leave unchecked all, if you want to send attachments always!"
+msgstr ""
+
+#: includes/functions-settings.php:93
+msgid "Templates"
+msgstr ""
+
+#: includes/functions-settings.php:102
+msgid "Help"
+msgstr ""
+
+#: includes/functions-settings.php:113
+msgid "Ask Question"
+msgstr ""
+
+#: includes/functions-settings.php:120
+msgid "Documentation"
+msgstr ""
+
+#: includes/functions-settings.php:127
+msgid "Demo"
+msgstr ""
+
+#: includes/functions-settings.php:142 includes/functions-settings.php:143
+msgid "Woo Invoice"
+msgstr ""
+
+#: includes/functions-settings.php:144
+msgid "WooCommerce Invoice - Settings"
+msgstr ""
+
+#: includes/functions.php:50
+msgid "Download Invoice"
+msgstr ""
+
+#: includes/functions.php:63
+msgid "You do not have sufficient permissions to access this page."
+msgstr ""
+
+#: templates/invoice-templates/flat/template.php:40
+#: templates/invoice-templates/header-styled/template.php:35
+#: templates/invoice-templates/teamplateA/template.php:130
+#: templates/invoice-templates/teamplateB/template.php:44
+msgid "Order ID"
+msgstr ""
+
+#: templates/invoice-templates/flat/template.php:45
+#: templates/invoice-templates/header-styled/template.php:40
+#: templates/invoice-templates/teamplateA/template.php:135
+#: templates/invoice-templates/teamplateB/template.php:49
+msgid "Order status"
+msgstr ""
+
+#: templates/invoice-templates/flat/template.php:49
+#: templates/invoice-templates/header-styled/template.php:45
+#: templates/invoice-templates/teamplateA/template.php:139
+#: templates/invoice-templates/teamplateB/template.php:53
+msgid "Order date"
+msgstr ""
+
+#: templates/invoice-templates/flat/template.php:54
+#: templates/invoice-templates/header-styled/template.php:50
+#: templates/invoice-templates/teamplateA/template.php:144
+#: templates/invoice-templates/teamplateB/template.php:58
+msgid "Payment method"
+msgstr ""
+
+#: templates/invoice-templates/flat/template.php:71
+#: templates/invoice-templates/teamplateA/template.php:53
+#: templates/invoice-templates/teamplateB/template.php:75
+msgid "Invoice to"
+msgstr ""
+
+#: templates/invoice-templates/flat/template.php:106
+#: templates/invoice-templates/teamplateA/template.php:90
+#: templates/invoice-templates/teamplateB/template.php:112
+msgid "Shipping to"
+msgstr ""
+
+#: templates/invoice-templates/flat/template.php:145
+#: templates/invoice-templates/header-styled/template.php:121
+#: templates/invoice-templates/teamplateA/template.php:162
+#: templates/invoice-templates/teamplateB/template.php:154
+msgid "Ordered items"
+msgstr ""
+
+#: templates/invoice-templates/flat/template.php:152
+#: templates/invoice-templates/header-styled/template.php:128
+#: templates/invoice-templates/teamplateA/template.php:169
+#: templates/invoice-templates/teamplateB/template.php:161
+msgid "Item Description"
+msgstr ""
+
+#: templates/invoice-templates/flat/template.php:155
+#: templates/invoice-templates/header-styled/template.php:131
+#: templates/invoice-templates/teamplateA/template.php:172
+#: templates/invoice-templates/teamplateB/template.php:164
+msgid "Quantity"
+msgstr ""
+
+#: templates/invoice-templates/flat/template.php:158
+#: templates/invoice-templates/header-styled/template.php:134
+#: templates/invoice-templates/teamplateA/template.php:175
+#: templates/invoice-templates/teamplateB/template.php:167
+msgid "Price"
+msgstr ""
+
+#: templates/invoice-templates/flat/template.php:161
+#: templates/invoice-templates/header-styled/template.php:137
+#: templates/invoice-templates/teamplateA/template.php:178
+#: templates/invoice-templates/teamplateB/template.php:170
+msgid "Discount"
+msgstr ""
+
+#: templates/invoice-templates/flat/template.php:164
+#: templates/invoice-templates/header-styled/template.php:140
+#: templates/invoice-templates/teamplateA/template.php:181
+#: templates/invoice-templates/teamplateB/template.php:173
+msgid "Total"
+msgstr ""
+
+#: templates/invoice-templates/flat/template.php:209
+#: templates/invoice-templates/header-styled/template.php:185
+#: templates/invoice-templates/teamplateA/template.php:226
+#: templates/invoice-templates/teamplateB/template.php:218
+msgid "Subtotal"
+msgstr ""
+
+#: templates/invoice-templates/flat/template.php:227
+#: templates/invoice-templates/header-styled/template.php:203
+#: templates/invoice-templates/teamplateA/template.php:244
+#: templates/invoice-templates/teamplateB/template.php:236
+msgid "Tax : "
+msgstr ""
+
+#: templates/invoice-templates/flat/template.php:230
+#: templates/invoice-templates/header-styled/template.php:206
+#: templates/invoice-templates/teamplateA/template.php:247
+#: templates/invoice-templates/teamplateB/template.php:239
+msgid "This amount is not included to Subtotal"
+msgstr ""
+
+#: templates/invoice-templates/flat/template.php:281
+#: templates/invoice-templates/header-styled/template.php:257
+#: templates/invoice-templates/teamplateA/template.php:298
+#: templates/invoice-templates/teamplateB/template.php:290
+msgid "Total amount"
+msgstr ""
+
+#: templates/invoice-templates/header-styled/template.php:65
+msgid "Billing information"
+msgstr ""
+
+#: templates/invoice-templates/header-styled/template.php:68
+#: templates/invoice-templates/header-styled/template.php:94
+msgid "Name"
+msgstr ""
+
+#: templates/invoice-templates/header-styled/template.php:73
+#: templates/invoice-templates/header-styled/template.php:99
+msgid "Address"
+msgstr ""
+
+#: templates/invoice-templates/header-styled/template.php:78
+#: templates/invoice-templates/header-styled/template.php:104
+msgid "City"
+msgstr ""
+
+#: templates/invoice-templates/header-styled/template.php:83
+#: templates/invoice-templates/header-styled/template.php:109
+msgid "Postcode"
+msgstr ""
+
+#: templates/invoice-templates/header-styled/template.php:91
+msgid "Shipping information"
+msgstr ""
+
+#: templates/invoice-templates/teamplateA/template.php:127
+msgid "Order Info"
+msgstr ""
+
+#: templates/order-invoice.php:18
+msgid "Order ID missing!"
+msgstr ""
+
+#: templates/order-invoice.php:34
+#, php-format
+msgid "Template file missing : <b>%s</b>"
+msgstr ""

@@ -1,0 +1,40 @@
+<?php
+defined('ABSPATH') || die();
+/** @var $this NextendSocialProviderAdmin */
+
+$provider = $this->getProvider();
+?>
+<div class="nsl-admin-sub-content">
+
+    <?php if (substr($provider->getLoginUrl(), 0, 8) !== 'https://'): ?>
+        <div class="error">
+            <p><?php printf(__('%1$s allows HTTPS OAuth Redirects only. You must move your site to HTTPS in order to allow login with %1$s.', 'nextend-facebook-connect'), 'Amazon'); ?></p>
+            <p><a href="https://nextendweb.com/nextend-social-login-docs/facebook-api-changes/#how-to-add-ssl-to-wordpress"><?php _e("How to get SSL for my WordPress site?", 'nextend-facebook-connect'); ?></a></p>
+        </div>
+    <?php else: ?>
+        <h2 class="title"><?php _e('Getting Started', 'nextend-facebook-connect'); ?></h2>
+
+        <p style="max-width:55em;"><?php printf(__('To allow your visitors to log in with their %1$s account, first you must create an %1$s App. The following guide will help you through the %1$s App creation process. After you have created your %1$s App, head over to "Settings" and configure the given "%2$s" and "%3$s" according to your %1$s App.', 'nextend-facebook-connect'), "Amazon", "Client ID", "Client secret"); ?></p>
+
+        <h2 class="title"><?php printf(_x('Create %s', 'App creation', 'nextend-facebook-connect'), 'Amazon App'); ?></h2>
+
+        <ol>
+            <li><?php printf(__('Navigate to %s', 'nextend-facebook-connect'), '<a href="https://www.amazon.com/" target="_blank">https://www.amazon.com/</a>'); ?></li>
+            <li><?php printf(__('Log in with your %s credentials if you are not logged in.', 'nextend-facebook-connect'), 'Amazon'); ?></li>
+            <li><?php printf(__('Visit %s', 'nextend-facebook-connect'), '<a href="https://developer.amazon.com/lwa/sp/overview.html" target="_blank">https://developer.amazon.com/lwa/sp/overview.html</a>'); ?></li>
+            <li><?php _e('If you don\'t have a Security Profile yet, you\'ll need to create one. You can do this by clicking on the orange "Create a New Security Profile" button on the left side.', 'nextend-facebook-connect'); ?></li>
+            <li><?php _e('Fill "Security Profile Name", "Security Profile Description" and "Consent Privacy Notice URL".', 'nextend-facebook-connect') ?></li>
+            <li><?php _e('Once you filled all the required fields, click "Save".', 'nextend-facebook-connect') ?></li>
+            <li><?php _e('On the right side, under "Manage", hover over the gear icon and select "Web Settings" option.', 'nextend-facebook-connect') ?></li>
+            <li><?php _e('Click "Edit".', 'nextend-facebook-connect') ?></li>
+            <li><?php printf(__('Fill "Allowed Origins" with the url of your homepage, probably: <b>%s</b>', 'nextend-facebook-connect'), str_replace(parse_url(site_url(), PHP_URL_PATH), "", site_url())); ?></li>
+            <li><?php printf(__('Add the following URL to the "Allowed Return URLs" field <b>%s</b> ', 'nextend-facebook-connect'), $provider->getLoginUrl()) ?></li>
+            <li><?php _e('When all fields are filled, click "Save".', 'nextend-facebook-connect') ?></li>
+            <li><?php _e('Find the necessary "Client ID" and "Client Secret" at the middle of the page, under the "Web Settings" tab.', 'nextend-facebook-connect') ?></li>
+        </ol>
+
+        <a href="<?php echo $this->getUrl('settings'); ?>"
+           class="button button-primary"><?php printf(__('I am done setting up my %s', 'nextend-facebook-connect'), 'Amazon App'); ?></a>
+    <?php endif; ?>
+    
+</div>

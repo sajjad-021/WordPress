@@ -1,0 +1,148 @@
+# Copyright (C) 2019 WPForms Form Locker
+# This file is distributed under the same license as the WPForms Form Locker package.
+msgid ""
+msgstr ""
+"Project-Id-Version: WPForms Form Locker\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Language-Team: WPForms <support@wpforms.com>\n"
+"X-Poedit-Basepath: ..\n"
+"X-Poedit-KeywordsList: __;_e;_ex:1,2c;_n:1,2;_n_noop:1,2;_nx:1,2,4c;_nx_noop:1,2,3c;_x:1,2c;esc_attr__;esc_attr_e;esc_attr_x:1,2c;esc_html__;esc_html_e;esc_html_x:1,2c\n"
+"X-Poedit-SearchPath-0: .\n"
+"X-Poedit-SearchPathExcluded-0: *.js\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+
+#. translators: %s - WPForms.com documentation page URL.
+#: wpforms-form-locker.php:62
+msgid "The WPForms Form Locker plugin has been deactivated. Your site is running an outdated version of PHP that is no longer supported and is not compatible with the Form Locker addon. <a href=\"%s\" target=\"_blank\" rel=\"noopener noreferrer\">Read more</a> for additional information."
+msgstr ""
+
+#: src/Admin.php:152
+msgid "Require unique answer"
+msgstr ""
+
+#: src/Admin.php:153
+msgid "Check this option to require only unique answers for the current field."
+msgstr ""
+
+#: src/Admin.php:172, src/Admin.php:189
+msgid "Form Locker"
+msgstr ""
+
+#: src/Admin.php:197
+msgid "Enable password protection"
+msgstr ""
+
+#: src/Admin.php:199, src/Admin.php:208, src/Lockers/Password.php:142
+msgid "Password"
+msgstr ""
+
+#: src/Admin.php:216
+msgid "Display Message"
+msgstr ""
+
+#: src/Admin.php:221
+msgid "This message is displayed to visitors above the password form."
+msgstr ""
+
+#: src/Admin.php:230
+msgid "Enable scheduling"
+msgstr ""
+
+#: src/Admin.php:232
+msgid "Scheduling"
+msgstr ""
+
+#: src/Admin.php:233
+msgid "Accept form entries during the date/time window below."
+msgstr ""
+
+#: src/Admin.php:244
+msgid "Start Date"
+msgstr ""
+
+#: src/Admin.php:248
+msgid "Clear Start Date"
+msgstr ""
+
+#: src/Admin.php:257
+msgid "Start Time"
+msgstr ""
+
+#: src/Admin.php:261
+msgid "Clear Start Time"
+msgstr ""
+
+#: src/Admin.php:272
+msgid "End Date"
+msgstr ""
+
+#: src/Admin.php:276
+msgid "Clear End Date"
+msgstr ""
+
+#: src/Admin.php:285
+msgid "End Time"
+msgstr ""
+
+#: src/Admin.php:289
+msgid "Clear End Time"
+msgstr ""
+
+#: src/Admin.php:300, src/Admin.php:336
+msgid "Closed Message"
+msgstr ""
+
+#: src/Admin.php:305, src/Admin.php:341
+msgid "This message is displayed to visitors when the form is closed."
+msgstr ""
+
+#: src/Admin.php:314
+msgid "Enable limit on total form entries"
+msgstr ""
+
+#: src/Admin.php:316
+msgid "Entry Limit"
+msgstr ""
+
+#: src/Admin.php:325
+msgid "Limit"
+msgstr ""
+
+#: src/Admin.php:350
+msgid "Enable restricting entries to logged in users only"
+msgstr ""
+
+#: src/Admin.php:352
+msgid "User"
+msgstr ""
+
+#: src/Admin.php:361
+msgid "Message"
+msgstr ""
+
+#: src/Admin.php:366
+msgid "This message is displayed to logged out visitors in place of the form."
+msgstr ""
+
+#: src/Lockers/Password.php:136
+msgid "The password is incorrect."
+msgstr ""
+
+#: src/Lockers/Password.php:152
+msgid "Sending..."
+msgstr ""
+
+#: src/Lockers/Password.php:153
+msgid "Submit"
+msgstr ""
+
+#: src/Lockers/UniqueAnswer.php:103
+msgid "Unique Answer"
+msgstr ""
+
+#: src/Lockers/UniqueAnswer.php:105, src/Lockers/UniqueAnswer.php:121, src/Lockers/UniqueAnswer.php:174
+msgid "The value must be unique."
+msgstr ""

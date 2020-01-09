@@ -1,0 +1,174 @@
+// Field panel.
+
+#wpforms-panel-fields {
+
+	// Sidebar area (left side, field buttons/options).
+	.wpforms-panel-sidebar {
+
+		.choices-list {
+
+			&.show-images {
+				.wpforms-image-upload {
+					display: block;
+				}
+			}
+
+			.wpforms-image-upload {
+				display: none;
+			}
+		}
+	}
+
+	// Panel content area (right side, form preview area).
+	.wpforms-panel-content-wrap {
+
+		// Image choices (Checkbox, Radio, Multiple/Checkbox payment items).
+		.wpforms-field-checkbox,
+		.wpforms-field-radio,
+		.wpforms-field-payment-multiple,
+		.wpforms-field-payment-checkbox {
+
+			// General top level rules.
+			&.wpforms-list-inline {
+
+				.primary-input {
+					li {
+						vertical-align: top;
+					}
+				}
+
+				ul.wpforms-image-choices-modern {
+					li {
+						margin: 5px;
+					}
+				}
+
+				ul.wpforms-image-choices-classic {
+					li {
+						margin: 0 10px 10px 0;
+					}
+				}
+			}
+
+			// Modern style.
+			ul.wpforms-image-choices-modern {
+
+				img {
+					display: inline;
+					margin: 0 auto;
+					max-width: 100%;
+				}
+
+				label {
+					background-color: #fff;
+					display: inline-block;
+					margin: 0 auto;
+					padding: 0;
+					border: 1px solid #fff;
+					border-radius: 3px;
+					padding: 20px 20px 18px 20px;
+					transition: all 0.5s;
+					text-align: center;
+
+					&:hover {
+						border:1px solid #ddd;
+					}
+				}
+
+				.wpforms-image-choices-image {
+					display: block;
+					position: relative;
+
+					&:after {
+						content: "\2714";
+						font-size: 22px;
+						line-height: 32px;
+						color: #fff;
+						background: green;
+						opacity: 0;
+						position: absolute;
+						top: 50%;
+						left: 50%;
+						margin: -16px 0 0 -16px;
+						width: 32px;
+						height: 32px;
+						border-radius: 50%;
+						transition: all 0.5s;
+					}
+				}
+
+				.wpforms-image-choices-label {
+					display: block;
+					margin-top: 12px;
+				}
+
+				// Selected state.
+				li {
+					&.wpforms-selected {
+
+						label {
+							box-shadow: 0 0 20px 0 rgba(0, 0, 0, 0.1);
+						}
+
+						.wpforms-image-choices-image:after {
+							opacity: 1;
+						}
+
+						.wpforms-image-choices-label {
+							font-weight: 700;
+						}
+					}
+				}
+			}
+
+			// Classic style.
+			ul.wpforms-image-choices-classic {
+
+				img {
+					display: inline;
+					margin: 0 auto;
+					max-width: 100%;
+				}
+
+				label {
+					background-color: #fff;
+					display: inline-block;
+					margin: 0 auto;
+					padding: 0;
+					border: 2px solid #fff;
+					padding: 10px;
+					text-align: center;
+
+					&:hover {
+						border-color: #ddd;
+					}
+				}
+
+				.wpforms-image-choices-image {
+					display: block;
+				}
+
+				.wpforms-image-choices-label {
+					display: block;
+					margin-top: 8px;
+				}
+
+				// Selected state.
+				li {
+					&.wpforms-selected {
+
+						label {
+							border-color: #666;
+						}
+					}
+				}
+			}
+		}
+	}
+
+	// Field specific rules.
+	@import 'panel-fields/checkbox';
+	@import 'panel-fields/gdpr-checkbox';
+	@import 'panel-fields/radio';
+	@import 'panel-fields/payment-multiple-checkbox';
+}

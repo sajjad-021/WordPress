@@ -1,0 +1,18 @@
+.edit-shortcode-form .field-block {
+  clear: both;
+  display: block;
+}
+
+.edit-shortcode-form .field-block label {
+  float: left;
+  font-weight: bold;
+  width: 150px;
+}
+
+.form-wrap p,
+p.description,
+.help,
+span.description {
+  display: block;
+  margin-left: 150px/*!important*/;
+}

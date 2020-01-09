@@ -1,0 +1,107 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: \n"
+"POT-Creation-Date: 2018-05-25 12:58+0530\n"
+"PO-Revision-Date: 2018-05-25 13:01+0530\n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 2.0.7\n"
+"X-Poedit-Basepath: ..\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Poedit-KeywordsList: __;_e;esc_html_e;esc_html__\n"
+"Last-Translator: \n"
+"Language: en_US\n"
+"X-Poedit-SearchPath-0: languages\n"
+"X-Poedit-SearchPath-1: .\n"
+
+#: admin/class-woo-checkout-for-digital-goods-admin.php:145
+msgid "Checkout Fields Settings"
+msgstr ""
+
+#: admin/class-woo-checkout-for-digital-goods-admin.php:146
+msgid "Select fields which you want to exclude on checkout page"
+msgstr ""
+
+#: admin/class-woo-checkout-for-digital-goods-admin.php:149
+msgid "Selecct All"
+msgstr ""
+
+#: admin/class-woo-checkout-for-digital-goods-admin.php:150
+msgid "Company Name"
+msgstr ""
+
+#: admin/class-woo-checkout-for-digital-goods-admin.php:151
+msgid "Billing Address one"
+msgstr ""
+
+#: admin/class-woo-checkout-for-digital-goods-admin.php:152
+msgid "Billing Address two"
+msgstr ""
+
+#: admin/class-woo-checkout-for-digital-goods-admin.php:153
+msgid "Billing City"
+msgstr ""
+
+#: admin/class-woo-checkout-for-digital-goods-admin.php:154
+msgid "Postal Code"
+msgstr ""
+
+#: admin/class-woo-checkout-for-digital-goods-admin.php:155
+msgid "Billing Country"
+msgstr ""
+
+#: admin/class-woo-checkout-for-digital-goods-admin.php:156
+msgid "Billing State"
+msgstr ""
+
+#: admin/class-woo-checkout-for-digital-goods-admin.php:157
+msgid "Billing Phone"
+msgstr ""
+
+#: admin/class-woo-checkout-for-digital-goods-admin.php:158
+msgid "Order Comment"
+msgstr ""
+
+#: admin/class-woo-checkout-for-digital-goods-admin.php:221
+msgid "Welcome to Digital Goods for WooCommerce Checkout"
+msgstr ""
+
+#: admin/class-woo-checkout-for-digital-goods-admin.php:226
+#, php-format
+msgid ""
+"%s This plugin will remove billing address fields for downloadable and "
+"virtual products."
+msgstr ""
+
+#: admin/class-woo-checkout-for-digital-goods-admin.php:254
+msgid "Go to Digital Goods for WooCommerce Checkout"
+msgstr ""
+
+#: admin/class-woo-checkout-for-digital-goods-admin.php:277
+msgid ""
+"Digital Goods for WooCommerce Checkout allows you to skip the unnecessary "
+"fields so order can place faster. If you are selling downloadable digital "
+"products then you might not need customer`s billing and shipping address and "
+"customers expect to get the product as quickly as possible. This plugin "
+"helps to remove unnecessary fields from checkout page and make process "
+"smooth and easy for customer. No settings required just activate and that`s "
+"it."
+msgstr ""
+
+#: admin/class-woo-checkout-for-digital-goods-admin.php:296
+msgid ""
+"Subscribe for latest plugin update and get notified when we update our "
+"plugin and launch new products for free!"
+msgstr ""
+
+#: admin/class-woo-checkout-for-digital-goods-admin.php:427
+msgid "Woo-Checkout-For-Digital-Goods"
+msgstr ""
+
+#: admin/class-woo-checkout-for-digital-goods-admin.php:428
+msgid ""
+"This plugin will remove billing address fields for downloadable and virtual "
+"products."
+msgstr ""

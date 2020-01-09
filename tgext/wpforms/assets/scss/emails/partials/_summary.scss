@@ -1,0 +1,131 @@
+table.summary-container {
+
+	width: 100%;
+
+	h1, h2, h3, h4, h5, h6 {
+		color: $fontColor;
+	}
+
+	p,
+	span,
+	th,
+	td {
+		color: $fontColorLight;
+	}
+
+	.greeting {
+		margin: 0 0 3px 0;
+		Margin: 0 0 3px 0;
+	}
+
+	.text-large {
+		font-size: 16px;
+	}
+
+	.email-summaries {
+		width: 100%;
+		margin: 38px 0 0 0;
+		Margin: 38px 0 0 0;
+
+		th {
+			font-weight: 700;
+			color: $fontColorLight;
+			background: $backgroundColor;
+			border: 1px solid $backgroundColor;
+			padding: 17px 20px 17px 20px;
+		}
+
+		.entries-column {
+			width: 1px;
+			white-space: nowrap;
+		}
+
+		td {
+			border-top: none;
+			border-right: none;
+			border-bottom: 1px solid $backgroundColor;
+			border-left: none;
+			color: $fontColor;
+			padding: 17px 20px 17px 20px;
+		}
+
+		td.entry-count {
+			text-align: center;
+			color: $primary;
+
+			span {
+				color: $primary;
+				text-align: center;
+			}
+
+			a {
+				color: $primary;
+				text-decoration: none;
+
+				&:visited {
+					color: $primary;
+				}
+
+				&:hover,
+				&:active {
+					color: $primary;
+				}
+			}
+		}
+	}
+
+	.lite-disclaimer {
+		font-size: 14px;
+		margin: 25px 0 25px 0;
+		Margin: 25px 0 25px 0;
+	}
+
+	table.summary-info-table {
+		margin: 38px 0 0 0;
+		Margin: 38px 0 0 0;
+		font-size: 15px;
+		border: 1px solid $borderGray;
+		border-radius: 6px;
+		display: block;
+
+		td.summary-info-content {
+			padding: 25px 30px 30px 30px;
+
+			&.button-container {
+				padding: 0 30px 30px 30px;
+			}
+		}
+
+		h1, h2, h3, h4, h5, h6,
+		p,
+		span {
+			text-align: inherit;
+		}
+
+		h6 {
+			margin: 0 0 20px 0;
+			Margin: 0 0 20px 0;
+		}
+
+		p {
+			font-size: 15px;
+
+			&:last-child {
+				margin: 0 0 0 0;
+				Margin: 0 0 0 0;
+			}
+		}
+
+		.button.rounded-button {
+			border-top-left-radius: 3px;
+			border-top-right-radius: 3px;
+			border-bottom-left-radius: 3px;
+			border-bottom-right-radius: 3px;
+			overflow: hidden;
+		}
+
+		a {
+			padding: 17px 30px 15px 30px;
+		}
+	}
+}

@@ -1,0 +1,359 @@
+// Welcome Activation - index.php?page=wpforms-getting-started
+#wpforms-welcome {
+	border-top: 3px solid $orange;
+	color: #555;
+	padding-top: 110px;
+
+	@include media("<ipad") {
+		padding-top: 64px;
+	}
+
+	*,
+	*::before,
+	*::after {
+		-webkit-box-sizing: border-box;
+		-moz-box-sizing: border-box;
+		box-sizing: border-box;
+	}
+
+	.container {
+		margin: 0 auto;
+		max-width: 720px;
+		padding: 0;
+	}
+
+	.block {
+		padding: 40px;
+
+		@include media("<ipad") {
+			padding: 20px;
+		}
+	}
+
+	img {
+		max-width: 100%;
+		height: auto;
+	}
+
+	h1 {
+		color: #222;
+		font-size: 24px;
+		text-align: center;
+		margin: 0 0 16px 0;
+	}
+
+	h5 {
+		color: #222;
+		font-size: 16px;
+		margin: 0 0 8px 0;
+	}
+
+	h6 {
+		font-size: 16px;
+		font-weight: 400;
+		line-height: 1.6;
+		text-align: center;
+		margin: 0;
+	}
+
+	p {
+		font-size: 14px;
+		margin: 0 0 20px 0;
+	}
+
+	.button-wrap {
+		max-width: 590px;
+		margin: 0 auto 0 auto;
+
+		.left {
+			float: left;
+			width: 50%;
+			padding-right: 20px;
+
+			@include media("<ipad") {
+				float: none;
+				width: 100%;
+				padding: 0;
+				margin-bottom: 20px;
+			}
+		}
+
+		.right {
+			float: right;
+			width: 50%;
+			padding-left: 20px;
+
+			@include media("<ipad") {
+				float: none;
+				width: 100%;
+				padding: 0;
+			}
+		}
+	}
+
+	.intro {
+		background-color: #fff;
+		border: 2px solid #e1e1e1;
+		border-radius: 2px;
+		margin-bottom: 30px;
+		position: relative;
+		padding-top: 40px;
+
+		.sullie {
+			background-color: #fff;
+			border: 2px solid #e1e1e1;
+			border-radius: 50%;
+			height: 110px;
+			width: 110px;
+			padding: 18px 14px 0 14px;
+			position: absolute;
+			top: -58px;
+			left: 50%;
+			margin-left: -55px;
+		}
+
+		.video-thumbnail {
+			display: block;
+			margin: 0 auto;
+		}
+
+		.button-wrap {
+			margin-top: 25px;
+		}
+	}
+
+	.features {
+		background-color: #fff;
+		border: 2px solid #e1e1e1;
+		border-bottom: 0;
+		border-radius: 2px 2px 0 0;
+		position: relative;
+		padding-top: 20px;
+		padding-bottom: 20px;
+
+		.feature-list {
+			margin-top: 60px;
+		}
+
+		.feature-block {
+			float: left;
+			width: 50%;
+			padding-bottom: 35px;
+			overflow: auto;
+
+			@include media("<ipad") {
+				float: none;
+				width: 100%;
+			}
+
+			&.first {
+				padding-right: 20px;
+				clear: both;
+
+				@include media("<ipad") {
+					padding-right: 0;
+				}
+			}
+
+			&.last {
+				padding-left: 20px;
+
+				@include media("<ipad") {
+					padding-left: 0;
+				}
+			}
+
+			img {
+				float: left;
+				max-width: 46px;
+			}
+
+			h5 {
+				margin-left: 68px
+			}
+
+			p {
+				margin: 0;
+				margin-left: 68px
+			}
+		}
+
+		.button-wrap {
+			margin-top: 25px;
+			text-align: center;
+		}
+	}
+
+	.upgrade-cta {
+		background-color: #000;
+		border: 2px solid #e1e1e1;
+		border-top: 0;
+		border-bottom: 0;
+		color: #fff;
+
+		h2 {
+			color: #fff;
+			font-size: 20px;
+			margin: 0 0 30px 0;
+		}
+
+		ul {
+			display: -ms-flex;
+			display: -webkit-flex;
+			display: flex;
+			-webkit-flex-wrap: wrap;
+			flex-wrap: wrap;
+			font-size: 15px;
+			margin: 0;
+			padding: 0;
+
+			li {
+				display: block;
+				width: 50%;
+				margin: 0 0 8px 0;
+				padding: 0;
+
+				.dashicons {
+					color: $green;
+					margin-right: 5px;
+				}
+			}
+		}
+
+		.left {
+			float: left;
+			width: 66.666666%;
+			padding-right: 20px;
+
+			@include media("<ipad") {
+				float: none;
+				width: 100%;
+				padding-right: 0;
+				margin-bottom: 20px;
+			}
+		}
+
+		.right {
+			float: right;
+			width: 33.333333%;
+			padding: 20px 0 0 20px;
+			text-align: center;
+
+			@include media("<ipad") {
+				float: none;
+				width: 100%;
+				padding-left: 0;
+			}
+
+			h2 {
+				text-align: center;
+				margin: 0;
+
+				span {
+					display: inline-block;
+					border-bottom: 1px solid #555;
+					padding: 0 15px 12px;
+				}
+			}
+
+			.price {
+				padding: 26px 0;
+
+				.amount {
+					font-size: 48px;
+					font-weight: 600;
+					position: relative;
+					display: inline-block;
+
+					&:before {
+						content: '$';
+						position: absolute;
+						top: -8px;
+						left: -16px;
+						font-size: 18px;
+					}
+				}
+
+				.term {
+					font-size: 12px;
+					display: inline-block;
+				}
+			}
+		}
+
+
+	}
+
+	.testimonials {
+		background-color: #fff;
+		border: 2px solid #e1e1e1;
+		border-top: 0;
+		padding: 20px 0;
+
+		.testimonial-block {
+			margin: 50px 0 0 0;;
+
+			img {
+				border-radius: 50%;
+				float: left;
+				max-width: 100px;
+				box-shadow: 0 0 18px rgba(0,0,0,.2);
+
+				@include media("<ipad") {
+					width: 65px;
+				}
+			}
+
+			p {
+				font-size: 14px;
+				margin: 0 0 12px 140px;
+
+				@include media("<ipad") {
+					margin-left: 100px;
+				}
+
+				&:last-of-type {
+					margin-bottom: 0;
+				}
+			}
+		}
+	}
+
+	.footer {
+		background-color: #f1f1f1;
+		border: 2px solid #e1e1e1;
+		border-top: 0;
+		border-radius: 0 0 2px 2px;
+	}
+
+	// Changes for paid version.
+	&.pro {
+
+		.features {
+			border: 2px solid #e1e1e1;
+			margin-bottom: 30px;
+		}
+
+		.upgrade,
+		.footer {
+			display: none;
+		}
+
+		.testimonials {
+			border: 2px solid #e1e1e1;
+		}
+	}
+}
+
+.dashboard_page_wpforms-getting-started {
+
+	.video-container {
+		border: 2px solid #e1e1e1;
+	}
+
+	// Hide admin footer.
+	#wpfooter,
+	div.notice {
+		display: none !important;
+	}
+}

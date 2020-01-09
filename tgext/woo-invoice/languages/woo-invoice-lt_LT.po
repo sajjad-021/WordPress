@@ -1,0 +1,383 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: WooCommerce Invoice\n"
+"POT-Creation-Date: 2019-04-13 23:59+0600\n"
+"PO-Revision-Date: 2019-04-17 17:56+0600\n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 2.2.1\n"
+"X-Poedit-Basepath: ..\n"
+"Plural-Forms: nplurals=3; plural=(n%10==1 && (n%100<11 || n%100>19) ? 0 : n%10>=2 && n%10<=9 && (n%100<11 || n%100>19) ? 1 : 2);\n"
+"X-Poedit-KeywordsList: _e;__\n"
+"Last-Translator: \n"
+"Language: lt\n"
+"X-Poedit-SearchPath-0: templates\n"
+"X-Poedit-SearchPath-1: includes\n"
+"X-Poedit-SearchPath-2: includes/classes\n"
+"X-Poedit-SearchPath-3: templates/invoice-templates\n"
+
+#: includes/classes/class-functions.php:39
+msgid "New Order"
+msgstr "Naujas užsakymas"
+
+#: includes/classes/class-functions.php:40
+msgid "Cancelled order"
+msgstr "Atšauktas užsakymas"
+
+#: includes/classes/class-functions.php:41
+msgid "Failed order"
+msgstr "Nepavykęs užsakymas"
+
+#: includes/classes/class-functions.php:42
+msgid "Order on-hold"
+msgstr "Užsakymas pristabdytas"
+
+#: includes/classes/class-functions.php:43
+msgid "Processing order"
+msgstr "Užsakymas vykdomas"
+
+#: includes/classes/class-functions.php:44
+msgid "Completed order"
+msgstr "Užsakymas įvykdytas"
+
+#: includes/classes/class-functions.php:45
+msgid "Refunded order"
+msgstr "Užsakymo grąžinimas"
+
+#: includes/classes/class-functions.php:46
+msgid "Customer invoice / Order details"
+msgstr "Kliento sąskaita faktūra/Užsakymo informacija"
+
+#: includes/classes/class-functions.php:47
+msgid "Customer note"
+msgstr "Kliento pastabos"
+
+#: includes/classes/class-functions.php:58
+msgid "Flat"
+msgstr ""
+
+#: includes/classes/class-functions.php:59
+msgid "Teamplate A"
+msgstr "Šablonas A"
+
+#: includes/classes/class-functions.php:60
+msgid "Teamplate B"
+msgstr "Šablonas B"
+
+#: includes/classes/class-functions.php:81
+#: includes/classes/class-functions.php:116
+#: includes/classes/class-functions.php:148 includes/functions.php:135
+msgid "Invalid order id provided"
+msgstr "Neteisingas užsakymo numeris"
+
+#: includes/classes/class-functions.php:106
+#: templates/invoice-templates/flat/template.php:37
+#: templates/invoice-templates/header-styled/template.php:30
+msgid "Invoice"
+msgstr "Sąskaita faktūra"
+
+#: includes/classes/class-order-columns.php:41
+msgid "Preview invoice"
+msgstr "Peržiūrėti sąskaita faktūra"
+
+#: includes/classes/class-order-columns.php:43
+msgid "Download invoice"
+msgstr "Atsisiųsti sąskaita faktūra"
+
+#: includes/classes/class-pick-settings.php:642
+msgid "Irks! An error has occurred."
+msgstr "Įvyko klaida!"
+
+#: includes/classes/class-shortcodes.php:61
+#, php-format
+msgid "Template file not found for shortcode : [%s]"
+msgstr "Šablono failas nerastas trumpuoju kodu : [%s]"
+
+#: includes/functions-settings.php:14
+msgid "Shop info"
+msgstr "Parduotuvės informacija"
+
+#: includes/functions-settings.php:19
+msgid "Shop Information"
+msgstr "Parduotuvės informacija"
+
+#: includes/functions-settings.php:20
+msgid "Set your shop's basic information here"
+msgstr "Čia nustatykite pagrindinę parduotuvės informaciją"
+
+#: includes/functions-settings.php:24
+msgid "Shop name"
+msgstr "Parduotuvės pavadinimas"
+
+#: includes/functions-settings.php:25
+msgid "Add your shop name here."
+msgstr "Parduotuvės pavadinimą įrašykite čia."
+
+#: includes/functions-settings.php:27
+msgid "Cofee house"
+msgstr "Kavos namai"
+
+#: includes/functions-settings.php:31
+msgid "Shop tagline"
+msgstr "Parduotuvės antraštė"
+
+#: includes/functions-settings.php:32
+msgid "Add a perfect tagline for your business"
+msgstr "Pridėkite antraštę apie savo verslą"
+
+#: includes/functions-settings.php:34
+msgid "Take cofee remove stress"
+msgstr "Atsigerkite kavos ir nuimkit stresą"
+
+#: includes/functions-settings.php:38
+msgid "Shop address"
+msgstr "Parduotuvės adresas"
+
+#: includes/functions-settings.php:39
+msgid "Add your shop address, so that anyone can find easily"
+msgstr "Pridėkite savo parduotuvės adresą, kad kiekvienas galėtų lengvai rasti"
+
+#: includes/functions-settings.php:41
+msgid "Jahaj Company Moor, Rangpur"
+msgstr ""
+
+#: includes/functions-settings.php:45
+msgid "Shop logo"
+msgstr "Parduotuvės logotipas"
+
+#: includes/functions-settings.php:46
+msgid "Add your shop logo, it may be visible at the invoice"
+msgstr "Pridėkite parduotuvės logotipą, jis gali būti matomas sąskaitoj faktūroj"
+
+#: includes/functions-settings.php:58
+msgid "Settings"
+msgstr "Nustatymai"
+
+#: includes/functions-settings.php:63
+msgid "General"
+msgstr "Bendri"
+
+#: includes/functions-settings.php:64
+msgid "Update some basic settings here"
+msgstr "Čia atnaujinkite kai kuriuos pagrindinius nustatymus"
+
+#: includes/functions-settings.php:68
+msgid "Attach invoice"
+msgstr "Prisegti sąskaitą faktūrą"
+
+#: includes/functions-settings.php:69
+msgid "Do you want to send the invoice as attachment on WooCommerce email?"
+msgstr "Ar norite išsiųsti sąskaitą faktūrą kaip priedą „WooCommerce“ el. laiške?"
+
+#: includes/functions-settings.php:72
+msgid "Yes"
+msgstr "Taip"
+
+#: includes/functions-settings.php:73
+msgid "No"
+msgstr "Ne"
+
+#: includes/functions-settings.php:78
+msgid "Select E-Mail type"
+msgstr "Pasirinkti el.pašto tipa"
+
+#: includes/functions-settings.php:79
+msgid "For which email type you want to send the invoice as attachment."
+msgstr "Kuriam el.pašto tipui,norėtumėte siųsti prisegtą sąskaitą faktūrą"
+
+#: includes/functions-settings.php:80
+msgid "This will not measure if <b>Attach Invoice</b> is set not enable!"
+msgstr "Tai nebus naudojama jei <b>Attach Invoice</b> yra neįjungta!"
+
+#: includes/functions-settings.php:81
+msgid "Leave unchecked all, if you want to send attachments always!"
+msgstr "Jei norite siųsti priedus visur, palikite nepažymėtus visus!"
+
+#: includes/functions-settings.php:93
+msgid "Templates"
+msgstr "Šablonai"
+
+#: includes/functions-settings.php:102
+msgid "Help"
+msgstr "Pagalba"
+
+#: includes/functions-settings.php:113
+msgid "Ask Question"
+msgstr "Klauskite"
+
+#: includes/functions-settings.php:120
+msgid "Documentation"
+msgstr "Dokumentacija"
+
+#: includes/functions-settings.php:127
+msgid "Demo"
+msgstr "Demo"
+
+#: includes/functions-settings.php:142 includes/functions-settings.php:143
+msgid "Woo Invoice"
+msgstr "Woo sąskaitos"
+
+#: includes/functions-settings.php:144
+msgid "WooCommerce Invoice - Settings"
+msgstr "WooCommerce Sąskaitų - Nustatymai"
+
+#: includes/functions.php:50
+msgid "Download Invoice"
+msgstr "Parsisiųsti sąskaitą faktūrą"
+
+#: includes/functions.php:63
+msgid "You do not have sufficient permissions to access this page."
+msgstr "Jūs neturite leidimo patekti į šį puslapį"
+
+#: templates/invoice-templates/flat/template.php:40
+#: templates/invoice-templates/header-styled/template.php:35
+#: templates/invoice-templates/teamplateA/template.php:130
+#: templates/invoice-templates/teamplateB/template.php:44
+msgid "Order ID"
+msgstr "Užsakymo numeris"
+
+#: templates/invoice-templates/flat/template.php:45
+#: templates/invoice-templates/header-styled/template.php:40
+#: templates/invoice-templates/teamplateA/template.php:135
+#: templates/invoice-templates/teamplateB/template.php:49
+msgid "Order status"
+msgstr "Užsakymo būsena"
+
+#: templates/invoice-templates/flat/template.php:49
+#: templates/invoice-templates/header-styled/template.php:45
+#: templates/invoice-templates/teamplateA/template.php:139
+#: templates/invoice-templates/teamplateB/template.php:53
+msgid "Order date"
+msgstr "Užsakymo data"
+
+#: templates/invoice-templates/flat/template.php:54
+#: templates/invoice-templates/header-styled/template.php:50
+#: templates/invoice-templates/teamplateA/template.php:144
+#: templates/invoice-templates/teamplateB/template.php:58
+msgid "Payment method"
+msgstr "Mokėjimo būdas"
+
+#: templates/invoice-templates/flat/template.php:71
+#: templates/invoice-templates/teamplateA/template.php:53
+#: templates/invoice-templates/teamplateB/template.php:75
+msgid "Invoice to"
+msgstr "Sąskaita faktūra"
+
+#: templates/invoice-templates/flat/template.php:106
+#: templates/invoice-templates/teamplateA/template.php:90
+#: templates/invoice-templates/teamplateB/template.php:112
+msgid "Shipping to"
+msgstr "Pristatymo adresas"
+
+#: templates/invoice-templates/flat/template.php:145
+#: templates/invoice-templates/header-styled/template.php:121
+#: templates/invoice-templates/teamplateA/template.php:162
+#: templates/invoice-templates/teamplateB/template.php:154
+msgid "Ordered items"
+msgstr "Užsakytos prekės"
+
+#: templates/invoice-templates/flat/template.php:152
+#: templates/invoice-templates/header-styled/template.php:128
+#: templates/invoice-templates/teamplateA/template.php:169
+#: templates/invoice-templates/teamplateB/template.php:161
+msgid "Item Description"
+msgstr "Prekės aprašymas"
+
+#: templates/invoice-templates/flat/template.php:155
+#: templates/invoice-templates/header-styled/template.php:131
+#: templates/invoice-templates/teamplateA/template.php:172
+#: templates/invoice-templates/teamplateB/template.php:164
+msgid "Quantity"
+msgstr "Kiekis"
+
+#: templates/invoice-templates/flat/template.php:158
+#: templates/invoice-templates/header-styled/template.php:134
+#: templates/invoice-templates/teamplateA/template.php:175
+#: templates/invoice-templates/teamplateB/template.php:167
+msgid "Price"
+msgstr "Kaina"
+
+#: templates/invoice-templates/flat/template.php:161
+#: templates/invoice-templates/header-styled/template.php:137
+#: templates/invoice-templates/teamplateA/template.php:178
+#: templates/invoice-templates/teamplateB/template.php:170
+msgid "Discount"
+msgstr "Nuolaida"
+
+#: templates/invoice-templates/flat/template.php:164
+#: templates/invoice-templates/header-styled/template.php:140
+#: templates/invoice-templates/teamplateA/template.php:181
+#: templates/invoice-templates/teamplateB/template.php:173
+msgid "Total"
+msgstr "Viso"
+
+#: templates/invoice-templates/flat/template.php:209
+#: templates/invoice-templates/header-styled/template.php:185
+#: templates/invoice-templates/teamplateA/template.php:226
+#: templates/invoice-templates/teamplateB/template.php:218
+msgid "Subtotal"
+msgstr "Tarpinė suma"
+
+#: templates/invoice-templates/flat/template.php:227
+#: templates/invoice-templates/header-styled/template.php:203
+#: templates/invoice-templates/teamplateA/template.php:244
+#: templates/invoice-templates/teamplateB/template.php:236
+msgid "Tax : "
+msgstr "Mokesčiai:"
+
+#: templates/invoice-templates/flat/template.php:230
+#: templates/invoice-templates/header-styled/template.php:206
+#: templates/invoice-templates/teamplateA/template.php:247
+#: templates/invoice-templates/teamplateB/template.php:239
+msgid "This amount is not included to Subtotal"
+msgstr "Ši suma nepridėta į Tarpinę sumą"
+
+#: templates/invoice-templates/flat/template.php:281
+#: templates/invoice-templates/header-styled/template.php:257
+#: templates/invoice-templates/teamplateA/template.php:298
+#: templates/invoice-templates/teamplateB/template.php:290
+msgid "Total amount"
+msgstr "Visa suma"
+
+#: templates/invoice-templates/header-styled/template.php:65
+msgid "Billing information"
+msgstr "Mokėtojo informacija"
+
+#: templates/invoice-templates/header-styled/template.php:68
+#: templates/invoice-templates/header-styled/template.php:94
+msgid "Name"
+msgstr "Vardas"
+
+#: templates/invoice-templates/header-styled/template.php:73
+#: templates/invoice-templates/header-styled/template.php:99
+msgid "Address"
+msgstr "Adresas"
+
+#: templates/invoice-templates/header-styled/template.php:78
+#: templates/invoice-templates/header-styled/template.php:104
+msgid "City"
+msgstr "Miestas"
+
+#: templates/invoice-templates/header-styled/template.php:83
+#: templates/invoice-templates/header-styled/template.php:109
+msgid "Postcode"
+msgstr "Pašto kodas"
+
+#: templates/invoice-templates/header-styled/template.php:91
+msgid "Shipping information"
+msgstr "Pristatymo informacija"
+
+#: templates/invoice-templates/teamplateA/template.php:127
+msgid "Order Info"
+msgstr "Užsakymo informacija"
+
+#: templates/order-invoice.php:18
+msgid "Order ID missing!"
+msgstr "Trūksta užsakymo numerio!"
+
+#: templates/order-invoice.php:34
+#, php-format
+msgid "Template file missing : <b>%s</b>"
+msgstr "Trūksta šablono failo: <b>%s</b>"

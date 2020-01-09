@@ -1,0 +1,59 @@
+* Hostname mtvnaija.com was found in DNS cache
+*   Trying 185.151.28.158...
+* TCP_NODELAY set
+* Connected to mtvnaija.com (185.151.28.158) port 443 (#0)
+* ALPN, offering http/1.1
+* Cipher selection: ALL:!EXPORT:!EXPORT40:!EXPORT56:!aNULL:!LOW:!RC4:@STRENGTH
+* successfully set certificate verify locations:
+*   CAfile: /Applications/MAMP/Library/OpenSSL/cert.pem
+  CApath: none
+* SSL connection using TLSv1.2 / ECDHE-RSA-AES128-GCM-SHA256
+* ALPN, server accepted to use http/1.1
+* Server certificate:
+*  subject: CN=*.mtvnaija.com
+*  start date: Aug 17 02:30:11 2019 GMT
+*  expire date: Nov 15 02:30:11 2019 GMT
+*  subjectAltName: host "mtvnaija.com" matched cert's "mtvnaija.com"
+*  issuer: C=US; O=Let's Encrypt; CN=Let's Encrypt Authority X3
+*  SSL certificate verify ok.
+> GET /m-i-abaga-the-viper-vector-diss/ HTTP/1.1
+Host: mtvnaija.com
+User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/58.0.3029.110 Safari/537.36
+Accept: */*
+Referer: http://www.bing.com/
+
+< HTTP/1.1 200 OK
+< date: Sun, 06 Oct 2019 12:33:20 GMT
+< content-type: text/html; charset=UTF-8
+< transfer-encoding: chunked
+< server: Apache
+< x-powered-by: PHP/7.0.33
+< link: <https://mtvnaija.com/wp-json/>; rel="https://api.w.org/", <https://mtvnaija.com/?p=11058>; rel=shortlink
+* Added cookie pll_language="en" for domain mtvnaija.com, path /, expire 1601901198
+< set-cookie: pll_language=en; expires=Mon, 05-Oct-2020 12:33:20 GMT; Max-Age=31536000; path=/; secure
+* Added cookie cookielawinfo-checkbox-necessary="yes" for domain mtvnaija.com, path /, expire 1570368798
+< set-cookie: cookielawinfo-checkbox-necessary=yes; expires=Sun, 06-Oct-2019 13:33:20 GMT; Max-Age=3600; path=/
+< vary: Accept-Encoding
+< x-cache-status: MISS
+< x-backend-server: wordpress_backend/wp10.hosting.stackcp.net
+< 
+* Curl_http_done: called premature == 0
+* Connection #0 to host mtvnaija.com left intact
+* Found bundle for host mtvnaija.com: 0x7fb4a69cf320 [can pipeline]
+* Re-using existing connection! (#0) with host mtvnaija.com
+* Connected to mtvnaija.com (185.151.28.158) port 443 (#0)
+> GET /wp-content/uploads/2019/10/M.I-Abaga-–-The-Viper-Letter-To-Vector-MP3.jpg HTTP/1.1
+Host: mtvnaija.com
+User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/58.0.3029.110 Safari/537.36
+Accept: */*
+Referer: 
+Cookie: cookielawinfo-checkbox-necessary=yes; pll_language=en
+
+* HTTP 1.0, assume close after body
+< HTTP/1.0 400 Bad request
+< Cache-Control: no-cache
+< Connection: close
+< Content-Type: text/html
+< 
+* Curl_http_done: called premature == 0
+* Closing connection 0

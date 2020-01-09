@@ -1,0 +1,815 @@
+// Settings - admin.php?page=wpforms-settings
+// Tools - admin.php?page=wpforms-tools
+.wpforms-admin-settings {
+
+	*,
+	*::before,
+	*::after {
+		-webkit-box-sizing: border-box;
+		-moz-box-sizing: border-box;
+		box-sizing: border-box;
+	}
+
+	// Setting rows, eg field row.
+	.wpforms-setting-row {
+		border-bottom: 1px solid #e4e4e4;
+		padding: 30px 0;
+		font-size: 14px;
+		line-height: 1.3;
+
+		&:first-of-type {
+			padding-top: 10px !important;
+		}
+
+		@include media("<tablet") {
+			padding: 20px 0;
+		}
+
+		// Section heading.
+		&.section-heading {
+			padding: 20px 0;
+
+			&.no-desc {
+				h4 {
+					margin: 0;
+				}
+			}
+
+			.wpforms-setting-field {
+				margin: 0;
+				max-width: 1000px;
+			}
+		}
+
+		// Tools full width fields.
+		&.tools {
+
+			p,
+			p:first-of-type{
+				margin: 0 0 16px 0;
+			}
+		}
+
+		// Checkbox settings field.
+		&.wpforms-setting-row-checkbox {
+
+			input[type=checkbox] {
+				float: left;
+				margin: 1px 0 0 0;
+			}
+
+			.desc {
+				margin: 0 0 0 30px;
+			}
+		}
+
+		// License settings field.
+		&.wpforms-setting-row-license {
+
+			.wpforms-setting-label {
+				padding-top: 8px;
+			}
+
+			p.type {
+				margin-top: 12px;
+			}
+		}
+
+		// Text/number settings field.
+		&.wpforms-setting-row-text,
+		&.wpforms-setting-row-number {
+
+			.wpforms-setting-label {
+				padding-top: 8px;
+			}
+		}
+
+		// Select settings field.
+		&.wpforms-setting-row-select {
+
+			.wpforms-setting-label {
+				padding-top: 8px;
+			}
+		}
+
+		// Radio settings field.
+		&.wpforms-setting-row-radio {
+
+			.wpforms-setting-field {
+
+				input[type=radio] {
+					margin: -3px 10px 0 0;
+				}
+
+				label {
+					margin-right: 30px;
+					display: inline-block;
+				}
+			}
+
+		}
+
+		// Email Template setting field.
+		&#wpforms-setting-row-email-template {
+
+			.wpforms-setting-field {
+
+				label:before {
+					content: " ";
+					display: block;
+					width: 155px;
+					height: 180px;
+					margin: 0 0 10px 0;
+				}
+
+				.option-default:before {
+					background: url(../images/settings-email-html.png) center center;
+				}
+
+				.option-none:before {
+					background: url(../images/settings-email-plaintext.png) center center;
+				}
+			}
+		}
+
+		// Radio settings field.
+		&.wpforms-setting-row-image {
+
+			.wpforms-setting-field {
+
+				img {
+					display: block;
+					margin: 0 0 20px 0;
+					max-width: 400px;
+				}
+			}
+		}
+
+		// Color picker settings field.
+		&.wpforms-setting-row-color {
+
+			.wpforms-color-picker {
+				padding-left: 40px;
+			}
+
+			.minicolors-input-swatch {
+				top: 7px;
+				left: 7px;
+				height: 21px;
+				width: 21px;
+				border-radius: 2px;
+			}
+		}
+
+		// General elements.
+		h5 {
+			font-size: 16px;
+			font-weight: 600;
+			margin: 0 0 20px 0;
+		}
+
+		h4 {
+			font-size: 20px;
+			font-weight: 700;
+			margin: 0 0 6px 0;
+		}
+
+		h3 {
+			font-size: 24px;
+			font-weight: 600;
+			margin: 0 0 20px 0;
+		}
+
+		p {
+			margin: 12px 0 0;
+			font-size: 14px;
+			line-height: 1.3;
+
+			&:first-of-type {
+				margin: 8px 0 0;
+			}
+
+			&.desc {
+				font-style: italic;
+				color: #666;
+			}
+
+			&.discount-note {
+				font-style: italic;
+				color: #666;
+
+				strong {
+					color: green;
+				}
+			}
+		}
+
+		// Form elements.
+		input[type=text],
+		input[type=password],
+		input[type=number],
+		select {
+			background-color: #fff;
+			border: 1px solid #ddd;
+			border-radius: 3px;
+			box-shadow: none;
+			color: #333;
+			display: inline-block;
+			vertical-align: middle;
+			padding: 7px 12px;
+			margin: 0 10px 0 0;
+			width: 400px;
+			min-height: 35px;
+
+			@include media("<desktop") {
+				width: 300px;
+			}
+
+			&:focus {
+				border-color: #bbb;
+			}
+		}
+
+		input[type=number] {
+			width: 100px;
+		}
+
+		textarea {
+
+		}
+
+		button {
+			margin-right: 10px;
+		}
+
+		.choicesjs-select-wrap {
+			display: block;
+			max-width: 400px;
+
+			@include media("<desktop") {
+				width: 300px;
+			}
+		}
+
+		.progress-bar {
+			background: #fff;
+			border: 1px solid $orange;
+			height: 30px;
+			width: 100%;
+			position: relative;
+			border-radius: 3px;
+			margin: 0 0 16px 0;
+
+			&.complete {
+				border: 1px solid $green;
+
+				.bar {
+					background-color: $green;
+
+					&:after {
+						content: none;
+						display: none;
+					}
+				}
+			}
+
+			.bar {
+				display: block;
+				background: $orange;
+				height: 100%;
+				left: 0;
+				position: absolute;
+				-webkit-transition: width 0.5s ease-in-out;
+				-moz-transition: width 0.5s ease-in-out;
+				-o-transition: width 0.5s ease-in-out;
+				transition: width 0.5s ease-in-out;
+
+				@-webkit-keyframes progress {
+					to { background-position: 60px 0; }
+				}
+
+				@-moz-keyframes progress {
+				  to { background-position: 60px 0; }
+				}
+
+				@keyframes progress {
+				  to { background-position: 60px 0; }
+				}
+
+				&:after {
+					content: '';
+					display:block;
+					position: absolute;
+					top: 0;
+					left: 0;
+					width: 100%;
+					height: 100%;
+					-webkit-animation: progress 1s linear infinite;
+					-moz-animation: progress 1s linear infinite;
+					animation: progress 1s linear infinite;
+					background-repeat: repeat-x;
+					background-size: 60px 60px;
+					background-image: -webkit-linear-gradient(-45deg, transparent 25%, transparent 25%, transparent 50%, rgba(255, 255, 255, 0.15) 50%, rgba(255, 255, 255, 0.15) 75%, transparent 75%, transparent);
+					background-image: linear-gradient(-45deg, transparent 25%, transparent 25%, transparent 50%, rgba(255, 255, 255, 0.15) 50%, rgba(255, 255, 255, 0.15) 75%, transparent 75%, transparent);
+				}
+			}
+		}
+	}
+
+	// Row label (left).
+	.wpforms-setting-label {
+		display: block;
+		float: left;
+		width: 200px;
+		padding: 0;
+
+		@include media("<tablet") {
+			float: none;
+			width: 100%;
+			padding-bottom: 15px;
+		}
+
+		label {
+			display: block;
+			font-weight: 600;
+		}
+	}
+
+	// Row field (right).
+	.wpforms-setting-field {
+		display: block;
+		margin: 0 0 0 200px;
+		max-width: 800px;
+
+		@include media("<tablet") {
+			margin: 0;
+		}
+	}
+
+	p.submit {
+		margin: 0;
+		padding: 25px 0;
+	}
+
+	// Generic info/code information.
+	.info-area,
+	.pre-error {
+		display: block;
+		width: 100%;
+		max-width: 1000px;
+		height: 450px;
+		font-family: Menlo,Monaco,monospace;
+		font-size: 12px;
+		background: #fff;
+		box-shadow: none;
+		border: 1px solid #ddd;
+		white-space: pre;
+		overflow: auto;
+		padding: 20px;
+	}
+
+	.pre-error {
+		height: auto;
+		max-height: 250px;
+		margin-bottom: 20px;
+	}
+
+	// Checkbox multi-select columns.
+	.checkbox-multiselect-columns {
+		max-width: 600px;
+		position: relative;
+
+		&:after {
+			content: ".";
+			display: block;
+			height: 0;
+			line-height: 0;
+			font-size: 0;
+			clear: both;
+			min-height: 0;
+			visibility: hidden;
+		}
+
+		&:before {
+			content: "\f0ec";
+			color: #999;
+			font: normal normal normal 20px/1 FontAwesome;
+			text-rendering: auto;
+			-webkit-font-smoothing: antialiased;
+			-moz-osx-font-smoothing: grayscale;
+			position: absolute;
+			top: 130px;
+			left: 50%;
+			margin: 0 0 0 -10px;
+		}
+
+		.header {
+			font-weight: 600;
+			font-size: 13px;
+			margin: 0;
+			padding: 0 0 5px 0;
+			text-align: center;
+		}
+
+		.first-column,
+		.second-column {
+			width: 45%;
+			float: left;
+		}
+
+		.first-column {
+
+		}
+
+		.second-column {
+			float: right;
+
+			ul {
+				li {
+					padding: 10px;
+				}
+			}
+		}
+
+		ul {
+			background-color: #fff;
+			border: 1px solid #ddd;
+			border-radius: 3px;
+			position: relative;
+			height: 250px;
+			padding: 0;
+			overflow-y: auto;
+			margin: 0;
+			list-style-type: none;
+
+			li {
+				border-bottom: 1px #eee solid;
+				margin: 0;
+				font-size: 14px;
+
+				label {
+					display: block;
+					padding: 10px 10px 10px 32px;
+					position: relative;
+					vertical-align: baseline;
+
+					&:hover {
+						background-color: $orange;
+						color: #fff;
+					}
+
+					&:before {
+						content: "\f0c8";
+						color: #ddd;
+						font: normal normal normal 16px/1 FontAwesome;
+						text-rendering: auto;
+						-webkit-font-smoothing: antialiased;
+						-moz-osx-font-smoothing: grayscale;
+						position: absolute;
+						top: 12px;
+						left: 10px;
+					}
+
+					&.checked {
+						opacity: 0.6;
+
+						&:before {
+							content: "\f14a";
+							color: $green;
+						}
+					}
+				}
+
+				input {
+					display: none;
+				}
+			}
+		}
+
+		.all {
+			color: #999;
+			display: inline-block;
+			font-size: 13px;
+			margin: 10px 0 0;
+		}
+	}
+
+	// Other Importers. (Tools)
+	#wpforms-importer-analyze {
+		display: none;
+
+		.process-count,
+		p {
+			font-size: 14px;
+		}
+
+		.upgrade {
+			display: none;
+			font-size: 14px;
+
+			h5 {
+				font-size: 18px;
+				font-weight: 600;
+				padding: 0;
+				margin: 30px 0 20px 0;
+			}
+
+			hr {
+				border: none;
+				border-bottom: 1px solid #e4e4e4;
+				margin: 40px 0;
+			}
+
+			.wpforms-btn {
+				margin-right: 10px;
+			}
+
+			ul {
+				li {
+					list-style-type: disc;
+					margin-left: 14px;
+
+					&.form {
+						list-style-type: none;
+						margin-left: 0;
+						font-weight: 700;
+					}
+				}
+			}
+		}
+	}
+
+	// Export entries. (Tools)
+	#wpforms-tools-entries-export {
+
+		h5 {
+			clear: both;
+			margin: 20px 0 10px 0;
+		}
+
+		label {
+			clear: both;
+			float: left;
+			margin: 3px 0 3px 0;
+		}
+
+		.choicesjs-select-wrap {
+			position: relative;
+
+			.choices {
+				margin-bottom: 0;
+			}
+		}
+
+		#wpforms-tools-entries-export-selectform-spinner {
+			position: absolute;
+			top: 6px;
+			right: -30px;
+		}
+
+		.wpforms-date-selector {
+			width: 200px;
+			cursor: pointer;
+		}
+
+		.wpforms-search-box-field {
+			width: 200px;
+		}
+		.wpforms-search-box-comparison {
+			width: 140px;
+		}
+		.wpforms-search-box-term {
+			width: 300px;
+		}
+
+		section {
+			margin-top: 20px;
+		}
+
+		iframe {
+			width: 0;
+			height: 0;
+			visibility: hidden;
+		}
+
+		.wpforms-btn-text {
+			opacity: 1;
+			transition: all .5s;
+		}
+		.wpforms-btn-spinner {
+			position: absolute;
+			left: 50%;
+			top: 50%;
+			transform: translate(-50%, -50%);
+			opacity: 0;
+			transition: all .5s;
+		}
+
+		.wpforms-btn-spinner-on {
+			.wpforms-btn-text {
+				opacity: 0 !important;
+				transition: all .5s;
+			}
+			.wpforms-btn-spinner {
+				opacity: 1 !important;
+				transition: all .5s;
+			}
+			cursor: default;
+			opacity: 0.75;
+			position: relative;
+		}
+
+		.wpforms-btn-spinner-on:hover {
+			background-color: #e27730;
+			border-color: #e27730;
+		}
+
+		#wpforms-tools-entries-export-process-msg,
+		#wpforms-tools-entries-export-selectform-msg {
+			background: #fff;
+			border-left: 4px solid #22A0D0;
+			line-height: 1.5em;
+			margin: 20px 0 0 0;
+			padding: 10px;
+
+			&.wpforms-error {
+				border-color: #dc3232;
+			}
+		}
+	}
+
+	#wpforms-importer-process {
+		display: none;
+
+		.process-count,
+		.process-completed {
+			font-size: 14px;
+		}
+
+		.process-completed {
+			display: none;
+		}
+
+		.status {
+			margin: 20px 0 30px;
+			background-color: #fff;
+			border-radius: 3px;
+			border: 1px solid #ddd;
+			max-height: 800px;
+			overflow-y: scroll;
+			display: none;
+
+			.item-wrap {
+
+			}
+
+			.item {
+				border-bottom: 1px solid #ddd;
+				padding: 20px;
+
+				&:last-of-type {
+					border: none;
+				}
+
+				p {
+					font-size: 13px;
+					margin: 12px 0 0;
+				}
+
+				ul {
+					font-size: 13px;
+					margin: 12px 0 0 16px;
+
+					li {
+						list-style: disc;
+					}
+				}
+
+				.status-icon {
+					display: inline-block;
+					margin: 0 10px 0 0;
+
+					&.fa-info-circle {
+						color: #00a0d2
+					}
+
+					&.fa-check {
+						color: #46b450
+					}
+
+					&.fa-exclamation-triangle {
+						color: #ffb900
+					}
+
+					&.fa-times,
+					&.fa-exclamation-circle {
+						color: #dc3232;
+					}
+				}
+
+				.name {
+					font-size: 14px;
+					float: left;
+				}
+
+				.actions {
+					font-size: 14px;
+					float: right;
+
+					.sep {
+						color: #ddd;
+					}
+				}
+			}
+		}
+	}
+
+	// Lite upgrade.
+	.settings-lite-cta{
+		background-color: #fff;
+		border: 1px solid #dadada;
+		padding: 25px 20px;
+		margin: 10px 0 0 0;
+		position: relative;
+
+		.dismiss {
+			position: absolute;
+			top: 10px;
+			right: 10px;
+			color: #666;
+			font-size: 16px;
+		}
+
+		h5 {
+			margin: 0 0 16px;
+			font-size: 18px;
+			font-weight: 700;
+		}
+
+		h6 {
+			font-weight: 700;
+			font-size: 14px;
+			margin: 0 0 16px;
+		}
+
+		p {
+			color: #555;
+			font-size: 14px;
+			margin: 0 0 16px;
+
+			&:last-of-type {
+				margin: 0;
+			}
+
+			a {
+				color: $orange;
+
+				&:hover {
+					color: $darkorange;
+				}
+			}
+		}
+
+		ul {
+			margin: 0;
+			padding: 0;
+			width: 50%;
+			float: left;
+
+			@include media("<=phone") {
+				width: 100%;
+				float: none;
+			}
+
+			li {
+				margin: 0;
+				padding: 0 0 2px 16px;
+				color: #555;
+				font-size: 14px;
+				position: relative;
+
+				&:before {
+					content: '+';
+					position: absolute;
+					top: -1px;
+					left: 0;
+				}
+			}
+		}
+
+		.list {
+			margin: 0 0 16px 0;
+			overflow: auto;
+			max-width: 900px;
+		}
+
+		.green {
+			color: #218900;
+			font-weight: 700;
+		}
+
+		.fa-star {
+			color: #ff982d;
+		}
+	}
+}

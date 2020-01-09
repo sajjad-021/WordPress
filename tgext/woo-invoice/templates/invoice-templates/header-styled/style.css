@@ -1,0 +1,220 @@
+/*
+* Template Name : Flat
+* -----------------------------------------
+* Author        : @PickPlugins
+* Copyright     : 2015 @ PickPlugins.com
+*/
+
+.wooin-invoice img {
+    width: 100% !important;
+}
+
+.wooin-invoice-section {
+    clear: both;
+}
+
+.wooin-invoice-section .section-label {
+    font-size: 18px;
+    font-weight: 600;
+    line-height: 30px;
+    margin-bottom: 20px;
+    letter-spacing: normal;
+    font-family: sans-serif;
+    display: inline-block;
+}
+
+.wooin-invoice .item-info {
+    margin-bottom: 5px;
+}
+
+.wooin-invoice .item-label {
+    min-width: 120px;
+    width: 120px;
+    display: inline-block;
+    line-height: 10px;
+}
+
+.wooin-invoice .item-label-value {
+    display: inline-block;
+    line-height: 10px;
+}
+
+.wooin-shop-image {
+    width: 49%;
+    display: inline-block;
+    vertical-align: top;
+}
+
+.wooin-shop-image span{
+    width: 230px;
+    display: inline-block;
+}
+
+.wooin-shop-info {
+    width: 48%;
+    display: inline-block;
+    vertical-align: top;
+}
+
+.wooin-shop-info .wooin_invoice_id {
+    background: #515151;
+    color: aliceblue;
+    padding: 5px 20px;
+    margin-bottom: 10px;
+    text-align: center;
+    font-size: 20px;
+    font-weight: 600;
+}
+
+.wooin-shop-info .wooin_shop_name {
+    font-size: 18px;
+    font-weight: 600;
+    line-height: 30px;
+    letter-spacing: normal;
+    font-family: sans-serif;
+}
+
+.wooin-shop-info .wooin_shop_address {
+    margin-bottom: 25px;
+    display: inline-block;
+}
+
+.wooin-billing {
+    width: 48%;
+    display: inline-block;
+    vertical-align: top;
+}
+
+.wooin-shipping {
+    width: 48%;
+    display: inline-block;
+    vertical-align: top;
+    margin-left: 10px;
+}
+
+.shipping-info {
+    margin-bottom: 5px;
+    min-width: 130px;
+}
+
+.wooin-items {
+    width: 100%;
+}
+
+.wooin-items .wooin-item {
+    width: 100%;
+    clear: both;
+}
+
+.wooin-items .wooin-item .item-inline {
+    display: inline-block;
+    margin-bottom: 10px;
+}
+
+.wooin-items .wooin-item .item-description {
+    /* width: calc(100% - 425px); */
+    width: 280px;
+}
+
+.wooin-items .wooin-item .item-description .item-product-name a {
+    color: #515151;
+    font-size: 15px;
+    text-decoration: none;
+}
+
+.wooin-items .wooin-item .item-description .item-product-name {
+    padding: 5px 10px;
+}
+
+.wooin-items .wooin-item .item-quantity,
+.wooin-items .wooin-item .item-price,
+.wooin-items .wooin-item .item-discount,
+.wooin-items .wooin-item .item-subtotal {
+    width: 100px;
+    text-align: right;
+}
+
+.wooin-items .wooin-item .item-quantity {
+    text-align: center;
+    width: 80px;
+}
+
+.wooin-items .wooin-item .item-mobile {
+    display: none;
+}
+
+.wooin-items .item-header {
+    background: #eaeaea;
+}
+
+.wooin-items .item-header .item-inline {
+    font-size: 13px;
+    padding: 5px 0px;
+    text-align: center;
+    font-weight: bold;
+    color: #5a5a5a;
+}
+
+.wooin-items .item-footer-subtotal {
+    padding-top: 12px !important;
+    border-top: 1px solid #ddd;
+}
+
+.wooin-items .item-footer-total {
+    padding-top: 12px !important;
+    border-top: 1px solid #ddd;
+}
+
+@media only screen and (max-width: 500px) {
+    .wooin-shop-image {
+        width: 100%;
+        margin-bottom: 10px;
+    }
+    .wooin-shop-info {
+        width: 100%;
+        margin-bottom: 10px;
+    }
+    .wooin-invoice .order-info {
+        margin: 0;
+    }
+    .wooin-invoice .order-info.wooin_shop_address {
+        margin-bottom: 10px;
+    }
+    .wooin-billing,
+    .wooin-shipping {
+        width: 100%;
+        margin-left: 0;
+        margin-bottom: 10px;
+    }
+    .wooin-items .wooin-item .item-description {
+        width: calc(100% - 85px);
+        vertical-align: middle;
+    }
+    .wooin-items .wooin-item .item-description .item-product-image {
+        display: none;
+    }
+    .wooin-items .wooin-item .item-mobile {
+        vertical-align: middle;
+        min-width: 16px;
+        width: 16px;
+        display: inline-block;
+    }
+    .wooin-items .wooin-item .item-quantity {
+        display: none;
+        vertical-align: middle;
+    }
+    .wooin-items .wooin-item .item-price {
+        display: none;
+        vertical-align: middle;
+    }
+    .wooin-items .wooin-item .item-discount {
+        display: none;
+        vertical-align: middle;
+    }
+    .wooin-items .wooin-item .item-subtotal {
+        display: inline-block;
+        vertical-align: middle;
+        min-width: 60px;
+        width: 60px;
+    }
+}

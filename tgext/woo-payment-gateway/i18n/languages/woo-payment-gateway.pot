@@ -1,0 +1,5782 @@
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: woo-payment-gateway\n"
+"POT-Creation-Date: 2019-12-19 15:54-0800\n"
+"PO-Revision-Date: 2017-04-07 16:37-0700\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"Language: en_US\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 2.2.4\n"
+"X-Poedit-Basepath: ../..\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Poedit-KeywordsList: _e;_x;__;_n_noop;_n\n"
+"X-Poedit-SearchPath-0: includes\n"
+"X-Poedit-SearchPath-1: templates\n"
+"X-Poedit-SearchPath-2: braintree-payments.php\n"
+
+#: braintree-payments.php:19
+#, php-format
+msgid ""
+"Your PHP version is %s but Braintree For WooCommerce requires version 5.4+."
+msgstr ""
+
+#: includes/abstract/abstract-class-wc-braintree-local-payment-gateway.php:113
+#, php-format
+msgid "%s is available when store currency is %s"
+msgstr ""
+
+#: includes/abstract/abstract-class-wc-braintree-local-payment-gateway.php:116
+#, php-format
+msgid " and billing country is %s"
+msgstr ""
+
+#: includes/abstract/abstract-class-wc-braintree-payment-gateway.php:216
+#, php-format
+msgid "Error setting up %1$s. Reason: %2$s"
+msgstr ""
+
+#: includes/abstract/abstract-class-wc-braintree-payment-gateway.php:249
+#: includes/abstract/abstract-class-wc-braintree-payment-gateway.php:252
+#, php-format
+msgid ""
+"Braintree payment token %1$s not deleted in Braintree gateway. Reason: %2$s"
+msgstr ""
+
+#: includes/abstract/abstract-class-wc-braintree-payment-gateway.php:278
+msgid "Payment Method Token"
+msgstr ""
+
+#: includes/abstract/abstract-class-wc-braintree-payment-gateway.php:417
+#: includes/class-braintree.php:376
+#, php-format
+msgid "Error creating client token. Exception: %1$s"
+msgstr ""
+
+#: includes/abstract/abstract-class-wc-braintree-payment-gateway.php:500
+#, php-format
+msgid "Processing payment for order %1$s. Transaction args: %2$s"
+msgstr ""
+
+#: includes/abstract/abstract-class-wc-braintree-payment-gateway.php:522
+#: includes/abstract/abstract-class-wc-braintree-payment-gateway.php:530
+#, php-format
+msgid "Error processing payment. Reason: %1$s"
+msgstr ""
+
+#: includes/abstract/abstract-class-wc-braintree-payment-gateway.php:523
+#: includes/abstract/abstract-class-wc-braintree-payment-gateway.php:534
+#: includes/gateways/class-wc-braintree-cc-payment-gateway.php:216
+#, php-format
+msgid "There was an error processing your payment. Reason: %1$s"
+msgstr ""
+
+#: includes/abstract/abstract-class-wc-braintree-payment-gateway.php:529
+#, php-format
+msgid ""
+"Error processing payment for order %1$s. Exception: %2$s. Transaction args: "
+"%3$s"
+msgstr ""
+
+#: includes/abstract/abstract-class-wc-braintree-payment-gateway.php:556
+#, php-format
+msgid "Order %1$s in Braintree: Transaction ID: %2$s. Payment method: %3$s"
+msgstr ""
+
+#: includes/abstract/abstract-class-wc-braintree-payment-gateway.php:556
+msgid "captured"
+msgstr ""
+
+#: includes/abstract/abstract-class-wc-braintree-payment-gateway.php:556
+msgid "authorized"
+msgstr ""
+
+#: includes/abstract/abstract-class-wc-braintree-payment-gateway.php:782
+#, php-format
+msgid "Error processing refund. Reason: %1$s"
+msgstr ""
+
+#: includes/abstract/abstract-class-wc-braintree-payment-gateway.php:785
+#, php-format
+msgid ""
+"The transaction ID for order %1$s is blank. A refund cannot be processed "
+"unless there is a valid transaction associated with the order."
+msgstr ""
+
+#: includes/abstract/abstract-class-wc-braintree-payment-gateway.php:792
+#, php-format
+msgid "Refund successful in Braintree. Amount: %1$s. Refund ID: %2$s"
+msgstr ""
+
+#: includes/abstract/abstract-class-wc-braintree-payment-gateway.php:803
+#, php-format
+msgid ""
+"Exception thrown while issuing refund. Reason: %1$s Exception class: %2$s"
+msgstr ""
+
+#: includes/abstract/abstract-class-wc-braintree-payment-gateway.php:825
+#, php-format
+msgid "Transaction submitted for settlement in Braintree. Amount %1$s"
+msgstr ""
+
+#: includes/abstract/abstract-class-wc-braintree-payment-gateway.php:832
+#: includes/abstract/abstract-class-wc-braintree-payment-gateway.php:835
+#, php-format
+msgid "There was an error capturing the charge. Reason: %1$s"
+msgstr ""
+
+#: includes/abstract/abstract-class-wc-braintree-payment-gateway.php:851
+#, php-format
+msgid "Transaction %1$s has been voided in Braintree."
+msgstr ""
+
+#: includes/abstract/abstract-class-wc-braintree-payment-gateway.php:854
+#: includes/abstract/abstract-class-wc-braintree-payment-gateway.php:857
+#, php-format
+msgid "There was an error voiding the transaction. Reason: %1$s"
+msgstr ""
+
+#: includes/abstract/abstract-class-wc-braintree-payment-gateway.php:916
+#, php-format
+msgid ""
+"Error deleting payment method address. This error was caught gracefully\n"
+"\t\t\t\t\t\t\t\tand not shown to the customer. You can delete address %1$s "
+"in your Braintree gateway."
+msgstr ""
+
+#: includes/abstract/abstract-class-wc-braintree-payment-gateway.php:925
+#: includes/abstract/abstract-class-wc-braintree-payment-gateway.php:930
+#: includes/abstract/abstract-class-wc-braintree-payment-gateway.php:934
+#, php-format
+msgid "There was an error saving your payment method. Reason: %1$s"
+msgstr ""
+
+#: includes/abstract/abstract-class-wc-braintree-payment-gateway.php:1012
+msgid ""
+"Please read and accept the terms and conditions to proceed with your order."
+msgstr ""
+
+#: includes/abstract/abstract-class-wc-braintree-payment-gateway.php:1118
+#: includes/abstract/abstract-class-wc-braintree-payment-gateway.php:1119
+#: includes/abstract/abstract-class-wc-braintree-payment-gateway.php:1123
+#: includes/abstract/abstract-class-wc-braintree-payment-gateway.php:1124
+#, php-format
+msgid "Error processing subscription. Reason: %1$s"
+msgstr ""
+
+#: includes/abstract/abstract-class-wc-braintree-payment-gateway.php:1263
+#, php-format
+msgid "Processing recurring payment for order %1$s. Transaction args: %2$s"
+msgstr ""
+
+#: includes/abstract/abstract-class-wc-braintree-payment-gateway.php:1273
+#, php-format
+msgid ""
+"Recurring payment charged successfully in Braintree. Transaction ID: %1$s. "
+"Payment method: %2$s"
+msgstr ""
+
+#: includes/abstract/abstract-class-wc-braintree-payment-gateway.php:1276
+#, php-format
+msgid ""
+"Payment method %s is the customer's default payment method in Braintree. It "
+"was used for the recurring payment because the subscription's "
+"_payment_method_token key is blank and would have caused a failed renewal. "
+"Please correct your postmeta."
+msgstr ""
+
+#: includes/abstract/abstract-class-wc-braintree-payment-gateway.php:1280
+#: includes/abstract/abstract-class-wc-braintree-payment-gateway.php:1285
+#, php-format
+msgid "Error processing recurring payment. Reason: %1$s"
+msgstr ""
+
+#: includes/abstract/abstract-class-wc-braintree-payment-gateway.php:1287
+#, php-format
+msgid "Error processing subscription %1$s. Reason: %2$s"
+msgstr ""
+
+#: includes/abstract/abstract-class-wc-braintree-payment-gateway.php:1289
+#, php-format
+msgid "Error processing recurring payment. Exception: %1$s"
+msgstr ""
+
+#: includes/abstract/abstract-class-wc-braintree-payment-gateway.php:1291
+#, php-format
+msgid "Error processing subscription %1$s. Exception thrown: %2$s"
+msgstr ""
+
+#: includes/abstract/abstract-class-wc-braintree-payment-gateway.php:1353
+#: includes/subscriptions/wcs-braintree-functions.php:1091
+msgid "Subscription has been cancelled in Braintree."
+msgstr ""
+
+#: includes/abstract/abstract-class-wc-braintree-payment-gateway.php:1355
+#: includes/abstract/abstract-class-wc-braintree-payment-gateway.php:1358
+#, php-format
+msgid "Error cancelling subscription. Reason: %1$s"
+msgstr ""
+
+#: includes/abstract/abstract-class-wc-braintree-payment-gateway.php:1392
+#, php-format
+msgid "Payment method changed. New payment method: %s. Old Payment method: %s"
+msgstr ""
+
+#: includes/abstract/abstract-class-wc-braintree-payment-gateway.php:1394
+#: includes/abstract/abstract-class-wc-braintree-payment-gateway.php:1398
+#, php-format
+msgid "Error updating payment method. Reason: %1$s"
+msgstr ""
+
+#: includes/abstract/abstract-class-wc-braintree-payment-gateway.php:1397
+#, php-format
+msgid "Error updating payment method for subscription %1$s. Reason: %2$s"
+msgstr ""
+
+#: includes/abstract/abstract-class-wc-braintree-payment-gateway.php:1681
+#: includes/admin/meta-boxes/views/html-order-pay.php:41
+msgid "New Card"
+msgstr ""
+
+#: includes/abstract/abstract-class-wc-braintree-payment-gateway.php:1685
+#: includes/admin/meta-boxes/views/html-order-pay.php:29
+msgid "Saved Cards"
+msgstr ""
+
+#: includes/abstract/abstract-class-wc-braintree-payment-gateway.php:1793
+#, php-format
+msgid "Pre order payment processed. Transaction ID: %s. Payment method: %s"
+msgstr ""
+
+#: includes/abstract/abstract-class-wc-braintree-payment-gateway.php:1795
+#: includes/abstract/abstract-class-wc-braintree-payment-gateway.php:1798
+#: includes/abstract/abstract-class-wc-braintree-payment-gateway.php:1800
+#, php-format
+msgid "Error processing pre order payment. Reason: %s"
+msgstr ""
+
+#: includes/abstract/abstract-class-wc-braintree-rest-controller.php:49
+#: includes/api/class-wc-braintree-controller-order-actions.php:110
+#: includes/api/class-wc-braintree-controller-payment-tokens.php:31
+msgid "You do not have permissions to access this resource."
+msgstr ""
+
+#: includes/admin/class-wc-braintree-admin-assets.php:76
+msgid "Please click OK if you wish to void this transaction."
+msgstr ""
+
+#: includes/admin/class-wc-braintree-admin-assets.php:116
+msgid "Please click OK if you wish you delete the payment method."
+msgstr ""
+
+#: includes/admin/class-wc-braintree-admin-list-table-subscriptions.php:36
+#: includes/admin/meta-boxes/views/html-order-transaction-view.php:20
+#: includes/admin/meta-boxes/views/html-order-transaction-view.php:84
+#: includes/admin/meta-boxes/views/html-related-orders.php:10
+#: includes/admin/meta-boxes/views/html-subscription-related-orders.php:10
+#: templates/myaccount/my-subscriptions.php:16
+#: templates/myaccount/view-subscription.php:10
+#: templates/myaccount/view-subscription.php:77
+#: templates/order/subscription-details.php:12
+msgid "Status"
+msgstr ""
+
+#: includes/admin/class-wc-braintree-admin-list-table-subscriptions.php:37
+#: includes/class-wc-braintree-post-types.php:24
+#: includes/class-wc-braintree-post-types.php:27
+#: includes/gateways/class-wc-braintree-applepay-payment-gateway.php:78
+#: includes/gateways/class-wc-braintree-applepay-payment-gateway.php:85
+#: includes/gateways/class-wc-braintree-googlepay-payment-gateway.php:171
+#: includes/gateways/class-wc-braintree-googlepay-payment-gateway.php:179
+#: templates/myaccount/change-payment-method.php:14
+#: templates/myaccount/my-subscriptions.php:15
+#: templates/order/subscription-details.php:11
+msgid "Subscription"
+msgstr ""
+
+#: includes/admin/class-wc-braintree-admin-list-table-subscriptions.php:38
+msgid "Items"
+msgstr ""
+
+#: includes/admin/class-wc-braintree-admin-list-table-subscriptions.php:39
+#: includes/admin/meta-boxes/views/html-related-orders.php:11
+#: includes/admin/meta-boxes/views/html-subscription-related-orders.php:11
+#: includes/api/class-wc-braintree-controller-googlepay.php:97
+#: includes/gateways/class-wc-braintree-googlepay-payment-gateway.php:85
+#: templates/checkout/recurring-totals.php:44
+#: templates/myaccount/my-subscriptions.php:18
+#: templates/myaccount/view-subscription.php:78
+#: templates/order/subscription-details.php:14
+#: templates/paypal-cart-totals.php:50 templates/paypal-cart-totals.php:87
+#: templates/paypal-cart-totals.php:123
+msgid "Total"
+msgstr ""
+
+#: includes/admin/class-wc-braintree-admin-list-table-subscriptions.php:40
+#: includes/admin/meta-boxes/views/html-related-orders.php:9
+#: templates/myaccount/view-subscription.php:14
+msgid "Start Date"
+msgstr ""
+
+#: includes/admin/class-wc-braintree-admin-list-table-subscriptions.php:41
+msgid "Trial End"
+msgstr ""
+
+#: includes/admin/class-wc-braintree-admin-list-table-subscriptions.php:42
+msgid "Next Payment Date"
+msgstr ""
+
+#: includes/admin/class-wc-braintree-admin-list-table-subscriptions.php:43
+#: templates/myaccount/view-subscription.php:28
+msgid "End Date"
+msgstr ""
+
+#: includes/admin/class-wc-braintree-admin-list-table-subscriptions.php:69
+msgid "for"
+msgstr ""
+
+#: includes/admin/class-wc-braintree-admin-list-table-subscriptions.php:80
+msgid "Via"
+msgstr ""
+
+#: includes/admin/class-wc-braintree-admin-list-table-subscriptions.php:90
+#: includes/gateways/class-wc-braintree-paypal-payment-gateway.php:60
+#: includes/gateways/class-wc-braintree-venmo-payment-gateway.php:68
+msgid "N/A"
+msgstr ""
+
+#: includes/admin/class-wc-braintree-admin-list-table-subscriptions.php:98
+#: includes/subscriptions/class-wc-braintree-subscription.php:319
+msgid "Never Expires"
+msgstr ""
+
+#: includes/admin/class-wc-braintree-admin-menus.php:23
+msgid "Braintree Gateway"
+msgstr ""
+
+#: includes/admin/class-wc-braintree-admin-menus.php:27
+msgid "Settings"
+msgstr ""
+
+#: includes/admin/class-wc-braintree-admin-menus.php:28
+msgid "Logs"
+msgstr ""
+
+#: includes/admin/class-wc-braintree-admin-menus.php:29
+msgid "Data Migration"
+msgstr ""
+
+#: includes/admin/class-wc-braintree-admin-menus.php:32
+#: includes/admin/views/html-settings-nav.php:16
+#: includes/class-wc-braintree-install.php:21
+msgid "Documentation"
+msgstr ""
+
+#: includes/admin/class-wc-braintree-admin-settings.php:81
+msgid "Local Gateways"
+msgstr ""
+
+#: includes/admin/class-wc-braintree-admin-settings.php:82
+msgid "Advanced Settings"
+msgstr ""
+
+#: includes/admin/class-wc-braintree-admin-user-edit.php:95
+#: includes/admin/class-wc-braintree-admin-user-edit.php:97
+#, php-format
+msgid ""
+"Error saving customer's payment methods on User Profile page. Reason: %1$s"
+msgstr ""
+
+#: includes/admin/meta-boxes/class-wc-braintree-meta-box-subscription-order-data.php:57
+#: templates/myaccount/view-subscription.php:63
+msgid "Related Orders"
+msgstr ""
+
+#: includes/admin/meta-boxes/class-wc-braintree-meta-box-subscription-order-data.php:63
+msgid "Related Subscriptions"
+msgstr ""
+
+#: includes/admin/meta-boxes/class-wc-braintree-meta-box-subscription-order-data.php:240
+#, php-format
+msgid ""
+"Product %1$s cannot be assigned to this subscription. Reason: the products "
+"do not have the same billing schedule."
+msgstr ""
+
+#: includes/admin/meta-boxes/class-wc-meta-box-braintree-subscription-data.php:69
+msgid "There is already a plan assigned for currency %currency%."
+msgstr ""
+
+#: includes/admin/meta-boxes/class-wc-meta-box-braintree-subscription-data.php:73
+#: includes/subscriptions/wcs-braintree-functions.php:75
+#: includes/subscriptions/wcs-braintree-functions.php:411
+msgid "day"
+msgstr ""
+
+#: includes/admin/meta-boxes/class-wc-meta-box-braintree-subscription-data.php:74
+msgid "days"
+msgstr ""
+
+#: includes/admin/meta-boxes/class-wc-meta-box-braintree-subscription-data.php:77
+#: includes/subscriptions/wcs-braintree-functions.php:76
+#: includes/subscriptions/wcs-braintree-functions.php:412
+msgid "month"
+msgstr ""
+
+#: includes/admin/meta-boxes/class-wc-meta-box-braintree-subscription-data.php:78
+msgid "months"
+msgstr ""
+
+#: includes/admin/meta-boxes/class-wc-meta-box-braintree-subscription-data.php:93
+msgid "Braintree Subscription"
+msgstr ""
+
+#: includes/admin/meta-boxes/class-wc-meta-box-braintree-subscription-data.php:94
+msgid "Braintree Variable Subscription"
+msgstr ""
+
+#: includes/admin/meta-boxes/class-wc-meta-box-braintree-subscription-data.php:115
+#: includes/admin/meta-boxes/views/html-product-data-variations.php:20
+msgid "One Time Shipping"
+msgstr ""
+
+#: includes/admin/meta-boxes/class-wc-meta-box-braintree-subscription-data.php:119
+#: includes/admin/meta-boxes/views/html-product-data-variations.php:25
+msgid ""
+"Select if you only want shipping to be charged during checkout. Note: one "
+"time shipping does not apply to subscriptions with trial periods."
+msgstr ""
+
+#: includes/admin/meta-boxes/class-wc-meta-box-braintree-subscription-data.php:134
+#: includes/admin/meta-boxes/views/html-product-data-general.php:91
+msgid "Fetch Braintree Plans"
+msgstr ""
+
+#: includes/admin/meta-boxes/views/html-coupon-data.php:7
+msgid "Subscription Coupon Type"
+msgstr ""
+
+#: includes/admin/meta-boxes/views/html-coupon-data.php:8
+msgid ""
+"If this coupon is applied to a subscription product, determines if the "
+"discount is for initial payment, recurring payments, or initial plus "
+"recurring. For this to apply to subscriptions, the Discount type must be "
+"Fixed product discount."
+msgstr ""
+
+#: includes/admin/meta-boxes/views/html-coupon-data.php:10
+msgid "Recurring & first payment"
+msgstr ""
+
+#: includes/admin/meta-boxes/views/html-coupon-data.php:11
+msgid "Initial discount"
+msgstr ""
+
+#: includes/admin/meta-boxes/views/html-coupon-data.php:12
+msgid "Recurring payments only"
+msgstr ""
+
+#: includes/admin/meta-boxes/views/html-order-actions.php:1
+msgid "Transaction Status"
+msgstr ""
+
+#: includes/admin/meta-boxes/views/html-order-actions.php:5
+#: includes/admin/meta-boxes/views/html-order-transaction-view.php:27
+msgid "Authorization Expires"
+msgstr ""
+
+#: includes/admin/meta-boxes/views/html-order-actions.php:12
+msgid "There are no actions available at this time."
+msgstr ""
+
+#: includes/admin/meta-boxes/views/html-order-braintree-data.php:2
+msgid "Transaction Data / Actions"
+msgstr ""
+
+#: includes/admin/meta-boxes/views/html-order-pay.php:2
+msgid "Pay for Order"
+msgstr ""
+
+#: includes/admin/meta-boxes/views/html-order-pay.php:3
+msgid ""
+"Admins can process customer orders over the phone using this functionality."
+msgstr ""
+
+#: includes/admin/meta-boxes/views/html-order-pay.php:20
+#: includes/gateways/settings/subscription-settings.php:9
+msgid "Charge Type"
+msgstr ""
+
+#: includes/admin/meta-boxes/views/html-order-pay.php:22
+#: includes/gateways/settings/applepay-settings.php:83
+#: includes/gateways/settings/cc-settings.php:77
+#: includes/gateways/settings/googlepay-settings.php:97
+#: includes/gateways/settings/paypal-settings.php:78
+#: includes/gateways/settings/subscription-settings.php:12
+#: includes/gateways/settings/venmo-settings.php:74
+msgid "Capture"
+msgstr ""
+
+#: includes/admin/meta-boxes/views/html-order-pay.php:23
+#: includes/gateways/settings/applepay-settings.php:84
+#: includes/gateways/settings/cc-settings.php:78
+#: includes/gateways/settings/googlepay-settings.php:98
+#: includes/gateways/settings/paypal-settings.php:79
+#: includes/gateways/settings/subscription-settings.php:13
+#: includes/gateways/settings/venmo-settings.php:75
+msgid "Authorize"
+msgstr ""
+
+#: includes/admin/meta-boxes/views/html-order-transaction-view.php:3
+#: includes/admin/views/fee-template.php:15
+#: includes/admin/views/merchant-account-template.php:22
+#: includes/admin/views/user-edit.php:25 includes/admin/views/user-edit.php:43
+#: templates/myaccount/view-subscription.php:32
+msgid "Actions"
+msgstr ""
+
+#: includes/admin/meta-boxes/views/html-order-transaction-view.php:6
+msgid "capture amount"
+msgstr ""
+
+#: includes/admin/meta-boxes/views/html-order-transaction-view.php:19
+msgid "General Info"
+msgstr ""
+
+#: includes/admin/meta-boxes/views/html-order-transaction-view.php:22
+msgid "Merchant Account"
+msgstr ""
+
+#: includes/admin/meta-boxes/views/html-order-transaction-view.php:24
+#: includes/admin/meta-boxes/views/html-order-transaction-view.php:70
+msgid "Type"
+msgstr ""
+
+#: includes/admin/meta-boxes/views/html-order-transaction-view.php:32
+msgid "Response Data"
+msgstr ""
+
+#: includes/admin/meta-boxes/views/html-order-transaction-view.php:34
+msgid "Authorization Code"
+msgstr ""
+
+#: includes/admin/meta-boxes/views/html-order-transaction-view.php:37
+msgid "Response Code"
+msgstr ""
+
+#: includes/admin/meta-boxes/views/html-order-transaction-view.php:39
+msgid "Fraud Checks"
+msgstr ""
+
+#: includes/admin/meta-boxes/views/html-order-transaction-view.php:41
+#: includes/gateways/class-wc-braintree-cc-payment-gateway.php:336
+#: includes/gateways/class-wc-braintree-cc-payment-gateway.php:337
+#: templates/custom-forms/simple-form.php:23
+#: templates/custom-forms/simple-form.php:25
+msgid "CVV"
+msgstr ""
+
+#: includes/admin/meta-boxes/views/html-order-transaction-view.php:43
+msgid "AVS"
+msgstr ""
+
+#: includes/admin/meta-boxes/views/html-order-transaction-view.php:43
+msgid "Postal code"
+msgstr ""
+
+#: includes/admin/meta-boxes/views/html-order-transaction-view.php:43
+msgid "Street address"
+msgstr ""
+
+#: includes/admin/meta-boxes/views/html-order-transaction-view.php:47
+msgid "Risk Data"
+msgstr ""
+
+#: includes/admin/meta-boxes/views/html-order-transaction-view.php:48
+msgid "Fraud Service Provider"
+msgstr ""
+
+#: includes/admin/meta-boxes/views/html-order-transaction-view.php:50
+msgid "Fraud Provider Transaction ID"
+msgstr ""
+
+#: includes/admin/meta-boxes/views/html-order-transaction-view.php:52
+msgid "Decision"
+msgstr ""
+
+#: includes/admin/meta-boxes/views/html-order-transaction-view.php:54
+msgid "Device Data Captured"
+msgstr ""
+
+#: includes/admin/meta-boxes/views/html-order-transaction-view.php:60
+msgid "PayPal Data"
+msgstr ""
+
+#: includes/admin/meta-boxes/views/html-order-transaction-view.php:61
+msgid "Payer ID"
+msgstr ""
+
+#: includes/admin/meta-boxes/views/html-order-transaction-view.php:63
+msgid "Seller Protection Status"
+msgstr ""
+
+#: includes/admin/meta-boxes/views/html-order-transaction-view.php:69
+msgid "Payment Data"
+msgstr ""
+
+#: includes/admin/meta-boxes/views/html-order-transaction-view.php:72
+#: includes/admin/views/user-edit.php:23 includes/admin/views/user-edit.php:41
+msgid "Method"
+msgstr ""
+
+#: includes/admin/meta-boxes/views/html-order-transaction-view.php:74
+#: includes/admin/views/user-edit.php:24 includes/admin/views/user-edit.php:42
+msgid "Gateway"
+msgstr ""
+
+#: includes/admin/meta-boxes/views/html-order-transaction-view.php:79
+msgid "3DS Data"
+msgstr ""
+
+#: includes/admin/meta-boxes/views/html-order-transaction-view.php:80
+msgid "Liability Shifted"
+msgstr ""
+
+#: includes/admin/meta-boxes/views/html-order-transaction-view.php:82
+msgid "Liablity Shift Possible"
+msgstr ""
+
+#: includes/admin/meta-boxes/views/html-product-data-general.php:18
+#: includes/admin/meta-boxes/views/html-product-data-variations.php:13
+#: includes/admin/settings/api-settings.php:12
+#: includes/admin/settings/class-wc-braintree-api-settings.php:52
+#: includes/admin/settings/class-wc-braintree-merchant-account-settings.php:53
+#: includes/admin/settings/class-wc-braintree-merchant-account-settings.php:75
+#: includes/admin/views/user-edit.php:37
+msgid "Sandbox"
+msgstr ""
+
+#: includes/admin/meta-boxes/views/html-product-data-general.php:19
+#: includes/admin/meta-boxes/views/html-product-data-variations.php:14
+#: includes/admin/settings/api-settings.php:13
+#: includes/admin/settings/class-wc-braintree-api-settings.php:52
+#: includes/admin/settings/class-wc-braintree-merchant-account-settings.php:52
+#: includes/admin/settings/class-wc-braintree-merchant-account-settings.php:62
+#: includes/admin/views/user-edit.php:19
+msgid "Production"
+msgstr ""
+
+#: includes/admin/meta-boxes/views/html-product-data-general.php:21
+msgid ""
+"This dropdown lets you toggle options for each environment. The Braintree "
+"plans used on the frontend are determined by your API settings."
+msgstr ""
+
+#: includes/admin/meta-boxes/views/html-product-data-general.php:24
+#: includes/admin/meta-boxes/views/html-product-data-variations.php:28
+#, php-format
+msgid "Subscription Price (%s)"
+msgstr ""
+
+#: includes/admin/meta-boxes/views/html-product-data-general.php:28
+#: includes/admin/meta-boxes/views/html-product-data-variations.php:35
+msgid ""
+"The price that is billed for the subscription on the period and interval "
+"that you assign."
+msgstr ""
+
+#: includes/admin/meta-boxes/views/html-product-data-general.php:40
+#: includes/admin/meta-boxes/views/html-product-data-general.php:52
+msgid ""
+"The billing interval that you choose will determine which Braintree Plans "
+"are available in the plans dropdown."
+msgstr ""
+
+#: includes/admin/meta-boxes/views/html-product-data-general.php:58
+#: includes/admin/meta-boxes/views/html-product-data-variations.php:66
+msgid "Length"
+msgstr ""
+
+#: includes/admin/meta-boxes/views/html-product-data-general.php:60
+#: includes/admin/meta-boxes/views/html-product-data-variations.php:69
+msgid "The duration in which the subscription will be active."
+msgstr ""
+
+#: includes/admin/meta-boxes/views/html-product-data-general.php:63
+#: includes/admin/meta-boxes/views/html-product-data-variations.php:72
+msgid "Sign Up Fee"
+msgstr ""
+
+#: includes/admin/meta-boxes/views/html-product-data-general.php:68
+#: includes/admin/meta-boxes/views/html-product-data-variations.php:79
+msgid ""
+"If you would like the subscription to have a one time sign up fee, you can "
+"add it here."
+msgstr ""
+
+#: includes/admin/meta-boxes/views/html-product-data-general.php:71
+#: includes/admin/meta-boxes/views/html-product-data-variations.php:82
+msgid "Trial Length"
+msgstr ""
+
+#: includes/admin/meta-boxes/views/html-product-data-general.php:75
+#: includes/admin/meta-boxes/views/html-product-data-variations.php:88
+msgid "The length of the trial associated with the subscription."
+msgstr ""
+
+#: includes/admin/meta-boxes/views/html-product-data-general.php:80
+#: includes/admin/meta-boxes/views/html-product-data-variations.php:93
+msgid "Trial Period"
+msgstr ""
+
+#: includes/admin/meta-boxes/views/html-product-data-general.php:86
+#: includes/admin/meta-boxes/views/html-product-data-variations.php:99
+msgid ""
+"The period in which the trial length is associated with. Braintree accepts "
+"days and months as trial periods."
+msgstr ""
+
+#: includes/admin/meta-boxes/views/html-product-data-general.php:94
+msgid ""
+"A Braintree plan is a template for your subscription and is required. If you "
+"sell in multiple currencies you must add a plan for each currency you sell "
+"in."
+msgstr ""
+
+#: includes/admin/meta-boxes/views/html-product-data-general.php:98
+#: includes/admin/meta-boxes/views/html-product-data-variations.php:102
+msgid "Sandbox Plans"
+msgstr ""
+
+#: includes/admin/meta-boxes/views/html-product-data-general.php:112
+#: includes/admin/meta-boxes/views/html-product-data-variations.php:116
+msgid "Production Plans"
+msgstr ""
+
+#: includes/admin/meta-boxes/views/html-product-data-variations.php:16
+msgid ""
+"This dropdown lets you toggle options for each environment. The Braintree "
+"plans used on the frontend are determined by your API environment setting."
+msgstr ""
+
+#: includes/admin/meta-boxes/views/html-product-data-variations.php:47
+#: includes/admin/meta-boxes/views/html-product-data-variations.php:59
+msgid ""
+"Braintree only allows monthly subscriptions. The frequency can be customized "
+"by changing the Braintree plan that is assigned."
+msgstr ""
+
+#: includes/admin/meta-boxes/views/html-related-orders.php:3
+#: includes/admin/meta-boxes/views/html-subscription-related-orders.php:3
+#: templates/myaccount/view-subscription.php:69
+msgid "There are no orders associated with this subscription."
+msgstr ""
+
+#: includes/admin/meta-boxes/views/html-related-orders.php:8
+msgid "Subscription Number"
+msgstr ""
+
+#: includes/admin/meta-boxes/views/html-subscription-related-orders.php:8
+msgid "Order Number"
+msgstr ""
+
+#: includes/admin/meta-boxes/views/html-subscription-related-orders.php:9
+msgid "Relationship"
+msgstr ""
+
+#: includes/admin/meta-boxes/views/html-subscription-related-orders.php:18
+msgid "Parent Order"
+msgstr ""
+
+#: includes/admin/meta-boxes/views/html-subscription-related-orders.php:18
+msgid "Renewal Order"
+msgstr ""
+
+#: includes/admin/settings/api-settings.php:4
+msgid ""
+"Your API keys are used to authenticate requests sent to Braintree. Before "
+"you can process transactions in Production or Sandbox, you must enter your "
+"API keys."
+msgstr ""
+
+#: includes/admin/settings/api-settings.php:7
+msgid "Active Environment"
+msgstr ""
+
+#: includes/admin/settings/api-settings.php:15
+msgid ""
+"The environment determines if you are accepting live transactions or test "
+"transactions. Sandbox is useful for testing your integration before you go "
+"live. \n"
+"\t\t\t\t\t\tClick <a href=\"https://www.braintreepayments.com/sandbox\" "
+"target=\"_blank\">Sandbox Sign up</a> to create a sandbox account. If you do "
+"not have a production account yet, click <a href=\"https://www."
+"braintreepayments.com/sales-apply\" target=\"_blank\">Production Sign up.</a>"
+msgstr ""
+
+#: includes/admin/settings/api-settings.php:19
+msgid "Production Public Key"
+msgstr ""
+
+#: includes/admin/settings/api-settings.php:22
+#: includes/admin/settings/api-settings.php:56
+msgid "Your public key is used like a username when connecting to Braintree."
+msgstr ""
+
+#: includes/admin/settings/api-settings.php:31
+msgid "Production Private Key"
+msgstr ""
+
+#: includes/admin/settings/api-settings.php:34
+#: includes/admin/settings/api-settings.php:68
+msgid "Your private key is used like a password when connecting to Braintree."
+msgstr ""
+
+#: includes/admin/settings/api-settings.php:42
+msgid "Production Merchant ID"
+msgstr ""
+
+#: includes/admin/settings/api-settings.php:45
+msgid ""
+"Your production merchant ID is used to identify your account when connection "
+"to Braintree."
+msgstr ""
+
+#: includes/admin/settings/api-settings.php:53
+msgid "Sandbox Public Key"
+msgstr ""
+
+#: includes/admin/settings/api-settings.php:65
+msgid "Sandbox Private Key"
+msgstr ""
+
+#: includes/admin/settings/api-settings.php:76
+msgid "Sandbox Merchant ID"
+msgstr ""
+
+#: includes/admin/settings/api-settings.php:79
+msgid ""
+"Your sandbox merchant ID is used to identify your account when connection to "
+"Braintree."
+msgstr ""
+
+#: includes/admin/settings/api-settings.php:87
+msgid "Webhook URL"
+msgstr ""
+
+#: includes/admin/settings/api-settings.php:90
+#, php-format
+msgid ""
+"This is the URL that Braintree uses to send notifications such as when a "
+"local payment is processed. You must add this URL to your Braintree control "
+"panel when using local payment methods. %sWebhook guide%s"
+msgstr ""
+
+#: includes/admin/settings/api-settings.php:98
+msgid "Sandbox Connection Test"
+msgstr ""
+
+#: includes/admin/settings/api-settings.php:108
+msgid "Production Connection Test"
+msgstr ""
+
+#: includes/admin/settings/api-settings.php:117
+msgid "Debug Enabled"
+msgstr ""
+
+#: includes/admin/settings/api-settings.php:119
+msgid ""
+"If enabled, the plugin will capture debug information related to payments. "
+"This is useful for troubleshooting errors.<a href=\""
+msgstr ""
+
+#: includes/admin/settings/api-settings.php:122
+msgid "Register Plugin"
+msgstr ""
+
+#: includes/admin/settings/api-settings.php:125
+msgid "Recommended!"
+msgstr ""
+
+#: includes/admin/settings/api-settings.php:125
+msgid ""
+"By registering the plugin we receive your merchant ID. There is no security "
+"risk as merchant ID's are public. This helps us find your account quickly "
+"for support requests."
+msgstr ""
+
+#: includes/admin/settings/class-wc-braintree-api-settings.php:15
+msgid "API Settings"
+msgstr ""
+
+#: includes/admin/settings/class-wc-braintree-api-settings.php:52
+#, php-format
+msgid "%1$s connection test was successful."
+msgstr ""
+
+#: includes/admin/settings/class-wc-braintree-api-settings.php:54
+msgid ""
+"A Configuration exception was thrown. This error typcically happens when you "
+"have entered your API keys incorrectly or have left a value blank."
+msgstr ""
+
+#: includes/admin/settings/class-wc-braintree-api-settings.php:56
+msgid ""
+"An Authentication exception was thrown. This error typcically happens when "
+"you have entered your API keys incorrectly"
+msgstr ""
+
+#: includes/admin/settings/class-wc-braintree-api-settings.php:61
+#, php-format
+msgid ""
+"A general error occured during the connection test. Exception thrown: %1$s"
+msgstr ""
+
+#: includes/admin/settings/class-wc-braintree-descriptor-settings.php:15
+msgid "Descriptor Settings"
+msgstr ""
+
+#: includes/admin/settings/class-wc-braintree-descriptor-settings.php:22
+msgid "Dynamic Descriptor"
+msgstr ""
+
+#: includes/admin/settings/class-wc-braintree-descriptor-settings.php:24
+msgid ""
+"<i><b>Note:</b> Descriptors are not required. Braintree will send your "
+"business name by default and we recommend you leave these values blank to "
+"prevent transaction errors if you enter a descriptor name incorrectly.</i> "
+"Dynamic descriptors are sent on a per-order basis and define what will "
+"appear on your customers' credit card statements for a specific purchase.\n"
+"\t\t\t\t\t\tThe clearer the description of your product, the less likely "
+"customers will issue chargebacks due to confusion or non-recognition. "
+msgstr ""
+
+#: includes/admin/settings/class-wc-braintree-descriptor-settings.php:28
+#: includes/admin/settings/class-wc-braintree-fee-settings.php:34
+#: includes/admin/settings/class-wc-braintree-fraud-settings.php:49
+#: includes/admin/settings/class-wc-braintree-subscription-settings.php:22
+#: includes/gateways/settings/applepay-settings.php:7
+#: includes/gateways/settings/cc-settings.php:8
+#: includes/gateways/settings/cc-settings.php:241
+#: includes/gateways/settings/googlepay-settings.php:8
+#: includes/gateways/settings/local-payment-settings.php:7
+#: includes/gateways/settings/paypal-settings.php:7
+#: includes/gateways/settings/venmo-settings.php:4
+msgid "Enabled"
+msgstr ""
+
+#: includes/admin/settings/class-wc-braintree-descriptor-settings.php:31
+msgid "If enabled, your custom descriptors will be used in transactions."
+msgstr ""
+
+#: includes/admin/settings/class-wc-braintree-descriptor-settings.php:35
+msgid "Descriptor Name"
+msgstr ""
+
+#: includes/admin/settings/class-wc-braintree-descriptor-settings.php:37
+msgid ""
+"The value in the business name field of a customer's statement. Company name/"
+"DBA section must be\n"
+"\t\t\t\t\t\t\t\teither 3, 7 or 12 characters and the product descriptor can "
+"be up to 18, 14, or 9 characters respectively (with an * in between for a "
+"total descriptor name of 22 characters). <b>Example:</b> company*my product"
+msgstr ""
+
+#: includes/admin/settings/class-wc-braintree-descriptor-settings.php:42
+msgid "Descriptor Phone"
+msgstr ""
+
+#: includes/admin/settings/class-wc-braintree-descriptor-settings.php:45
+msgid ""
+"The value in the phone number field of a customer's statement. Phone must be "
+"10-14 characters and can\n"
+"\t\t\t\t\t\t\t\tonly contain numbers, dashes, parentheses and periods."
+msgstr ""
+
+#: includes/admin/settings/class-wc-braintree-descriptor-settings.php:52
+msgid "Descriptor URL"
+msgstr ""
+
+#: includes/admin/settings/class-wc-braintree-descriptor-settings.php:55
+msgid ""
+"The value in the URL/web address field of a customer's statement. The URL "
+"must be 13 characters or shorter. <b>Example:</b> company.com"
+msgstr ""
+
+#: includes/admin/settings/class-wc-braintree-fee-settings.php:15
+msgid "Fee Settings"
+msgstr ""
+
+#: includes/admin/settings/class-wc-braintree-fee-settings.php:28
+#: includes/gateways/class-wc-braintree-applepay-payment-gateway.php:146
+msgid "Fees"
+msgstr ""
+
+#: includes/admin/settings/class-wc-braintree-fee-settings.php:30
+msgid ""
+"You can add a fee to the customer's order such as a convenience fee for "
+"accepting credit cards.\n"
+"\t\t\t\t\t\t\t\t<a target=\"_blank\" href=\"https://docs.paymentplugins.com/"
+"wc-braintree/config/#/braintree_advanced?id=fee-settings\">Fee Guide & "
+"Examples</a>"
+msgstr ""
+
+#: includes/admin/settings/class-wc-braintree-fee-settings.php:37
+msgid "If enabled, you can charge fees on the checkout page."
+msgstr ""
+
+#: includes/admin/settings/class-wc-braintree-fraud-settings.php:23
+msgid "Fraud Settings"
+msgstr ""
+
+#: includes/admin/settings/class-wc-braintree-fraud-settings.php:30
+msgid "Advanced Fraud"
+msgstr ""
+
+#: includes/admin/settings/class-wc-braintree-fraud-settings.php:31
+msgid ""
+"If enabled, Braintree will perform fraud checks on your transactions by "
+"capturing customer's device data. <a target=\"_blank\" href=\"https://"
+"articles.braintreepayments.com/guides/fraud-tools/advanced/overview#enabling-"
+"advanced-fraud-tools\">Read more here</a>.\n"
+"\t\t\t\t\t\t<p><ol><li>Login to <a target=\"_blank\" href=\"https://www."
+"braintreegateway.com/login\">Production</a> or <a target=\"_blank\" href="
+"\"https://sandbox.braintreegateway.com/login\">Sandbox</a></li>\n"
+"\t\t\t\t\t\t<li>Click the gear <img src=\""
+msgstr ""
+
+#: includes/admin/settings/class-wc-braintree-fraud-settings.php:36
+#: includes/gateways/settings/paypal-settings.php:175
+msgid "Enable"
+msgstr ""
+
+#: includes/admin/settings/class-wc-braintree-fraud-settings.php:39
+msgid ""
+"If enabled, device data will be captured by the plugin and sent to Braintree "
+"with transactions."
+msgstr ""
+
+#: includes/admin/settings/class-wc-braintree-fraud-settings.php:43
+msgid "Kount Custom"
+msgstr ""
+
+#: includes/admin/settings/class-wc-braintree-fraud-settings.php:44
+msgid ""
+"Read about Kount Custom <a target=\"_blank\" href=\"https://articles."
+"braintreepayments.com/guides/fraud-tools/advanced/kount-custom\">here</a>. "
+"Most merchants are not using Kount Custom and can ignore these settings. All "
+"merchants receive\n"
+"\t\t\t\t\t\tintegration with Kount when they sign up with Braintree and use "
+"Advanced Fraud tools. Very large merchants that want more control over their "
+"fraud checking would use Kount Custom."
+msgstr ""
+
+#: includes/admin/settings/class-wc-braintree-fraud-settings.php:52
+msgid ""
+"If enabled, certain actions related to the order status will be taken. For "
+"example, an order that has a Kount status of review will be placed under a\n"
+"\t\t\t\t\t\t\t\treview status. This will prevent actions such as order "
+"fulfillment from taking place."
+msgstr ""
+
+#: includes/admin/settings/class-wc-braintree-fraud-settings.php:56
+msgid "Kount API Url"
+msgstr ""
+
+#: includes/admin/settings/class-wc-braintree-fraud-settings.php:59
+msgid ""
+"This is the URL Kount uses to communicate with your server and send events. "
+"You will need to add this URL to your Kount settings."
+msgstr ""
+
+#: includes/admin/settings/class-wc-braintree-fraud-settings.php:67
+msgid "Generate New API Key"
+msgstr ""
+
+#: includes/admin/settings/class-wc-braintree-fraud-settings.php:77
+msgid "Review Status"
+msgstr ""
+
+#: includes/admin/settings/class-wc-braintree-fraud-settings.php:79
+msgid "Assign review status to order"
+msgstr ""
+
+#: includes/admin/settings/class-wc-braintree-fraud-settings.php:80
+msgid "Cancel order"
+msgstr ""
+
+#: includes/admin/settings/class-wc-braintree-fraud-settings.php:81
+msgid "Complete order"
+msgstr ""
+
+#: includes/admin/settings/class-wc-braintree-fraud-settings.php:83
+msgid ""
+"The option selected here will determine how the WooCommerce order is handled "
+"when the Kount status for the transaction is Review."
+msgstr ""
+
+#: includes/admin/settings/class-wc-braintree-fraud-settings.php:92
+msgid "Declined In Kount"
+msgstr ""
+
+#: includes/admin/settings/class-wc-braintree-fraud-settings.php:94
+msgid "Do Nothing"
+msgstr ""
+
+#: includes/admin/settings/class-wc-braintree-fraud-settings.php:95
+msgid "Void / Refund Transaction"
+msgstr ""
+
+#: includes/admin/settings/class-wc-braintree-fraud-settings.php:97
+msgid ""
+"Some merchants may wish to void a transaction in WooCommerce if the order is "
+"declined in Kount. Selecting do nothing means no void or refund action will "
+"be taken."
+msgstr ""
+
+#: includes/admin/settings/class-wc-braintree-merchant-account-settings.php:15
+#: includes/admin/settings/class-wc-braintree-merchant-account-settings.php:43
+msgid "Merchant Accounts"
+msgstr ""
+
+#: includes/admin/settings/class-wc-braintree-merchant-account-settings.php:44
+msgid ""
+"Merchant Accounts determine which currencies you can accept in your "
+"Braintree account.\n"
+"\t\t\t\t\t\tThe merchant account ID is a unique identifier for a specific "
+"merchant account in your gateway, and is used to specify which merchant "
+"account to use when creating a transaction."
+msgstr ""
+
+#: includes/admin/settings/class-wc-braintree-merchant-account-settings.php:48
+msgid "Environment"
+msgstr ""
+
+#: includes/admin/settings/class-wc-braintree-merchant-account-settings.php:57
+msgid "Production Merchant Accounts"
+msgstr ""
+
+#: includes/admin/settings/class-wc-braintree-merchant-account-settings.php:61
+msgid "Add Production Account"
+msgstr ""
+
+#: includes/admin/settings/class-wc-braintree-merchant-account-settings.php:70
+msgid "Sandbox Merchant Accounts"
+msgstr ""
+
+#: includes/admin/settings/class-wc-braintree-merchant-account-settings.php:74
+msgid "Add Sandbox Account"
+msgstr ""
+
+#: includes/admin/settings/class-wc-braintree-merchant-account-settings.php:118
+#, php-format
+msgid ""
+"Merchant account error: <b>%1$s</b> is the correct currency for merchant "
+"account <b>%2$s</b>. You entered <b>%3$s</b>."
+msgstr ""
+
+#: includes/admin/settings/class-wc-braintree-merchant-account-settings.php:124
+#, php-format
+msgid ""
+"Merchant account error: %1$s is not a valid merchant account in your %2$s "
+"environment."
+msgstr ""
+
+#: includes/admin/settings/class-wc-braintree-merchant-account-settings.php:128
+#, php-format
+msgid ""
+"Error fetching your merchant accounts from Braintree for validation. "
+"Exception: %1$s"
+msgstr ""
+
+#: includes/admin/settings/class-wc-braintree-subscription-settings.php:15
+#: includes/gateways/settings/subscription-settings.php:4
+msgid "Subscription Settings"
+msgstr ""
+
+#: includes/admin/settings/class-wc-braintree-subscription-settings.php:24
+msgid "If enabled, you can sell subscription products on your site."
+msgstr ""
+
+#: includes/admin/settings/class-wc-braintree-subscription-settings.php:28
+msgid "Webook URL"
+msgstr ""
+
+#: includes/admin/settings/class-wc-braintree-subscription-settings.php:31
+#, php-format
+msgid ""
+"This is the URL that Braintree uses to send notifications such as when a "
+"subscription payment is processed. The plugin listens for these\n"
+"\t\t\t\t\t\t\t\tnotifications and performs actions such as creating a "
+"renewal order. You must add this URL to your webhooks for subscriptions to "
+"stay in sync. %sWebhook guide%s"
+msgstr ""
+
+#: includes/admin/settings/class-wc-braintree-subscription-settings.php:35
+msgid "Combine Subscriptions"
+msgstr ""
+
+#: includes/admin/settings/class-wc-braintree-subscription-settings.php:38
+msgid ""
+"If enabled, subscriptions with the same billing period, trial length, and "
+"subscription plan will be combined into one subscription. For example, if "
+"a \n"
+"\t\t\t\t\t\t\t\tcustomer selects a quanity of 2 for the same subscription "
+"product, it will create one subscription."
+msgstr ""
+
+#: includes/admin/settings/class-wc-braintree-subscription-settings.php:42
+msgid "Endpoints"
+msgstr ""
+
+#: includes/admin/settings/class-wc-braintree-subscription-settings.php:45
+#: includes/admin/settings/class-wc-braintree-subscription-settings.php:52
+#: includes/admin/settings/class-wc-braintree-subscription-settings.php:59
+msgid "Subscriptions Endpoint"
+msgstr ""
+
+#: includes/admin/settings/class-wc-braintree-subscription-settings.php:49
+msgid ""
+"This is the endpoint for the Subscriptions link that appeas on the My "
+"Account page. If left blank, the link will not appear."
+msgstr ""
+
+#: includes/admin/settings/class-wc-braintree-subscription-settings.php:56
+#: includes/admin/settings/class-wc-braintree-subscription-settings.php:63
+msgid ""
+"This is the endpoint for the individual Subscription link that appeas on the "
+"subscriptions page."
+msgstr ""
+
+#: includes/admin/views/api-key-instructions.php:4
+msgid "To access your Braintree API keys do the following:"
+msgstr ""
+
+#: includes/admin/views/api-key-instructions.php:6
+#, php-format
+msgid ""
+"Login to <a href=\"%1$s\" target=\"_blank\">Sandbox</a> or <a href=\"%2$s\" "
+"target=\"_blank\">Production</a>"
+msgstr ""
+
+#: includes/admin/views/api-key-instructions.php:7
+#, php-format
+msgid "Click the gear %1$s  then click <b>API</b>"
+msgstr ""
+
+#: includes/admin/views/api-key-instructions.php:8
+msgid ""
+"If you don't have any API keys created, click <b>Generate New API Key</b>"
+msgstr ""
+
+#: includes/admin/views/api-key-instructions.php:9
+msgid "Click the <b>view</b> link located under the <b>Private Key</b> header."
+msgstr ""
+
+#: includes/admin/views/api-key-instructions.php:10
+msgid ""
+"Copy your <b>Public Key</b>, <b>Private Key</b>, and <b>Merchant ID</b> in "
+"to the API settings fields."
+msgstr ""
+
+#: includes/admin/views/fee-template.php:6
+msgid "Add Fee"
+msgstr ""
+
+#: includes/admin/views/fee-template.php:11
+msgid "Name"
+msgstr ""
+
+#: includes/admin/views/fee-template.php:12
+msgid "Calculation"
+msgstr ""
+
+#: includes/admin/views/fee-template.php:13
+msgid "Tax Status"
+msgstr ""
+
+#: includes/admin/views/fee-template.php:14
+msgid "Gateways"
+msgstr ""
+
+#: includes/admin/views/fee-template.php:35
+msgid "Taxable"
+msgstr ""
+
+#: includes/admin/views/fee-template.php:36
+msgid "None"
+msgstr ""
+
+#: includes/admin/views/html-data-migration.php:4
+msgid ""
+"Braintree for WooCommerce give you the ability to migrate your data from "
+"other Braintree plugins."
+msgstr ""
+
+#: includes/admin/views/html-data-migration.php:7
+msgid ""
+"By migrating your data, you can seamlessly transition to Braintree for "
+"WooCommerce and all data will be in a format this plugin understands."
+msgstr ""
+
+#: includes/admin/views/html-data-migration.php:9
+msgid "Instructions"
+msgstr ""
+
+#: includes/admin/views/html-data-migration.php:11
+msgid "Select the plugin you wish to migrate data from."
+msgstr ""
+
+#: includes/admin/views/html-data-migration.php:12
+msgid "Select the data types you want to migrate."
+msgstr ""
+
+#: includes/admin/views/html-data-migration.php:13
+msgid "Click the Proceed button and your data will be migrated."
+msgstr ""
+
+#: includes/admin/views/html-data-migration.php:17
+msgid "WooCommerce PayPal Powered By Braintree"
+msgstr ""
+
+#: includes/admin/views/html-data-migration.php:22
+msgid "User Data"
+msgstr ""
+
+#: includes/admin/views/html-data-migration.php:25
+msgid ""
+"Customer payment methods will be loaded automatically the next time they "
+"login."
+msgstr ""
+
+#: includes/admin/views/html-data-migration.php:29
+msgid "Order Data"
+msgstr ""
+
+#: includes/admin/views/html-data-migration.php:32
+msgid "Orders will be updated with the payment methods used by this plugin."
+msgstr ""
+
+#: includes/admin/views/html-data-migration.php:37
+msgid "Subscription Data"
+msgstr ""
+
+#: includes/admin/views/html-data-migration.php:40
+msgid ""
+"Your subscriptions will continue to process automatically without "
+"interruption"
+msgstr ""
+
+#: includes/admin/views/html-data-migration.php:46
+msgid "Proceed"
+msgstr ""
+
+#: includes/admin/views/html-settings-modal.php:6
+msgid "Message"
+msgstr ""
+
+#: includes/admin/views/merchant-account-instructions.php:4
+msgid "To access your merchant accounts:"
+msgstr ""
+
+#: includes/admin/views/merchant-account-instructions.php:6
+#, php-format
+msgid ""
+"Login to your <a target=\"_blank\" href=\"%1$s\">Production</a> or <a target="
+"\"_blank\" href=\"%2$s\">Sandbox</a> account."
+msgstr ""
+
+#: includes/admin/views/merchant-account-instructions.php:7
+#, php-format
+msgid "Click the gear %1$s  then click <b>Business</b>"
+msgstr ""
+
+#: includes/admin/views/merchant-account-template.php:12
+msgid "Import Accounts"
+msgstr ""
+
+#: includes/admin/views/merchant-account-template.php:21
+msgid "Currency"
+msgstr ""
+
+#: includes/admin/views/user-edit.php:1
+msgid "Braintree Vault ID's"
+msgstr ""
+
+#: includes/admin/views/user-edit.php:3
+msgid ""
+"These are the Braintree Vault ID's associated with this user. If you want to "
+"remove the user's vault ID, delete it and click <b>Update Profile</b>.\n"
+"\t\t\t<p>If you change the vault ID, the payment methods for the new ID will "
+"be imported automatically.</p>"
+msgstr ""
+
+#: includes/admin/views/user-edit.php:9
+msgid "Production Vault ID"
+msgstr ""
+
+#: includes/admin/views/user-edit.php:13
+msgid "Sandbox Vault ID"
+msgstr ""
+
+#: includes/admin/views/user-edit.php:18
+msgid "Braintree Payment Methods"
+msgstr ""
+
+#: includes/api/class-wc-braintree-controller-applepay.php:92
+#, php-format
+msgid ""
+"The %sapple-developer-merchantid-domain-association%s file has been added to "
+"your root folder. You may now register your domains in the Braintree control "
+"panel."
+msgstr ""
+
+#: includes/api/class-wc-braintree-controller-applepay.php:92
+#: includes/api/class-wc-braintree-controller-applepay.php:97
+msgid "Apple Pay Integration Guide"
+msgstr ""
+
+#: includes/api/class-wc-braintree-controller-applepay.php:96
+#, php-format
+msgid ""
+"The %sapple-developer-merchantid-domain-association%s file could not be "
+"added to your root folder. You will need to \n"
+"\t\t\t\t\t\t\t\t\tadd the file manually."
+msgstr ""
+
+#: includes/api/class-wc-braintree-controller-cart.php:156
+msgid "No shipping methods available for address."
+msgstr ""
+
+#: includes/api/class-wc-braintree-controller-checkout.php:125
+msgid "Please review your order details then click Place Order."
+msgstr ""
+
+#: includes/api/class-wc-braintree-controller-checkout.php:160
+#, php-format
+msgid ""
+"Some required fields were missing. Please click %shere%s to complete your "
+"payment."
+msgstr ""
+
+#: includes/api/class-wc-braintree-controller-client-token.php:41
+msgid "Error creating client token."
+msgstr ""
+
+#: includes/api/class-wc-braintree-controller-googlepay.php:86
+msgid "No shipping methods available for your shipping address."
+msgstr ""
+
+#: includes/api/class-wc-braintree-controller-kount.php:80
+msgid "Invalid request."
+msgstr ""
+
+#: includes/api/class-wc-braintree-controller-kount.php:83
+#, php-format
+msgid "Kount XML body: %1$s"
+msgstr ""
+
+#: includes/api/class-wc-braintree-controller-kount.php:118
+msgid "Invalid xml format."
+msgstr ""
+
+#: includes/api/class-wc-braintree-controller-kount.php:183
+#, php-format
+msgid "Transaction %s was not found in the Braintree %s system."
+msgstr ""
+
+#: includes/api/class-wc-braintree-controller-kount.php:203
+#, php-format
+msgid "Kount note: %s"
+msgstr ""
+
+#: includes/api/class-wc-braintree-controller-order-actions.php:136
+msgid "Invalid amount entered."
+msgstr ""
+
+#: includes/api/class-wc-braintree-controller-order-actions.php:189
+#: includes/api/class-wc-braintree-controller-order-actions.php:192
+msgid "Order total must be greater than zero."
+msgstr ""
+
+#: includes/api/class-wc-braintree-controller-order-actions.php:197
+#, php-format
+msgid ""
+"This order has already been processed. Transaction ID: %s. Payment method: %s"
+msgstr ""
+
+#: includes/api/class-wc-braintree-controller-order-actions.php:206
+msgid "Order customer Id and payment method customer Id do not match."
+msgstr ""
+
+#: includes/api/class-wc-braintree-controller-order-actions.php:374
+msgid "one time use"
+msgstr ""
+
+#: includes/api/class-wc-braintree-controller-order-actions.php:377
+msgid "saved method"
+msgstr ""
+
+#: includes/api/class-wc-braintree-controller-plan.php:55
+#, php-format
+msgid "Error fetching plans. Environment: %1$s. Reason: %2$s"
+msgstr ""
+
+#: includes/api/class-wc-braintree-controller-plan.php:61
+#, php-format
+msgid "Error fetching plans. Environment: %1$s. Message: %2$s"
+msgstr ""
+
+#: includes/api/class-wc-braintree-rest-webhook-authentication.php:49
+#, php-format
+msgid "Webhook received. Kind: %1$s."
+msgstr ""
+
+#: includes/api/class-wc-braintree-rest-webhook-authentication.php:52
+#, php-format
+msgid ""
+"Error authenticating Braintree webhook request. Environment: %1$s. Reason: "
+"%2$s"
+msgstr ""
+
+#: includes/api/class-wc-braintree-rest-webhook-authentication.php:53
+msgid "Invalid webhook request."
+msgstr ""
+
+#: includes/class-braintree.php:187
+msgid "Braintree for WooCommerce requires WooCommerce 3.0.0+ to be installed."
+msgstr ""
+
+#: includes/class-braintree.php:201
+msgid ""
+"We noticed you have <b>WooCommerce PayPal Powered by Braintree Gateway</b> "
+"active. Please deactivate to prevent conflicts with <b>Braintree For "
+"WooCommerce</b>."
+msgstr ""
+
+#: includes/class-braintree.php:429
+msgid ""
+"Use of bt_manager has been deprecated. Please use function braintree() "
+"instead."
+msgstr ""
+
+#: includes/class-wc-braintree-customer-manager.php:25
+#, php-format
+msgid "Error creating customer in Braintree. Reason: %s"
+msgstr ""
+
+#: includes/class-wc-braintree-customer-manager.php:30
+#, php-format
+msgid "Error updating customer in Braintree. Reason: %s"
+msgstr ""
+
+#: includes/class-wc-braintree-customer-manager.php:69
+#, php-format
+msgid "Error updating customer %1$s in gateway. Reason: %2$s"
+msgstr ""
+
+#: includes/class-wc-braintree-form-handler.php:33
+#, php-format
+msgid "Subscription %1$s has been cancelled."
+msgstr ""
+
+#: includes/class-wc-braintree-form-handler.php:57
+msgid "Your payment method has been updated."
+msgstr ""
+
+#: includes/class-wc-braintree-payment-method-conversion.php:83
+#: includes/class-wc-braintree-payment-method-conversion.php:85
+#, php-format
+msgid ""
+"Error comparing payment methods in Braintree with Wordpress. User ID: %1$s. "
+"Exception: %2$s"
+msgstr ""
+
+#: includes/class-wc-braintree-post-types.php:26
+#: includes/class-wc-braintree-post-types.php:39
+#: includes/subscriptions/wcs-braintree-functions.php:1042
+#: templates/order/subscription-details.php:7
+msgid "Subscriptions"
+msgstr ""
+
+#: includes/class-wc-braintree-post-types.php:28
+msgid "Add Subscription"
+msgstr ""
+
+#: includes/class-wc-braintree-post-types.php:29
+msgid "Add New Subscription"
+msgstr ""
+
+#: includes/class-wc-braintree-post-types.php:30
+msgid "Edit"
+msgstr ""
+
+#: includes/class-wc-braintree-post-types.php:31
+msgid "Edit Subscription"
+msgstr ""
+
+#: includes/class-wc-braintree-post-types.php:32
+msgid "New Subscription"
+msgstr ""
+
+#: includes/class-wc-braintree-post-types.php:33
+#: includes/class-wc-braintree-post-types.php:34
+msgid "View Subscription"
+msgstr ""
+
+#: includes/class-wc-braintree-post-types.php:35
+msgid "Search Subscriptions"
+msgstr ""
+
+#: includes/class-wc-braintree-post-types.php:36
+msgid "No Subscriptions found"
+msgstr ""
+
+#: includes/class-wc-braintree-post-types.php:37
+msgid "No Subscriptions found in trash"
+msgstr ""
+
+#: includes/class-wc-braintree-post-types.php:38
+msgid "Parent Orders"
+msgstr ""
+
+#: includes/class-wc-braintree-post-types.php:40
+msgid "Filter subscriptions"
+msgstr ""
+
+#: includes/class-wc-braintree-post-types.php:41
+msgid "Subscriptions navigation"
+msgstr ""
+
+#: includes/class-wc-braintree-post-types.php:42
+msgid "Subscriptions list"
+msgstr ""
+
+#: includes/class-wc-braintree-post-types.php:47
+msgid "Subscription made through the Braintree Gateway."
+msgstr ""
+
+#: includes/class-wc-braintree-query.php:50
+msgid "My Subscriptions"
+msgstr ""
+
+#: includes/class-wc-braintree-query.php:53
+#: includes/subscriptions/wcs-braintree-functions.php:1278
+#, php-format
+msgid "Subscription #%1$s"
+msgstr ""
+
+#: includes/class-wc-braintree-query.php:56
+#: includes/subscriptions/wcs-braintree-functions.php:933
+#: templates/myaccount/change-payment-method.php:41
+msgid "Change Payment Method"
+msgstr ""
+
+#: includes/class-wc-braintree-rest-api.php:43
+#, php-format
+msgid "%1$s is an invalid controller name."
+msgstr ""
+
+#: includes/class-wc-braintree-update.php:22
+msgid ""
+"Version 3.0.0 is a major updated. Please check your settings and explore all "
+"of the new options."
+msgstr ""
+
+#: includes/class-wc-braintree-update.php:23
+msgid ""
+"Version 3.0.4 updated the text domain used for translations. Make sure your "
+"translations are not affected. New text domain is woo-payment-gateway"
+msgstr ""
+
+#: includes/class-wc-braintree-update.php:44
+#, php-format
+msgid "Thank you for updating Braintree for WooCommerce to version %1$s."
+msgstr ""
+
+#: includes/deprecated/api/class-wcs-braintree-controller.php:103
+msgid "Recurring payment for subscirption failed."
+msgstr ""
+
+#: includes/deprecated/wc-braintree-subscriptions-deprecated-functions.php:617
+msgid "There is a subscription associated with this payment method."
+msgstr ""
+
+#: includes/deprecated/wcs-braintree-deprecated-functions.php:80
+#, php-format
+msgid "There is %s subscription associated with this payment method."
+msgstr ""
+
+#: includes/gateways/class-wc-braintree-alipay-gateway.php:20
+#: includes/gateways/class-wc-braintree-alipay-gateway.php:23
+msgid "Alipay"
+msgstr ""
+
+#: includes/gateways/class-wc-braintree-alipay-gateway.php:22
+msgid "Braintree Alipay Gateway"
+msgstr ""
+
+#: includes/gateways/class-wc-braintree-alipay-gateway.php:24
+msgid "Alipay gateway that integrates with your Braintree account"
+msgstr ""
+
+#: includes/gateways/class-wc-braintree-applepay-payment-gateway.php:26
+msgid "Braintree Apple Pay Gateway"
+msgstr ""
+
+#: includes/gateways/class-wc-braintree-applepay-payment-gateway.php:27
+#: includes/gateways/settings/applepay-settings.php:19
+msgid "Apple Pay"
+msgstr ""
+
+#: includes/gateways/class-wc-braintree-applepay-payment-gateway.php:28
+msgid "Gateway that integrates Apple Pay with your Braintree account."
+msgstr ""
+
+#: includes/gateways/class-wc-braintree-applepay-payment-gateway.php:105
+#: includes/gateways/class-wc-braintree-applepay-payment-gateway.php:153
+#: includes/gateways/class-wc-braintree-googlepay-payment-gateway.php:201
+#: includes/gateways/class-wc-braintree-googlepay-payment-gateway.php:241
+#: templates/cart/cart-totals.php:19 templates/cart/cart-totals.php:20
+#: templates/checkout/recurring-totals.php:31
+#: templates/paypal-cart-totals.php:29 templates/paypal-cart-totals.php:66
+#: templates/paypal-cart-totals.php:106
+msgid "Shipping"
+msgstr ""
+
+#: includes/gateways/class-wc-braintree-applepay-payment-gateway.php:125
+#: includes/gateways/class-wc-braintree-applepay-payment-gateway.php:167
+#: includes/gateways/class-wc-braintree-googlepay-payment-gateway.php:223
+#: includes/gateways/class-wc-braintree-googlepay-payment-gateway.php:268
+#: templates/paypal-cart-totals.php:45 templates/paypal-cart-totals.php:82
+#: templates/paypal-cart-totals.php:118
+msgid "Tax"
+msgstr ""
+
+#: includes/gateways/class-wc-braintree-applepay-payment-gateway.php:159
+#: includes/gateways/class-wc-braintree-googlepay-payment-gateway.php:259
+msgid "Discounts"
+msgstr ""
+
+#: includes/gateways/class-wc-braintree-applepay-payment-gateway.php:195
+#: includes/gateways/class-wc-braintree-googlepay-payment-gateway.php:298
+msgid "Recurring Shipping"
+msgstr ""
+
+#: includes/gateways/class-wc-braintree-applepay-payment-gateway.php:202
+#: includes/gateways/class-wc-braintree-googlepay-payment-gateway.php:306
+msgid "Recurring Tax"
+msgstr ""
+
+#: includes/gateways/class-wc-braintree-applepay-payment-gateway.php:217
+#: includes/gateways/class-wc-braintree-googlepay-payment-gateway.php:321
+msgid "Recurring Discounts"
+msgstr ""
+
+#: includes/gateways/class-wc-braintree-applepay-payment-gateway.php:223
+#: includes/gateways/class-wc-braintree-applepay-payment-gateway.php:234
+#: includes/gateways/class-wc-braintree-googlepay-payment-gateway.php:327
+#: includes/gateways/class-wc-braintree-googlepay-payment-gateway.php:338
+#: templates/cart/cart-totals.php:27 templates/cart/cart-totals.php:28
+msgid "Recurring Total"
+msgstr ""
+
+#: includes/gateways/class-wc-braintree-applepay-payment-gateway.php:228
+#: includes/gateways/class-wc-braintree-googlepay-payment-gateway.php:332
+msgid "Free Trial"
+msgstr ""
+
+#: includes/gateways/class-wc-braintree-applepay-payment-gateway.php:276
+msgid ""
+"Invalid state provided. Use uppercase state abbreviation. Example: "
+"California = CA"
+msgstr ""
+
+#: includes/gateways/class-wc-braintree-applepay-payment-gateway.php:376
+#, php-format
+msgid ""
+"%s is not a valid state. Use uppercase state abbreviation. California = CA"
+msgstr ""
+
+#: includes/gateways/class-wc-braintree-bancontact-payment-gateway.php:19
+#: includes/gateways/class-wc-braintree-bancontact-payment-gateway.php:22
+msgid "Bancontact"
+msgstr ""
+
+#: includes/gateways/class-wc-braintree-bancontact-payment-gateway.php:21
+msgid "Braintree Bancontact Gateway"
+msgstr ""
+
+#: includes/gateways/class-wc-braintree-bancontact-payment-gateway.php:23
+msgid "Bancontact gateway that integrates with your Braintree account"
+msgstr ""
+
+#: includes/gateways/class-wc-braintree-cc-payment-gateway.php:22
+msgid "Braintree CC Gateway"
+msgstr ""
+
+#: includes/gateways/class-wc-braintree-cc-payment-gateway.php:23
+#: includes/gateways/settings/cc-settings.php:20
+msgid "Credit Cards"
+msgstr ""
+
+#: includes/gateways/class-wc-braintree-cc-payment-gateway.php:24
+msgid "Credit card gateway that integrates with your Braintree account"
+msgstr ""
+
+#: includes/gateways/class-wc-braintree-cc-payment-gateway.php:259
+msgid ""
+"Your payment method could not be processed at this time. Reason: 3D Secure "
+"not accepted or validation failed."
+msgstr ""
+
+#: includes/gateways/class-wc-braintree-cc-payment-gateway.php:312
+#: includes/gateways/class-wc-braintree-cc-payment-gateway.php:313
+#: templates/custom-forms/simple-form.php:9
+#: templates/custom-forms/simple-form.php:11
+msgid "Card Number"
+msgstr ""
+
+#: includes/gateways/class-wc-braintree-cc-payment-gateway.php:318
+#: templates/custom-forms/simple-form.php:17
+msgid "Exp Date"
+msgstr ""
+
+#: includes/gateways/class-wc-braintree-cc-payment-gateway.php:319
+#: templates/custom-forms/classic-form.php:19
+#: templates/custom-forms/simple-form.php:19
+msgid "MM / YY"
+msgstr ""
+
+#: includes/gateways/class-wc-braintree-cc-payment-gateway.php:324
+msgid "Exp Month"
+msgstr ""
+
+#: includes/gateways/class-wc-braintree-cc-payment-gateway.php:325
+msgid "MM"
+msgstr ""
+
+#: includes/gateways/class-wc-braintree-cc-payment-gateway.php:330
+msgid "Exp Year"
+msgstr ""
+
+#: includes/gateways/class-wc-braintree-cc-payment-gateway.php:331
+msgid "YY"
+msgstr ""
+
+#: includes/gateways/class-wc-braintree-cc-payment-gateway.php:342
+#: includes/gateways/class-wc-braintree-cc-payment-gateway.php:343
+#: templates/custom-forms/classic-form.php:34
+#: templates/custom-forms/simple-form.php:30
+#: templates/custom-forms/simple-form.php:32
+msgid "Postal Code"
+msgstr ""
+
+#: includes/gateways/class-wc-braintree-cc-payment-gateway.php:348
+#: templates/custom-forms/simple-form.php:38 templates/dropin-form.php:25
+msgid "Save"
+msgstr ""
+
+#: includes/gateways/class-wc-braintree-cc-payment-gateway.php:351
+#: templates/custom-forms/bootstrap-form.php:61
+#: templates/custom-forms/card-shape-form.php:59
+#: templates/custom-forms/classic-form.php:56
+#: templates/custom-forms/dynamic-card-form.php:53
+#: templates/custom-forms/google-material-form.php:88
+#: templates/custom-forms/simple-form.php:52
+#: templates/custom-forms/simple-form.php:55 templates/dropin-form.php:13
+#: templates/dropin-form.php:16
+msgid "Street Address"
+msgstr ""
+
+#: includes/gateways/class-wc-braintree-eps-payment-gateway.php:19
+#: includes/gateways/class-wc-braintree-eps-payment-gateway.php:22
+msgid "EPS"
+msgstr ""
+
+#: includes/gateways/class-wc-braintree-eps-payment-gateway.php:21
+msgid "Braintree EPS Gateway"
+msgstr ""
+
+#: includes/gateways/class-wc-braintree-eps-payment-gateway.php:23
+msgid "EPS gateway that integrates with your Braintree account"
+msgstr ""
+
+#: includes/gateways/class-wc-braintree-giropay-payment-gateway.php:19
+#: includes/gateways/class-wc-braintree-giropay-payment-gateway.php:22
+msgid "Giropay"
+msgstr ""
+
+#: includes/gateways/class-wc-braintree-giropay-payment-gateway.php:21
+msgid "Braintree Giropay Gateway"
+msgstr ""
+
+#: includes/gateways/class-wc-braintree-giropay-payment-gateway.php:23
+msgid "Giropay gateway that integrates with your Braintree account"
+msgstr ""
+
+#: includes/gateways/class-wc-braintree-googlepay-payment-gateway.php:20
+msgid "Braintree Google Pay Gateway"
+msgstr ""
+
+#: includes/gateways/class-wc-braintree-googlepay-payment-gateway.php:21
+#: includes/gateways/settings/googlepay-settings.php:30
+msgid "Google Pay"
+msgstr ""
+
+#: includes/gateways/class-wc-braintree-googlepay-payment-gateway.php:22
+msgid "Gateway that integrates Google Pay with your Braintree account."
+msgstr ""
+
+#: includes/gateways/class-wc-braintree-ideal-payment-gateway.php:19
+#: includes/gateways/class-wc-braintree-ideal-payment-gateway.php:22
+msgid "iDEAL"
+msgstr ""
+
+#: includes/gateways/class-wc-braintree-ideal-payment-gateway.php:21
+msgid "Braintree iDEAL Gateway"
+msgstr ""
+
+#: includes/gateways/class-wc-braintree-ideal-payment-gateway.php:23
+msgid "iDEAL gateway that integrates with your Braintree account"
+msgstr ""
+
+#: includes/gateways/class-wc-braintree-mybank-payment-gateway.php:19
+#: includes/gateways/class-wc-braintree-mybank-payment-gateway.php:22
+msgid "MyBank"
+msgstr ""
+
+#: includes/gateways/class-wc-braintree-mybank-payment-gateway.php:21
+msgid "Braintree MyBank Gateway"
+msgstr ""
+
+#: includes/gateways/class-wc-braintree-mybank-payment-gateway.php:23
+msgid "MyBank gateway that integrates with your Braintree account"
+msgstr ""
+
+#: includes/gateways/class-wc-braintree-p24-payment-gateway.php:19
+#: includes/gateways/class-wc-braintree-p24-payment-gateway.php:22
+msgid "Przelewy24"
+msgstr ""
+
+#: includes/gateways/class-wc-braintree-p24-payment-gateway.php:21
+msgid "Braintree P24 Gateway"
+msgstr ""
+
+#: includes/gateways/class-wc-braintree-p24-payment-gateway.php:23
+msgid "P24 gateway that integrates with your Braintree account"
+msgstr ""
+
+#: includes/gateways/class-wc-braintree-paypal-payment-gateway.php:19
+msgid "Braintree PayPal Gateway"
+msgstr ""
+
+#: includes/gateways/class-wc-braintree-paypal-payment-gateway.php:20
+#: includes/gateways/settings/paypal-settings.php:19
+#: includes/tokens/class-wc-payment-token-braintree-paypal.php:89
+#: includes/tokens/class-wc-payment-token-braintree-paypal.php:91
+#: includes/wc-braintree-functions.php:292
+#: includes/wc-braintree-functions.php:294
+msgid "PayPal"
+msgstr ""
+
+#: includes/gateways/class-wc-braintree-paypal-payment-gateway.php:21
+msgid "Gateway that integrates your PayPal account with Braintree."
+msgstr ""
+
+#: includes/gateways/class-wc-braintree-paypal-payment-gateway.php:139
+#, php-format
+msgid ""
+"PayPal does not support locale %s. You can change the locale in your "
+"Wordpress settings"
+msgstr ""
+
+#: includes/gateways/class-wc-braintree-paypal-payment-gateway.php:221
+#, php-format
+msgid ""
+"Admin Notice: For virtual products, PayPal must send back the billing "
+"address. Click %shere%s to read how to enable this functionality."
+msgstr ""
+
+#: includes/gateways/class-wc-braintree-sepa-payment-gateway.php:19
+#: includes/gateways/class-wc-braintree-sepa-payment-gateway.php:22
+msgid "SEPA"
+msgstr ""
+
+#: includes/gateways/class-wc-braintree-sepa-payment-gateway.php:21
+msgid "Braintree SEPA Gateway"
+msgstr ""
+
+#: includes/gateways/class-wc-braintree-sepa-payment-gateway.php:23
+msgid "SEPA gateway that integrates with your Braintree account"
+msgstr ""
+
+#: includes/gateways/class-wc-braintree-sofort-payment-gateway.php:20
+#: includes/gateways/class-wc-braintree-sofort-payment-gateway.php:23
+msgid "SOFORT"
+msgstr ""
+
+#: includes/gateways/class-wc-braintree-sofort-payment-gateway.php:22
+msgid "Braintree SOFORT Gateway"
+msgstr ""
+
+#: includes/gateways/class-wc-braintree-sofort-payment-gateway.php:24
+msgid "SOFORT gateway that integrates with your Braintree account"
+msgstr ""
+
+#: includes/gateways/class-wc-braintree-venmo-payment-gateway.php:18
+msgid "Braintree Venmo Gateway"
+msgstr ""
+
+#: includes/gateways/class-wc-braintree-venmo-payment-gateway.php:19
+#: includes/gateways/settings/venmo-settings.php:16
+msgid "Venmo"
+msgstr ""
+
+#: includes/gateways/class-wc-braintree-venmo-payment-gateway.php:20
+msgid "Gateway that integrates Venmo with your Braintree account."
+msgstr ""
+
+#: includes/gateways/class-wc-braintree-wechat-payment-gateway.php:19
+msgid "WeChat Pay"
+msgstr ""
+
+#: includes/gateways/class-wc-braintree-wechat-payment-gateway.php:21
+msgid "Braintree WeChat Pay Gateway"
+msgstr ""
+
+#: includes/gateways/class-wc-braintree-wechat-payment-gateway.php:22
+msgid "WeChat"
+msgstr ""
+
+#: includes/gateways/class-wc-braintree-wechat-payment-gateway.php:23
+msgid "WeChat Pay gateway that integrates with your Braintree account"
+msgstr ""
+
+#: includes/gateways/settings/applepay-settings.php:4
+msgid ""
+"Please review our <a target=\"_blank\" href=\"https://docs.paymentplugins."
+"com/wc-braintree/config/#/braintree_applepay?id=instructions\">Apple Pay "
+"Guide</a> for detailed instructions on how to setup Apple Pay."
+msgstr ""
+
+#: includes/gateways/settings/applepay-settings.php:4
+msgid "Add Domain Association file"
+msgstr ""
+
+#: includes/gateways/settings/applepay-settings.php:10
+msgid "If enabled, your site can accept Apple Pay through Braintree."
+msgstr ""
+
+#: includes/gateways/settings/applepay-settings.php:13
+#: includes/gateways/settings/cc-settings.php:14
+#: includes/gateways/settings/googlepay-settings.php:14
+#: includes/gateways/settings/local-payment-settings.php:13
+#: includes/gateways/settings/paypal-settings.php:13
+#: includes/gateways/settings/venmo-settings.php:10
+msgid "General Settings"
+msgstr ""
+
+#: includes/gateways/settings/applepay-settings.php:14
+#: includes/gateways/settings/cc-settings.php:15
+#: includes/gateways/settings/paypal-settings.php:14
+msgid "General Settings for the credit card gateway."
+msgstr ""
+
+#: includes/gateways/settings/applepay-settings.php:17
+#: includes/gateways/settings/cc-settings.php:18
+#: includes/gateways/settings/googlepay-settings.php:28
+#: includes/gateways/settings/local-payment-settings.php:17
+#: includes/gateways/settings/paypal-settings.php:17
+#: includes/gateways/settings/venmo-settings.php:14
+msgid "Title Text"
+msgstr ""
+
+#: includes/gateways/settings/applepay-settings.php:21
+#: includes/gateways/settings/cc-settings.php:22
+#: includes/gateways/settings/googlepay-settings.php:32
+#: includes/gateways/settings/local-payment-settings.php:21
+#: includes/gateways/settings/paypal-settings.php:21
+#: includes/gateways/settings/venmo-settings.php:18
+msgid "The title text is the text that will be displayed next to the gateway."
+msgstr ""
+
+#: includes/gateways/settings/applepay-settings.php:24
+#: includes/gateways/settings/cc-settings.php:25
+#: includes/gateways/settings/googlepay-settings.php:35
+#: includes/gateways/settings/local-payment-settings.php:24
+#: includes/gateways/settings/paypal-settings.php:24
+#: includes/gateways/settings/venmo-settings.php:21
+msgid "Description"
+msgstr ""
+
+#: includes/gateways/settings/applepay-settings.php:26
+#: includes/gateways/settings/cc-settings.php:27
+#: includes/gateways/settings/googlepay-settings.php:37
+#: includes/gateways/settings/local-payment-settings.php:26
+#: includes/gateways/settings/paypal-settings.php:26
+#: includes/gateways/settings/venmo-settings.php:23
+msgid ""
+"Description that appears on your checkout page when the gateway is selected. "
+"Leave blank if you don't want any text to show."
+msgstr ""
+
+#: includes/gateways/settings/applepay-settings.php:29
+#: includes/gateways/settings/googlepay-settings.php:40
+msgid "Pages Enabled On"
+msgstr ""
+
+#: includes/gateways/settings/applepay-settings.php:33
+#: includes/gateways/settings/googlepay-settings.php:44
+#: includes/gateways/settings/paypal-settings.php:34
+msgid "Cart page"
+msgstr ""
+
+#: includes/gateways/settings/applepay-settings.php:34
+#: includes/gateways/settings/googlepay-settings.php:45
+msgid "Product page"
+msgstr ""
+
+#: includes/gateways/settings/applepay-settings.php:35
+#: includes/gateways/settings/googlepay-settings.php:46
+#: includes/gateways/settings/paypal-settings.php:36
+msgid "Top of checkout page"
+msgstr ""
+
+#: includes/gateways/settings/applepay-settings.php:37
+msgid ""
+"These are the sections that Apple Pay can be enabled on. The checkout page "
+"is enabled by default if the gateway is enabled. Increase your conversion "
+"rate by including Apple Pay on product pages, the cart page, and/or the top "
+"of the checkout page."
+msgstr ""
+
+#: includes/gateways/settings/applepay-settings.php:40
+msgid "Store Name"
+msgstr ""
+
+#: includes/gateways/settings/applepay-settings.php:43
+msgid "The name of the store that will appear on the Apple Pay sheet."
+msgstr ""
+
+#: includes/gateways/settings/applepay-settings.php:46
+#: includes/gateways/settings/cc-settings.php:30
+#: includes/gateways/settings/googlepay-settings.php:60
+msgid "Credit Card Display"
+msgstr ""
+
+#: includes/gateways/settings/applepay-settings.php:52
+#: includes/gateways/settings/cc-settings.php:36
+#: includes/gateways/settings/googlepay-settings.php:66
+msgid ""
+"This option allows you to customize how the credit card will display for "
+"your customers on orders, subscriptions, etc."
+msgstr ""
+
+#: includes/gateways/settings/applepay-settings.php:55
+#: includes/gateways/settings/cc-settings.php:49
+#: includes/gateways/settings/googlepay-settings.php:69
+#: includes/gateways/settings/local-payment-settings.php:29
+#: includes/gateways/settings/paypal-settings.php:50
+#: includes/gateways/settings/venmo-settings.php:46
+msgid "Order Prefix"
+msgstr ""
+
+#: includes/gateways/settings/applepay-settings.php:58
+#: includes/gateways/settings/googlepay-settings.php:72
+#: includes/gateways/settings/local-payment-settings.php:32
+#: includes/gateways/settings/paypal-settings.php:53
+#: includes/gateways/settings/venmo-settings.php:49
+msgid ""
+"The order prefix is prepended to the WooCommerce order id and will appear "
+"within Braintree as the Order ID. This settings can be helpful if you want "
+"to distinguish\n"
+"\t\t\t\t\t\torders that came from this particular site, plugin, or gateway."
+msgstr ""
+
+#: includes/gateways/settings/applepay-settings.php:62
+#: includes/gateways/settings/cc-settings.php:56
+#: includes/gateways/settings/googlepay-settings.php:76
+#: includes/gateways/settings/local-payment-settings.php:36
+#: includes/gateways/settings/paypal-settings.php:57
+#: includes/gateways/settings/venmo-settings.php:53
+msgid "Order Suffix"
+msgstr ""
+
+#: includes/gateways/settings/applepay-settings.php:65
+#: includes/gateways/settings/googlepay-settings.php:79
+#: includes/gateways/settings/local-payment-settings.php:39
+#: includes/gateways/settings/paypal-settings.php:60
+#: includes/gateways/settings/venmo-settings.php:56
+msgid ""
+"The order suffix is appended to the WooCommerce order id and will appear "
+"within Braintree as the Order ID. This settings can be helpful if you want "
+"to distinguish\n"
+"\t\t\t\t\t\torders that came from this particular site, plugin, or gateway."
+msgstr ""
+
+#: includes/gateways/settings/applepay-settings.php:69
+#: includes/gateways/settings/cc-settings.php:63
+#: includes/gateways/settings/googlepay-settings.php:83
+#: includes/gateways/settings/local-payment-settings.php:43
+#: includes/gateways/settings/paypal-settings.php:64
+#: includes/gateways/settings/venmo-settings.php:60
+msgid "Order Status"
+msgstr ""
+
+#: includes/gateways/settings/applepay-settings.php:73
+#: includes/gateways/settings/cc-settings.php:67
+#: includes/gateways/settings/googlepay-settings.php:87
+#: includes/gateways/settings/googlepay-settings.php:111
+#: includes/gateways/settings/local-payment-settings.php:47
+#: includes/gateways/settings/paypal-settings.php:68
+#: includes/gateways/settings/venmo-settings.php:64
+msgid "Default"
+msgstr ""
+
+#: includes/gateways/settings/applepay-settings.php:76
+#: includes/gateways/settings/cc-settings.php:70
+#: includes/gateways/settings/googlepay-settings.php:90
+#: includes/gateways/settings/local-payment-settings.php:50
+#: includes/gateways/settings/paypal-settings.php:71
+#: includes/gateways/settings/venmo-settings.php:67
+msgid ""
+"This is the status of the order once payment is complete. If <b>Default</b> "
+"is selected, then WooCommerce will set the order status automatically based "
+"on internal logic which states if a product is virtual and downloadable then "
+"status is set to complete. Products that require shipping are set to "
+"Processing. Default is the recommended setting as it allows standard "
+"WooCommerce code to process the order status."
+msgstr ""
+
+#: includes/gateways/settings/applepay-settings.php:79
+#: includes/gateways/settings/cc-settings.php:73
+#: includes/gateways/settings/googlepay-settings.php:93
+#: includes/gateways/settings/paypal-settings.php:75
+#: includes/gateways/settings/venmo-settings.php:70
+msgid "Transaction Type"
+msgstr ""
+
+#: includes/gateways/settings/applepay-settings.php:86
+#: includes/gateways/settings/cc-settings.php:80
+#: includes/gateways/settings/googlepay-settings.php:100
+#: includes/gateways/settings/paypal-settings.php:81
+#: includes/gateways/settings/venmo-settings.php:77
+msgid ""
+"If set to capture, funds will be captured immediately during checkout. "
+"Authorized transactions put a hold on the customer's funds but\n"
+"\t\t\t\t\t\tno payment is taken until the charge is captured. Authorized "
+"charges can be captured on the Admin Order page."
+msgstr ""
+
+#: includes/gateways/settings/applepay-settings.php:90
+#: includes/gateways/settings/googlepay-settings.php:104
+msgid "Button Design"
+msgstr ""
+
+#: includes/gateways/settings/applepay-settings.php:94
+msgid "Black Button"
+msgstr ""
+
+#: includes/gateways/settings/applepay-settings.php:95
+msgid "White With Black Line"
+msgstr ""
+
+#: includes/gateways/settings/applepay-settings.php:96
+msgid "White Button"
+msgstr ""
+
+#: includes/gateways/settings/applepay-settings.php:98
+msgid "This is the style for all Apple Pay buttons presented on your store."
+msgstr ""
+
+#: includes/gateways/settings/applepay-settings.php:102
+msgid ""
+"These buttons represent the two available button types for Apple Pay. You "
+"can configure a different type for each page that Apple Pay is available on."
+msgstr ""
+
+#: includes/gateways/settings/applepay-settings.php:105
+msgid "Checkout button type"
+msgstr ""
+
+#: includes/gateways/settings/applepay-settings.php:108
+#: includes/gateways/settings/applepay-settings.php:118
+#: includes/gateways/settings/applepay-settings.php:128
+msgid "Standard Button"
+msgstr ""
+
+#: includes/gateways/settings/applepay-settings.php:109
+#: includes/gateways/settings/applepay-settings.php:119
+#: includes/gateways/settings/applepay-settings.php:129
+msgid "Buy with Apple Pay"
+msgstr ""
+
+#: includes/gateways/settings/applepay-settings.php:115
+msgid "Cart button type"
+msgstr ""
+
+#: includes/gateways/settings/applepay-settings.php:125
+msgid "Product button type"
+msgstr ""
+
+#: includes/gateways/settings/cc-settings.php:5
+msgid ""
+"If you have a sandbox environment and want to test credit card transactions, "
+"use <a target=\"_blank\" href=\"https://developers.braintreepayments.com/"
+"reference/general/testing/php#credit-card-numbers\">Braintree's test data</"
+"a>."
+msgstr ""
+
+#: includes/gateways/settings/cc-settings.php:11
+msgid ""
+"If enabled, your site can accept credit card payments through Braintree."
+msgstr ""
+
+#: includes/gateways/settings/cc-settings.php:39
+msgid "Icon Style"
+msgstr ""
+
+#: includes/gateways/settings/cc-settings.php:43
+msgid "Enclosed Icons"
+msgstr ""
+
+#: includes/gateways/settings/cc-settings.php:44
+msgid "Open Icons"
+msgstr ""
+
+#: includes/gateways/settings/cc-settings.php:46
+#, php-format
+msgid ""
+"This option determines the type of credit card icons that appear on your "
+"frontend. Open Example: %s vs  Enclosed Example: %s"
+msgstr ""
+
+#: includes/gateways/settings/cc-settings.php:52
+msgid ""
+"The order prefix is prepended to the WooCommerce order id and will appear "
+"within Braintree as the Order ID. This setting can be helpful if you want to "
+"distinguish\n"
+"\t\t\t\t\t\torders that came from this particular site, plugin, or gateway."
+msgstr ""
+
+#: includes/gateways/settings/cc-settings.php:59
+msgid ""
+"The order suffix is appended to the WooCommerce order id and will appear "
+"within Braintree as the Order ID. This setting can be helpful if you want to "
+"distinguish\n"
+"\t\t\t\t\t\torders that came from this particular site, plugin, or gateway."
+msgstr ""
+
+#: includes/gateways/settings/cc-settings.php:85
+msgid "Allow Credit Card Save"
+msgstr ""
+
+#: includes/gateways/settings/cc-settings.php:87
+msgid ""
+"If enabled, a checkbox will be available on the checkout page allowing your "
+"customer's to save their credit card. The payment methods are stored "
+"securely in Braintree's vault and never touch your server. Note: if the cart "
+"contains a subscription, there will be no checkbox because the payment "
+"method will be saved automatically. There will also be no checkbox for guest "
+"checkout as a user must be logged in to save a payment method."
+msgstr ""
+
+#: includes/gateways/settings/cc-settings.php:90
+msgid "Fail on Duplicate"
+msgstr ""
+
+#: includes/gateways/settings/cc-settings.php:93
+msgid ""
+"If enabled, a payment method cannot be saved to the Braintree vault twice."
+msgstr ""
+
+#: includes/gateways/settings/cc-settings.php:96
+msgid "Accepted Payment Methods"
+msgstr ""
+
+#: includes/gateways/settings/cc-settings.php:102
+msgid "Visa"
+msgstr ""
+
+#: includes/gateways/settings/cc-settings.php:103
+msgid "Amex"
+msgstr ""
+
+#: includes/gateways/settings/cc-settings.php:104
+msgid "Discover"
+msgstr ""
+
+#: includes/gateways/settings/cc-settings.php:105
+msgid "MasterCard"
+msgstr ""
+
+#: includes/gateways/settings/cc-settings.php:106
+msgid "JCB"
+msgstr ""
+
+#: includes/gateways/settings/cc-settings.php:107
+msgid "Maestro"
+msgstr ""
+
+#: includes/gateways/settings/cc-settings.php:108
+msgid "Diners Club"
+msgstr ""
+
+#: includes/gateways/settings/cc-settings.php:109
+msgid "Union Pay"
+msgstr ""
+
+#: includes/gateways/settings/cc-settings.php:111
+msgid ""
+"The selected icons will show customers which credit card brands you accept."
+msgstr ""
+
+#: includes/gateways/settings/cc-settings.php:114
+msgid "Form Settings"
+msgstr ""
+
+#: includes/gateways/settings/cc-settings.php:115
+msgid ""
+"This plugin provides several options for your credit card form design. You "
+"can use the Braintree dropin form or one of the custom forms. \n"
+"\t\t\t\t\t\tWith custom forms you can change the look and feel of the "
+"designs. All forms are <b>SAQ A</b> compliant. For settings such as CVV and "
+"AVS that are maintained in Braintree, allow up to 5 minutes for changes to "
+"take affect.\n"
+"\t\t\t\t\t\t<p><b>Dropin Form:</b> Postal code and CVV are rendered "
+"dynamically based on your AVS and CVV settings in your Braintree control "
+"panel.</p>\n"
+"\t\t\t\t\t\t<p><b>Custom Form:</b> Postal code and CVV are rendered "
+"dynamically based on your AVS and CVV settings in your Braintree control "
+"panel.</p>"
+msgstr ""
+
+#: includes/gateways/settings/cc-settings.php:123
+msgid "Card Form"
+msgstr ""
+
+#: includes/gateways/settings/cc-settings.php:126
+#: includes/gateways/settings/cc-settings.php:157
+msgid "Custom Form"
+msgstr ""
+
+#: includes/gateways/settings/cc-settings.php:127
+msgid "Dropin Form"
+msgstr ""
+
+#: includes/gateways/settings/cc-settings.php:129
+msgid ""
+"You have the option of selecting to use a custom form or the Braintree "
+"dropin form. If the custom form is selected, you can customize all of the "
+"options associated with custom forms."
+msgstr ""
+
+#: includes/gateways/settings/cc-settings.php:146
+msgid "Is Postal Enabled"
+msgstr ""
+
+#: includes/gateways/settings/cc-settings.php:149
+msgid ""
+"Checkout page only: If enabled, the postal code from the dropin form is used "
+"for validations and not the postal billing field from WooCommerce."
+msgstr ""
+
+#: includes/gateways/settings/cc-settings.php:163
+msgid ""
+"This option allows you to select the card form which will be displayed on "
+"the payment pages."
+msgstr ""
+
+#: includes/gateways/settings/cc-settings.php:171
+msgid "Styles"
+msgstr ""
+
+#: includes/gateways/settings/cc-settings.php:174
+msgid ""
+"You can customize the css of the hosted payment fields using this setting. "
+"All css must be in json format or it will cause errors. If the styles are "
+"left blank, the default styles will be applied automatically. Please "
+"reference the <a href=\"https://developers.braintreepayments.com/guides/"
+"hosted-fields/styling/javascript/v3\" target=\"_blank\">Braintree Docs</a> "
+"if you have questions on how to format the custom css."
+msgstr ""
+
+#: includes/gateways/settings/cc-settings.php:183
+msgid "Card Detection Enabled"
+msgstr ""
+
+#: includes/gateways/settings/cc-settings.php:186
+msgid ""
+"If enabled, the payment form will display the card type dynamically as the "
+"customer enters their payment information."
+msgstr ""
+
+#: includes/gateways/settings/cc-settings.php:195
+msgid "Postal Field Enabled"
+msgstr ""
+
+#: includes/gateways/settings/cc-settings.php:198
+msgid ""
+"Checkout page only: If enabled, the postal code field on the credit card "
+"form will be used in place of the WooCommerce billing postal code value. "
+"Your Braintree control panel AVS settings will determine if a postal code is "
+"rendered on the credit card form."
+msgstr ""
+
+#: includes/gateways/settings/cc-settings.php:206
+msgid "Street Address Enabled"
+msgstr ""
+
+#: includes/gateways/settings/cc-settings.php:208
+msgid ""
+"If enabled, a street field will be presented within the credit card form on "
+"all pages except checkout page; Checkout page already has billing fields. "
+"This setting is for when you have AVS street checks enabled."
+msgstr ""
+
+#: includes/gateways/settings/cc-settings.php:211
+msgid "Card Loader Enabled"
+msgstr ""
+
+#: includes/gateways/settings/cc-settings.php:214
+msgid ""
+"If enabled, a loader will appear around the card form to let the customer "
+"know that the payment is processing."
+msgstr ""
+
+#: includes/gateways/settings/cc-settings.php:222
+msgid "Processing Design"
+msgstr ""
+
+#: includes/gateways/settings/cc-settings.php:226
+msgid ""
+"This is the design of the payment processing loader that appears over the "
+"card form."
+msgstr ""
+
+#: includes/gateways/settings/cc-settings.php:236
+msgid "3D Secure Settings"
+msgstr ""
+
+#: includes/gateways/settings/cc-settings.php:237
+msgid ""
+"<a href=\"https://articles.braintreepayments.com/guides/fraud-tools/3d-"
+"secure#processing\" target=\"_blank\">Learn more about 3D Secure processing "
+"in \n"
+"\t\t\t\t\t\tour support article.</a><p><a target=\"_blank\" href=\"https://"
+"developers.braintreepayments.com/guides/3d-secure/testing-go-live/php#testing"
+"\">3DS testing guide</a></p>"
+msgstr ""
+
+#: includes/gateways/settings/cc-settings.php:244
+msgid ""
+"If enabled, 3DS will be required when transactions are processed, such as on "
+"the checkout page."
+msgstr ""
+
+#: includes/gateways/settings/cc-settings.php:247
+msgid "3DS For Vaulted Cards"
+msgstr ""
+
+#: includes/gateways/settings/cc-settings.php:250
+msgid ""
+"For additional security you can request 3DS when a customer is using a saved "
+"credit card."
+msgstr ""
+
+#: includes/gateways/settings/cc-settings.php:258
+msgid "Liability Not Shifted"
+msgstr ""
+
+#: includes/gateways/settings/cc-settings.php:264
+#: includes/wc-braintree-functions.php:905
+msgid "No Action (Braintree will handle)"
+msgstr ""
+
+#: includes/gateways/settings/cc-settings.php:265
+#: includes/wc-braintree-functions.php:906
+msgid "Authorize Amount"
+msgstr ""
+
+#: includes/gateways/settings/cc-settings.php:266
+#: includes/wc-braintree-functions.php:907
+msgid "Reject Transaction"
+msgstr ""
+
+#: includes/gateways/settings/cc-settings.php:267
+#: includes/wc-braintree-functions.php:908
+msgid "Accept Transaction"
+msgstr ""
+
+#: includes/gateways/settings/cc-settings.php:269
+msgid ""
+"When 3DS is enabled, you can configure how to respond to a liability not "
+"shifted scenario. Liability not shifted means that you (the merchant) are "
+"still liable for fraud etc."
+msgstr ""
+
+#: includes/gateways/settings/cc-settings.php:277
+msgid "Card Ineligible for 3DS"
+msgstr ""
+
+#: includes/gateways/settings/cc-settings.php:283
+msgid "When a card is ineligible for 3DS these are the actions you can take."
+msgstr ""
+
+#: includes/gateways/settings/cc-settings.php:291
+msgid "Conditional Statements"
+msgstr ""
+
+#: includes/gateways/settings/cc-settings.php:295
+msgid ""
+"Conditional statements allow you to control when 3D Secure is available on "
+"the checkout page. <a href=\"https://docs.paymentplugins.com/wc-braintree/"
+"config/#/conditional_stmnts\" target=\"_blank\"> Conditional statements "
+"explained</a>"
+msgstr ""
+
+#: includes/gateways/settings/googlepay-settings.php:5
+msgid "Google Pay Request"
+msgstr ""
+
+#: includes/gateways/settings/googlepay-settings.php:5
+msgid ""
+"When you submit your request for Google Pay, request to be whitelisted for "
+"callbackintents. This ensures that the order items are displayed on the "
+"Google Payment sheet."
+msgstr ""
+
+#: includes/gateways/settings/googlepay-settings.php:5
+msgid ""
+"To have the Google API team approve your integration you can enable sandbox "
+"mode and Google Pay. When sandbox mode is enabled, Google Pay will work, "
+"allowing you to capture the necessary screenshots the Google API team needs "
+"to approve your Merchant ID request."
+msgstr ""
+
+#: includes/gateways/settings/googlepay-settings.php:11
+msgid "If enabled, your site can accept Google Pay."
+msgstr ""
+
+#: includes/gateways/settings/googlepay-settings.php:15
+msgid "General Settings for the Google Pay gateway."
+msgstr ""
+
+#: includes/gateways/settings/googlepay-settings.php:20
+msgid ""
+"With dynamic pricing, order totals will be present on the Google payment "
+"sheet and your customers can select shipping address and shipping methods. "
+"We highly recommend you leave this option enabled for user experience and "
+"conversion rate. You will need to ask the Google API team to whitelist you "
+"for this functionality."
+msgstr ""
+
+#: includes/gateways/settings/googlepay-settings.php:23
+msgid "Google Merchant ID"
+msgstr ""
+
+#: includes/gateways/settings/googlepay-settings.php:25
+msgid ""
+"Once you have been approved by Google to accept payments you will be issued "
+"a merchant ID. Enter that merchant ID in this field. A merchant ID is not "
+"needed when Sandbox mode is enabled. This will allow you to go through the "
+"Google Pay approval process."
+msgstr ""
+
+#: includes/gateways/settings/googlepay-settings.php:48
+msgid ""
+"These are the sections that Google Pay can be enabled on. The checkout page "
+"is enabled by default if the gateway is enabled. Increase your conversion "
+"rate by including Google Pay on product pages and the cart page."
+msgstr ""
+
+#: includes/gateways/settings/googlepay-settings.php:51
+#: includes/gateways/settings/venmo-settings.php:35
+msgid "Gateway Icon"
+msgstr ""
+
+#: includes/gateways/settings/googlepay-settings.php:54
+msgid "Standard"
+msgstr ""
+
+#: includes/gateways/settings/googlepay-settings.php:55
+msgid "Black Outline"
+msgstr ""
+
+#: includes/gateways/settings/googlepay-settings.php:57
+msgid "Google Pay icon that appears on the checkout page."
+msgstr ""
+
+#: includes/gateways/settings/googlepay-settings.php:107
+#: includes/gateways/settings/paypal-settings.php:131
+msgid "Button Color"
+msgstr ""
+
+#: includes/gateways/settings/googlepay-settings.php:112
+#: includes/gateways/settings/paypal-settings.php:138
+msgid "Black"
+msgstr ""
+
+#: includes/gateways/settings/googlepay-settings.php:113
+msgid "White"
+msgstr ""
+
+#: includes/gateways/settings/googlepay-settings.php:115
+msgid "The color of the Google Pay button on the checkout page."
+msgstr ""
+
+#: includes/gateways/settings/googlepay-settings.php:118
+msgid "Button Type"
+msgstr ""
+
+#: includes/gateways/settings/googlepay-settings.php:122
+msgid "Long"
+msgstr ""
+
+#: includes/gateways/settings/googlepay-settings.php:123
+msgid "Short"
+msgstr ""
+
+#: includes/gateways/settings/googlepay-settings.php:125
+msgid "The type of Google Pay button on the checkout page."
+msgstr ""
+
+#: includes/gateways/settings/googlepay-settings.php:128
+msgid "Button Demo"
+msgstr ""
+
+#: includes/gateways/settings/googlepay-settings.php:130
+msgid ""
+"If no button demo appears then the device you are using does not support "
+"Google Pay. Try viewing your settings on a different device."
+msgstr ""
+
+#: includes/gateways/settings/local-payment-settings.php:10
+#, php-format
+msgid "If enabled, your site can accept %s through Braintree."
+msgstr ""
+
+#: includes/gateways/settings/local-payment-settings.php:14
+#, php-format
+msgid "General Settings for the %s gateway."
+msgstr ""
+
+#: includes/gateways/settings/paypal-settings.php:4
+msgid "How To Setup & Test PayPal"
+msgstr ""
+
+#: includes/gateways/settings/paypal-settings.php:4
+msgid "Require Billing Phone"
+msgstr ""
+
+#: includes/gateways/settings/paypal-settings.php:4
+msgid "Enable PayPal Billing Address"
+msgstr ""
+
+#: includes/gateways/settings/paypal-settings.php:10
+msgid "If enabled, your site can accept PayPal through Braintree."
+msgstr ""
+
+#: includes/gateways/settings/paypal-settings.php:29
+msgid "Sections"
+msgstr ""
+
+#: includes/gateways/settings/paypal-settings.php:35
+msgid "Product Page"
+msgstr ""
+
+#: includes/gateways/settings/paypal-settings.php:38
+msgid ""
+"PayPal can be enabled on the cart page, product pages, or the top of the "
+"checkout page. This functionality is possible because PayPal data can be "
+"used to auto populate WooCommerce billing and shipping fields. <a href="
+"\"https://support.paymentplugins.com/hc/en-us/articles/360015278633-PayPal-"
+"Billing-Address\" target=\"_blank\">Enable PayPal Billing Address</a>"
+msgstr ""
+
+#: includes/gateways/settings/paypal-settings.php:41
+msgid "PayPal Display"
+msgstr ""
+
+#: includes/gateways/settings/paypal-settings.php:47
+msgid ""
+"This option allows you to customize how PayPal accounts display for your "
+"customers on orders, subscriptions, etc."
+msgstr ""
+
+#: includes/gateways/settings/paypal-settings.php:85
+msgid "Billing Agreement Description"
+msgstr ""
+
+#: includes/gateways/settings/paypal-settings.php:86
+#, php-format
+msgid "Purchase agreement from %s."
+msgstr ""
+
+#: includes/gateways/settings/paypal-settings.php:88
+msgid ""
+"The billing agreement description appears on your customer's PayPal account "
+"and gives information about the company they have granted authorization to. "
+"This is a good way to prevent\n"
+"\t\t\t\t\t\t\t\tcustomers from cancelling recurring billing authorizations "
+"because they are unsure who they granted access to."
+msgstr ""
+
+#: includes/gateways/settings/paypal-settings.php:93
+msgid "Display Name"
+msgstr ""
+
+#: includes/gateways/settings/paypal-settings.php:97
+msgid "This is the business name that is displayed on the PayPal popup."
+msgstr ""
+
+#: includes/gateways/settings/paypal-settings.php:106
+msgid "Smartbutton Checkout Page Design"
+msgstr ""
+
+#: includes/gateways/settings/paypal-settings.php:107
+msgid ""
+"Smartbuttons are designed to improve customer conversion on eCommerce "
+"platforms. You can control the look and feel of the Checkout page buttons "
+"using these settings. Pages like the Cart have a specific design for "
+"conversion purposes\n"
+"\t\t\t\t\t\tand can only be changed using filters."
+msgstr ""
+
+#: includes/gateways/settings/paypal-settings.php:111
+msgid "Default Locale"
+msgstr ""
+
+#: includes/gateways/settings/paypal-settings.php:116
+msgid ""
+"This is the default locale of the PayPal button and this option shows all 34 "
+"supported locales. PayPal uses this along with other parameters like "
+"shipping address and browser locale to determine which language to show the "
+"user."
+msgstr ""
+
+#: includes/gateways/settings/paypal-settings.php:120
+msgid "Button Size"
+msgstr ""
+
+#: includes/gateways/settings/paypal-settings.php:124
+msgid "Responsive"
+msgstr ""
+
+#: includes/gateways/settings/paypal-settings.php:125
+msgid "Small"
+msgstr ""
+
+#: includes/gateways/settings/paypal-settings.php:126
+msgid "Medium"
+msgstr ""
+
+#: includes/gateways/settings/paypal-settings.php:127
+msgid "Large"
+msgstr ""
+
+#: includes/gateways/settings/paypal-settings.php:135
+msgid "Gold"
+msgstr ""
+
+#: includes/gateways/settings/paypal-settings.php:136
+msgid "Blue"
+msgstr ""
+
+#: includes/gateways/settings/paypal-settings.php:137
+msgid "Silver"
+msgstr ""
+
+#: includes/gateways/settings/paypal-settings.php:142
+msgid "Button Shape"
+msgstr ""
+
+#: includes/gateways/settings/paypal-settings.php:146
+msgid "Pill"
+msgstr ""
+
+#: includes/gateways/settings/paypal-settings.php:147
+msgid "Rectangle"
+msgstr ""
+
+#: includes/gateways/settings/paypal-settings.php:151
+msgid "Button Layout"
+msgstr ""
+
+#: includes/gateways/settings/paypal-settings.php:155
+msgid "Horizontal"
+msgstr ""
+
+#: includes/gateways/settings/paypal-settings.php:156
+msgid "Vertical"
+msgstr ""
+
+#: includes/gateways/settings/paypal-settings.php:160
+msgid "Card Icons"
+msgstr ""
+
+#: includes/gateways/settings/paypal-settings.php:166
+msgid "Demo"
+msgstr ""
+
+#: includes/gateways/settings/paypal-settings.php:170
+msgid "PayPal Credit"
+msgstr ""
+
+#: includes/gateways/settings/paypal-settings.php:177
+msgid ""
+"PayPal credit allows your customers to pay for their order over time. You "
+"receive all the funds up front and the customer makes payments on their end."
+msgstr ""
+
+#: includes/gateways/settings/paypal-settings.php:180
+msgid "PayPal Credit Conditions"
+msgstr ""
+
+#: includes/gateways/settings/paypal-settings.php:188
+msgid ""
+"Enter a condition that must be met before PayPal Credit is offered as an "
+"option. E.g. {amount} > 400 AND {amount} < 1000 if the cart amount must be "
+"greater than 400 but less than 1,000. If left blank, credit will be enabled "
+"by default. <a href=\"https://support.paymentplugins.com/hc/en-us/"
+"articles/115002805388\" target=\"_blank\"> Conditional statement examples</a>"
+msgstr ""
+
+#: includes/gateways/settings/subscription-settings.php:6
+msgid "Gateway settings that are specific to WooCommerce Subscriptions."
+msgstr ""
+
+#: includes/gateways/settings/subscription-settings.php:16
+msgid ""
+"This setting determines if the order amount is captured immediately or is "
+"authorized and can be captured later."
+msgstr ""
+
+#: includes/gateways/settings/subscription-settings.php:20
+msgid "Authorized Order Status"
+msgstr ""
+
+#: includes/gateways/settings/subscription-settings.php:28
+msgid ""
+"This is the order status that is assigned when payment for a renewal order "
+"is authorized and not captured immediately."
+msgstr ""
+
+#: includes/gateways/settings/venmo-settings.php:7
+msgid "If enabled, your site can accept Venmo through Braintree."
+msgstr ""
+
+#: includes/gateways/settings/venmo-settings.php:11
+msgid "General Settings for the Venmo gateway."
+msgstr ""
+
+#: includes/gateways/settings/venmo-settings.php:26
+msgid "Payment Method Display"
+msgstr ""
+
+#: includes/gateways/settings/venmo-settings.php:32
+msgid ""
+"This option allows you to customize how Venmo payment methods display for "
+"your customers on orders, subscriptions, etc."
+msgstr ""
+
+#: includes/gateways/settings/venmo-settings.php:40
+msgid "Venmo Blue"
+msgstr ""
+
+#: includes/gateways/settings/venmo-settings.php:41
+msgid "Venmo Black"
+msgstr ""
+
+#: includes/gateways/settings/venmo-settings.php:42
+msgid "Venmo Grey"
+msgstr ""
+
+#: includes/subscriptions/class-wc-braintree-subscription.php:85
+#, php-format
+msgid "Status cannot be updated to %1$s from %2$s."
+msgstr ""
+
+#: includes/subscriptions/class-wc-braintree-subscription.php:104
+#, php-format
+msgid "Subscription status changed from %1$s to %2$s."
+msgstr ""
+
+#: includes/subscriptions/class-wc-braintree-subscription.php:106
+#, php-format
+msgid "Subscription status set to %1$s."
+msgstr ""
+
+#: includes/subscriptions/class-wc-braintree-subscription.php:156
+msgid "Recurring Total:"
+msgstr ""
+
+#: includes/subscriptions/class-wc-braintree-subscriptions-cart.php:63
+#, php-format
+msgid ""
+"Error: product %1$s cannot be purchased using currency %2$s. You must assign "
+"a Braintree plan for currency %2$s."
+msgstr ""
+
+#: includes/subscriptions/class-wc-braintree-subscriptions-cart.php:340
+#, php-format
+msgid "%s Signup Fee"
+msgstr ""
+
+#: includes/subscriptions/class-wc-product-braintree-variable-subscription.php:67
+#, php-format
+msgid "From %1$s to %2$s"
+msgstr ""
+
+#: includes/subscriptions/wcs-braintree-functions.php:18
+msgid "st"
+msgstr ""
+
+#: includes/subscriptions/wcs-braintree-functions.php:21
+msgid "nd"
+msgstr ""
+
+#: includes/subscriptions/wcs-braintree-functions.php:24
+msgid "rd"
+msgstr ""
+
+#: includes/subscriptions/wcs-braintree-functions.php:27
+#: includes/subscriptions/wcs-braintree-functions.php:31
+msgid "th"
+msgstr ""
+
+#: includes/subscriptions/wcs-braintree-functions.php:47
+msgid "never expires"
+msgstr ""
+
+#: includes/subscriptions/wcs-braintree-functions.php:49
+#, php-format
+msgid "%s month"
+msgstr ""
+
+#: includes/subscriptions/wcs-braintree-functions.php:91
+msgid "every month"
+msgstr ""
+
+#: includes/subscriptions/wcs-braintree-functions.php:138
+#, php-format
+msgid " every %1$s"
+msgstr ""
+
+#: includes/subscriptions/wcs-braintree-functions.php:143
+#, php-format
+msgid " with a %1$s-%2$s free trial"
+msgstr ""
+
+#: includes/subscriptions/wcs-braintree-functions.php:146
+#, php-format
+msgid " and a %1$s sign up fee"
+msgstr ""
+
+#: includes/subscriptions/wcs-braintree-functions.php:179
+#, php-format
+msgid " for %s %s"
+msgstr ""
+
+#: includes/subscriptions/wcs-braintree-functions.php:399
+#, php-format
+msgid "%s"
+msgstr ""
+
+#: includes/subscriptions/wcs-braintree-functions.php:399
+#, php-format
+msgid "/ %s"
+msgstr ""
+
+#: includes/subscriptions/wcs-braintree-functions.php:426
+#, php-format
+msgid "every %s"
+msgstr ""
+
+#: includes/subscriptions/wcs-braintree-functions.php:581
+msgid "There was an error creating the subscription."
+msgstr ""
+
+#: includes/subscriptions/wcs-braintree-functions.php:763
+#, php-format
+msgid "%1$s every %2$s"
+msgstr ""
+
+#: includes/subscriptions/wcs-braintree-functions.php:792
+#: includes/subscriptions/wcs-braintree-functions.php:1067
+msgid "Active"
+msgstr ""
+
+#: includes/subscriptions/wcs-braintree-functions.php:797
+#, php-format
+msgid "Active <span class=\"count\">(%s)</span>"
+msgstr ""
+
+#: includes/subscriptions/wcs-braintree-functions.php:800
+#: includes/subscriptions/wcs-braintree-functions.php:1068
+msgid "Expired"
+msgstr ""
+
+#: includes/subscriptions/wcs-braintree-functions.php:805
+#, php-format
+msgid "Expired <span class=\"count\">(%s)</span>"
+msgstr ""
+
+#: includes/subscriptions/wcs-braintree-functions.php:808
+#: includes/subscriptions/wcs-braintree-functions.php:1069
+msgid "Past Due"
+msgstr ""
+
+#: includes/subscriptions/wcs-braintree-functions.php:813
+#, php-format
+msgid "Past Due <span class=\"count\">(%s)</span>"
+msgstr ""
+
+#: includes/subscriptions/wcs-braintree-functions.php:842
+#: includes/subscriptions/wcs-braintree-functions.php:880
+msgid "Invalid subscription."
+msgstr ""
+
+#: includes/subscriptions/wcs-braintree-functions.php:884
+msgid "Please choose a new payment method."
+msgstr ""
+
+#: includes/subscriptions/wcs-braintree-functions.php:912
+msgid "View"
+msgstr ""
+
+#: includes/subscriptions/wcs-braintree-functions.php:929
+#: includes/subscriptions/wcs-braintree-functions.php:1276
+#: templates/paypal-shipping-methods.php:40
+msgid "Cancel"
+msgstr ""
+
+#: includes/subscriptions/wcs-braintree-functions.php:938
+msgid "Pay"
+msgstr ""
+
+#: includes/subscriptions/wcs-braintree-functions.php:1023
+#: includes/subscriptions/wcs-braintree-functions.php:1025
+#, php-format
+msgid "Error syncing subscription %1$s. Reason: %1$s"
+msgstr ""
+
+#: includes/subscriptions/wcs-braintree-functions.php:1093
+#, php-format
+msgid "Error cancelling subscription in Braintree. Reason: %1$s"
+msgstr ""
+
+#: includes/subscriptions/wcs-braintree-functions.php:1096
+#, php-format
+msgid "Error cancelling subscription in Braintree. Reason: %1$s."
+msgstr ""
+
+#: includes/subscriptions/wcs-braintree-functions.php:1175
+#, php-format
+msgid "Renewal order created via webhook for subscription %s"
+msgstr ""
+
+#: includes/subscriptions/wcs-braintree-functions.php:1176
+#, php-format
+msgid "Renewal order %s created from Braintree webhook."
+msgstr ""
+
+#: includes/subscriptions/wcs-braintree-functions.php:1179
+#, php-format
+msgid "Renewal order %s already created for transaction %s."
+msgstr ""
+
+#: includes/subscriptions/wcs-braintree-functions.php:1275
+#, php-format
+msgid "Please click OK if you wish to cancel subscription %1$s."
+msgstr ""
+
+#: includes/subscriptions/wcs-braintree-functions.php:1277
+msgid "Confirm"
+msgstr ""
+
+#: includes/tokens/class-wc-payment-token-braintree-applepay.php:59
+#: includes/tokens/class-wc-payment-token-braintree-applepay.php:64
+#: includes/tokens/class-wc-payment-token-braintree-googlepay.php:78
+#: includes/tokens/class-wc-payment-token-braintree-googlepay.php:83
+#: includes/wc-braintree-functions.php:299
+#: includes/wc-braintree-functions.php:304
+#: includes/wc-braintree-functions.php:316
+#: includes/wc-braintree-functions.php:321
+msgid "Type and Last Four"
+msgstr ""
+
+#: includes/tokens/class-wc-payment-token-braintree-cc.php:113
+#: includes/tokens/class-wc-payment-token-braintree-googlepay.php:73
+#: includes/wc-braintree-functions.php:240
+#: includes/wc-braintree-functions.php:311
+msgid "Type Ending In"
+msgstr ""
+
+#: includes/tokens/class-wc-payment-token-braintree-cc.php:115
+#: includes/tokens/class-wc-payment-token-braintree-googlepay.php:75
+#: includes/wc-braintree-functions.php:242
+#: includes/wc-braintree-functions.php:313
+msgid "{card_type} ending in {last4}"
+msgstr ""
+
+#: includes/tokens/class-wc-payment-token-braintree-cc.php:118
+#: includes/wc-braintree-functions.php:245
+msgid "Type Masked Number"
+msgstr ""
+
+#: includes/tokens/class-wc-payment-token-braintree-cc.php:123
+#: includes/wc-braintree-functions.php:250
+msgid "Type Dash Masked Number"
+msgstr ""
+
+#: includes/tokens/class-wc-payment-token-braintree-cc.php:128
+#: includes/wc-braintree-functions.php:255
+msgid "Type Last 4"
+msgstr ""
+
+#: includes/tokens/class-wc-payment-token-braintree-cc.php:133
+#: includes/wc-braintree-functions.php:260
+msgid "Type Dash & Last 4"
+msgstr ""
+
+#: includes/tokens/class-wc-payment-token-braintree-cc.php:138
+#: includes/wc-braintree-functions.php:265
+msgid "Masked Number"
+msgstr ""
+
+#: includes/tokens/class-wc-payment-token-braintree-cc.php:143
+#: includes/wc-braintree-functions.php:270
+msgid "Last Four"
+msgstr ""
+
+#: includes/tokens/class-wc-payment-token-braintree-cc.php:148
+#: includes/wc-braintree-functions.php:275
+msgid "Card Type"
+msgstr ""
+
+#: includes/tokens/class-wc-payment-token-braintree-local-payment.php:65
+#: includes/wc-braintree-functions.php:340
+msgid "Type and Payer Id"
+msgstr ""
+
+#: includes/tokens/class-wc-payment-token-braintree-paypal.php:79
+#: includes/wc-braintree-functions.php:282
+msgid "PayPal & Email"
+msgstr ""
+
+#: includes/tokens/class-wc-payment-token-braintree-paypal.php:84
+#: includes/wc-braintree-functions.php:287
+msgid "Email"
+msgstr ""
+
+#: includes/tokens/class-wc-payment-token-braintree-venmo.php:67
+#: includes/wc-braintree-functions.php:328
+msgid "Type and User ID"
+msgstr ""
+
+#: includes/tokens/class-wc-payment-token-braintree-venmo.php:69
+#: includes/wc-braintree-functions.php:330
+msgid "Venmo - {username}"
+msgstr ""
+
+#: includes/tokens/class-wc-payment-token-braintree-venmo.php:72
+#: includes/wc-braintree-functions.php:333
+msgid "Account Description"
+msgstr ""
+
+#: includes/wc-braintree-functions.php:149
+msgid "Bootstrap Form"
+msgstr ""
+
+#: includes/wc-braintree-functions.php:157
+msgid "Material Design"
+msgstr ""
+
+#: includes/wc-braintree-functions.php:165
+msgid "Dynamic Card Design"
+msgstr ""
+
+#: includes/wc-braintree-functions.php:173
+msgid "Classic Form"
+msgstr ""
+
+#: includes/wc-braintree-functions.php:181
+msgid "Simple Form"
+msgstr ""
+
+#: includes/wc-braintree-functions.php:189
+msgid "Card Shape Form"
+msgstr ""
+
+#: includes/wc-braintree-functions.php:921
+#: includes/wc-braintree-functions.php:947
+msgid "Kount review required"
+msgstr ""
+
+#: includes/wc-braintree-functions.php:926
+#, php-format
+msgid "Kount review required <span class=\"count\">(%s)</span>"
+msgstr ""
+
+#: includes/wc-braintree-functions.php:929
+#: includes/wc-braintree-functions.php:948
+msgid "Kount escalate"
+msgstr ""
+
+#: includes/wc-braintree-functions.php:934
+#, php-format
+msgid "Kount escalate <span class=\"count\">(%s)</span>"
+msgstr ""
+
+#: includes/wc-braintree-functions.php:1059
+msgid "Webhook test notification received."
+msgstr ""
+
+#: includes/wc-braintree-functions.php:1133
+msgid "Please enter a valid postcode / ZIP."
+msgstr ""
+
+#: includes/wc-braintree-message-functions.php:10
+msgid ""
+"Error initiating Braintree client. This error occurs when you haven't "
+"finished configuring your API keys."
+msgstr ""
+
+#: includes/wc-braintree-message-functions.php:11
+msgid "Invalid client token supplied. Please check your API keys."
+msgstr ""
+
+#: includes/wc-braintree-message-functions.php:12
+#: includes/wc-braintree-message-functions.php:34
+msgid "Please fill out the payment form."
+msgstr ""
+
+#: includes/wc-braintree-message-functions.php:13
+msgid "Some of your payment fields are invalid."
+msgstr ""
+
+#: includes/wc-braintree-message-functions.php:14
+msgid "Please check that your credit card is valid."
+msgstr ""
+
+#: includes/wc-braintree-message-functions.php:15
+msgid "There was a network error. Please try again."
+msgstr ""
+
+#: includes/wc-braintree-message-functions.php:16
+msgid "Please check your payment method fields."
+msgstr ""
+
+#: includes/wc-braintree-message-functions.php:17
+msgid ""
+"The data passed to the 3D Secure provider was in an invalid format. Please "
+"check your entries for invalid values."
+msgstr ""
+
+#: includes/wc-braintree-message-functions.php:18
+msgid "3D Secure requires HTTPS."
+msgstr ""
+
+#: includes/wc-braintree-message-functions.php:19
+msgid "3D Secure is not enabled for this merchant."
+msgstr ""
+
+#: includes/wc-braintree-message-functions.php:20
+msgid ""
+"Provided shipping address failed PayPal validation. Please check your "
+"entries."
+msgstr ""
+
+#: includes/wc-braintree-message-functions.php:21
+msgid "There is already a PayPal window open."
+msgstr ""
+
+#: includes/wc-braintree-message-functions.php:22
+msgid "PayPal vault flow is required."
+msgstr ""
+
+#: includes/wc-braintree-message-functions.php:23
+msgid ""
+"PayPal validation of address failed. Please verify your shipping address."
+msgstr ""
+
+#: includes/wc-braintree-message-functions.php:24
+msgid "Invalid city entered for your shipping address."
+msgstr ""
+
+#: includes/wc-braintree-message-functions.php:25
+msgid "Invalid state entered for your shipping address."
+msgstr ""
+
+#: includes/wc-braintree-message-functions.php:26
+msgid "Invalid zip code entered for shipping address."
+msgstr ""
+
+#: includes/wc-braintree-message-functions.php:27
+msgid ""
+"Please enable fraud tools within your Braintree Control Panel if you have "
+"enabled Advanced Fraud in the plugin settings. This setting can take several "
+"minutes to take affect."
+msgstr ""
+
+#: includes/wc-braintree-message-functions.php:28
+msgid "No merchant account found for the requested currency."
+msgstr ""
+
+#: includes/wc-braintree-message-functions.php:29
+msgid ""
+"Google Pay is not enabled for this merchant. Please enable Google Pay within "
+"your Braintree control panel."
+msgstr ""
+
+#: includes/wc-braintree-message-functions.php:30
+msgid ""
+"You have not been whitelisted by Google to use the paymentDataRequest."
+"callbackIntent. Please contact Google's API team to request that your "
+"merchant ID be whitelisted. You can disable the plugin's dynamc price "
+"setting which will allow you to accept payments while you wait for Google to "
+"whitelist you."
+msgstr ""
+
+#: includes/wc-braintree-message-functions.php:31
+msgid ""
+"Please enter a locale that PayPal supports. You can change the locale in "
+"your Wordpress settings."
+msgstr ""
+
+#: includes/wc-braintree-message-functions.php:32
+#, php-format
+msgid ""
+"PayPal requires that you configure your merchant accounts. Navigate to the "
+"Advanced Settings page and click %sImport Accounts%s."
+msgstr ""
+
+#: includes/wc-braintree-message-functions.php:33
+msgid "LocalPayment window failed to open; please allow pop-ups for this site."
+msgstr ""
+
+#: includes/wc-braintree-message-functions.php:35
+msgid "Postal code does not match."
+msgstr ""
+
+#: includes/wc-braintree-message-functions.php:36
+msgid "Street address does not match."
+msgstr ""
+
+#: includes/wc-braintree-message-functions.php:37
+msgid "Card security code does not match."
+msgstr ""
+
+#: includes/wc-braintree-message-functions.php:38
+msgid "Postal code not verified."
+msgstr ""
+
+#: includes/wc-braintree-message-functions.php:39
+msgid "Street address not verified."
+msgstr ""
+
+#: includes/wc-braintree-message-functions.php:40
+msgid "Card security code not verified."
+msgstr ""
+
+#: includes/wc-braintree-message-functions.php:41
+msgid "Postal code not provided."
+msgstr ""
+
+#: includes/wc-braintree-message-functions.php:42
+msgid "Street address not provided."
+msgstr ""
+
+#: includes/wc-braintree-message-functions.php:43
+msgid "Card security code not provided."
+msgstr ""
+
+#: includes/wc-braintree-message-functions.php:44
+msgid "Your payment method was rejected due to 3D Secure."
+msgstr ""
+
+#: includes/wc-braintree-message-functions.php:45
+msgid "Do Not Honor"
+msgstr ""
+
+#: includes/wc-braintree-message-functions.php:46
+msgid "Insufficient Funds"
+msgstr ""
+
+#: includes/wc-braintree-message-functions.php:47
+msgid "Limit Exceeded"
+msgstr ""
+
+#: includes/wc-braintree-message-functions.php:48
+msgid "Cardholder's Activity Limit Exceeded"
+msgstr ""
+
+#: includes/wc-braintree-message-functions.php:49
+msgid "Expired Card"
+msgstr ""
+
+#: includes/wc-braintree-message-functions.php:50
+msgid "Invalid Credit Card Number"
+msgstr ""
+
+#: includes/wc-braintree-message-functions.php:51
+msgid "Invalid Expiration Date"
+msgstr ""
+
+#: includes/wc-braintree-message-functions.php:52
+msgid "No Account"
+msgstr ""
+
+#: includes/wc-braintree-message-functions.php:53
+msgid "Card Account Length Error"
+msgstr ""
+
+#: includes/wc-braintree-message-functions.php:54
+msgid "No Such Issuer"
+msgstr ""
+
+#: includes/wc-braintree-message-functions.php:55
+msgid "Card Issuer Declined CVV"
+msgstr ""
+
+#: includes/wc-braintree-message-functions.php:56
+msgid "Voice Authorization Required"
+msgstr ""
+
+#: includes/wc-braintree-message-functions.php:57
+msgid "Processor Declined Possible Lost Card"
+msgstr ""
+
+#: includes/wc-braintree-message-functions.php:58
+msgid "Processor Declined - Possible Stolen Card"
+msgstr ""
+
+#: includes/wc-braintree-message-functions.php:59
+msgid "Processor Declined - Fraud Suspected"
+msgstr ""
+
+#: includes/wc-braintree-message-functions.php:60
+msgid "Transaction Not Allowed"
+msgstr ""
+
+#: includes/wc-braintree-message-functions.php:61
+msgid "Duplicate Transaction"
+msgstr ""
+
+#: includes/wc-braintree-message-functions.php:62
+msgid "Cardholder Stopped Billing"
+msgstr ""
+
+#: includes/wc-braintree-message-functions.php:63
+msgid "Cardholder Stopped All Billing"
+msgstr ""
+
+#: includes/wc-braintree-message-functions.php:64
+msgid "Invalid Transaction"
+msgstr ""
+
+#: includes/wc-braintree-message-functions.php:65
+msgid "Violation"
+msgstr ""
+
+#: includes/wc-braintree-message-functions.php:66
+msgid "Security Violation"
+msgstr ""
+
+#: includes/wc-braintree-message-functions.php:67
+msgid "Declined - Updated Cardholder Available"
+msgstr ""
+
+#: includes/wc-braintree-message-functions.php:68
+msgid "Processor Does Not Support This Feature"
+msgstr ""
+
+#: includes/wc-braintree-message-functions.php:69
+msgid "Card Type Not Enabled"
+msgstr ""
+
+#: includes/wc-braintree-message-functions.php:70
+msgid "Set Up Error - Merchant"
+msgstr ""
+
+#: includes/wc-braintree-message-functions.php:71
+msgid "Invalid Merchant ID"
+msgstr ""
+
+#: includes/wc-braintree-message-functions.php:72
+msgid "Set Up Error - Amount"
+msgstr ""
+
+#: includes/wc-braintree-message-functions.php:73
+msgid "Set Up Error - Hierarchy"
+msgstr ""
+
+#: includes/wc-braintree-message-functions.php:74
+msgid "Set Up Error - Card"
+msgstr ""
+
+#: includes/wc-braintree-message-functions.php:75
+msgid "Set Up Error - Terminal"
+msgstr ""
+
+#: includes/wc-braintree-message-functions.php:76
+msgid "Encryption Error"
+msgstr ""
+
+#: includes/wc-braintree-message-functions.php:77
+msgid "Surcharge Not Permitted"
+msgstr ""
+
+#: includes/wc-braintree-message-functions.php:78
+msgid "Inconsistent Data"
+msgstr ""
+
+#: includes/wc-braintree-message-functions.php:79
+msgid "No Action Taken"
+msgstr ""
+
+#: includes/wc-braintree-message-functions.php:80
+msgid "Partial Approval For Amount In Group III Version"
+msgstr ""
+
+#: includes/wc-braintree-message-functions.php:81
+msgid "Authorization could not be found to reverse"
+msgstr ""
+
+#: includes/wc-braintree-message-functions.php:82
+msgid "Already Reversed"
+msgstr ""
+
+#: includes/wc-braintree-message-functions.php:83
+msgid "Processor Declined"
+msgstr ""
+
+#: includes/wc-braintree-message-functions.php:84
+msgid "Invalid Authorization Code"
+msgstr ""
+
+#: includes/wc-braintree-message-functions.php:85
+msgid "Invalid Store"
+msgstr ""
+
+#: includes/wc-braintree-message-functions.php:86
+msgid "Declined - Call For Approval"
+msgstr ""
+
+#: includes/wc-braintree-message-functions.php:87
+msgid "Invalid Client ID"
+msgstr ""
+
+#: includes/wc-braintree-message-functions.php:88
+msgid "Error - Do Not Retry, Call Issuer"
+msgstr ""
+
+#: includes/wc-braintree-message-functions.php:89
+msgid "Declined - Call Issuer"
+msgstr ""
+
+#: includes/wc-braintree-message-functions.php:90
+msgid "Invalid Merchant Number"
+msgstr ""
+
+#: includes/wc-braintree-message-functions.php:91
+msgid "Declined"
+msgstr ""
+
+#: includes/wc-braintree-message-functions.php:92
+msgid "Call Issuer. Pick Up Card"
+msgstr ""
+
+#: includes/wc-braintree-message-functions.php:93
+msgid "Invalid Amount"
+msgstr ""
+
+#: includes/wc-braintree-message-functions.php:94
+msgid "Invalid SKU Number"
+msgstr ""
+
+#: includes/wc-braintree-message-functions.php:95
+msgid "Invalid Credit Plan"
+msgstr ""
+
+#: includes/wc-braintree-message-functions.php:96
+msgid "Credit Card Number does not match method of payment"
+msgstr ""
+
+#: includes/wc-braintree-message-functions.php:97
+msgid "Card reported as lost or stolen"
+msgstr ""
+
+#: includes/wc-braintree-message-functions.php:98
+msgid "Reversal amount does not match authorization amount"
+msgstr ""
+
+#: includes/wc-braintree-message-functions.php:99
+msgid "Invalid Transaction Division Number"
+msgstr ""
+
+#: includes/wc-braintree-message-functions.php:100
+msgid "Transaction amount exceeds the transaction division limit"
+msgstr ""
+
+#: includes/wc-braintree-message-functions.php:101
+msgid "Issuer or Cardholder has put a restriction on the card"
+msgstr ""
+
+#: includes/wc-braintree-message-functions.php:102
+msgid "Merchant not Mastercard SecureCode enabled"
+msgstr ""
+
+#: includes/wc-braintree-message-functions.php:103
+msgid "Address Verification Failed"
+msgstr ""
+
+#: includes/wc-braintree-message-functions.php:104
+msgid "Address Verification and Card Security Code Failed"
+msgstr ""
+
+#: includes/wc-braintree-message-functions.php:105
+msgid "Invalid Transaction Data"
+msgstr ""
+
+#: includes/wc-braintree-message-functions.php:106
+msgid "Invalid Tax Amount"
+msgstr ""
+
+#: includes/wc-braintree-message-functions.php:107
+msgid "PayPal Business Account preference resulted in the transaction failing"
+msgstr ""
+
+#: includes/wc-braintree-message-functions.php:108
+msgid "Invalid Currency Code"
+msgstr ""
+
+#: includes/wc-braintree-message-functions.php:109
+msgid "Refund Time Limit Exceeded"
+msgstr ""
+
+#: includes/wc-braintree-message-functions.php:110
+msgid "PayPal Business Account Restricted"
+msgstr ""
+
+#: includes/wc-braintree-message-functions.php:111
+msgid "Authorization Expired"
+msgstr ""
+
+#: includes/wc-braintree-message-functions.php:112
+msgid "PayPal Business Account Locked or Closed"
+msgstr ""
+
+#: includes/wc-braintree-message-functions.php:113
+msgid "PayPal Blocking Duplicate Order IDs"
+msgstr ""
+
+#: includes/wc-braintree-message-functions.php:114
+msgid "PayPal Buyer Revoked Future Payment Authorization"
+msgstr ""
+
+#: includes/wc-braintree-message-functions.php:115
+msgid "PayPal Payee Account Invalid Or Does Not Have a Confirmed Email"
+msgstr ""
+
+#: includes/wc-braintree-message-functions.php:116
+msgid "PayPal Payee Email Incorrectly Formatted"
+msgstr ""
+
+#: includes/wc-braintree-message-functions.php:117
+msgid "PayPal Validation Error"
+msgstr ""
+
+#: includes/wc-braintree-message-functions.php:118
+msgid ""
+"Funding Instrument In The PayPal Account Was Declined By The Processor Or "
+"Bank, Or It Can't Be Used For This Payment"
+msgstr ""
+
+#: includes/wc-braintree-message-functions.php:119
+msgid "Payer Account Is Locked Or Closed"
+msgstr ""
+
+#: includes/wc-braintree-message-functions.php:120
+msgid "Payer Cannot Pay For This Transaction With PayPal"
+msgstr ""
+
+#: includes/wc-braintree-message-functions.php:121
+msgid "Transaction Refused Due To PayPal Risk Model"
+msgstr ""
+
+#: includes/wc-braintree-message-functions.php:122
+msgid "PayPal Merchant Account Configuration Error"
+msgstr ""
+
+#: includes/wc-braintree-message-functions.php:123
+msgid "PayPal pending payments are not supported"
+msgstr ""
+
+#: includes/wc-braintree-message-functions.php:124
+msgid "PayPal Domestic Transaction Required"
+msgstr ""
+
+#: includes/wc-braintree-message-functions.php:125
+msgid "PayPal Phone Number Required"
+msgstr ""
+
+#: includes/wc-braintree-message-functions.php:126
+msgid "PayPal Tax Info Required"
+msgstr ""
+
+#: includes/wc-braintree-message-functions.php:127
+msgid "PayPal Payee Blocked Transaction"
+msgstr ""
+
+#: includes/wc-braintree-message-functions.php:128
+msgid "PayPal Transaction Limit Exceeded"
+msgstr ""
+
+#: includes/wc-braintree-message-functions.php:129
+msgid "PayPal reference transactions not enabled for your account"
+msgstr ""
+
+#: includes/wc-braintree-message-functions.php:130
+msgid "Currency not enabled for your PayPal seller account"
+msgstr ""
+
+#: includes/wc-braintree-message-functions.php:131
+msgid "PayPal payee email permission denied for this request"
+msgstr ""
+
+#: includes/wc-braintree-message-functions.php:132
+msgid "PayPal account not configured to refund more than settled amount"
+msgstr ""
+
+#: includes/wc-braintree-message-functions.php:133
+msgid "Currency of this transaction must match currency of your PayPal account"
+msgstr ""
+
+#: includes/wc-braintree-message-functions.php:134
+msgid "Processor Network Unavailable - Try Again"
+msgstr ""
+
+#: includes/wc-braintree-message-functions.php:135
+msgid "Object was not found."
+msgstr ""
+
+#: includes/wc-braintree-message-functions.php:136
+msgid "Authentication failed, check your API key configuration."
+msgstr ""
+
+#: includes/wc-braintree-message-functions.php:137
+msgid ""
+"API Authorization check failed. Ensure you have entered your API keys "
+"correctly and the user associated with your API keys has the proper "
+"permissions."
+msgstr ""
+
+#: includes/wc-braintree-message-functions.php:138
+msgid "Addresses must have at least one field filled in."
+msgstr ""
+
+#: includes/wc-braintree-message-functions.php:139
+#: includes/wc-braintree-message-functions.php:266
+msgid "Company is too long."
+msgstr ""
+
+#: includes/wc-braintree-message-functions.php:140
+msgid "Extended address is too long."
+msgstr ""
+
+#: includes/wc-braintree-message-functions.php:141
+#: includes/wc-braintree-message-functions.php:272
+msgid "First name is too long."
+msgstr ""
+
+#: includes/wc-braintree-message-functions.php:142
+#: includes/wc-braintree-message-functions.php:273
+msgid "Last name is too long."
+msgstr ""
+
+#: includes/wc-braintree-message-functions.php:143
+msgid "Locality is too long."
+msgstr ""
+
+#: includes/wc-braintree-message-functions.php:144
+msgid "Postal code can only contain letters, numbers, spaces, and hyphens."
+msgstr ""
+
+#: includes/wc-braintree-message-functions.php:145
+msgid "Postal code is required."
+msgstr ""
+
+#: includes/wc-braintree-message-functions.php:146
+msgid "Postal code may contain no more than 9 letter or number characters."
+msgstr ""
+
+#: includes/wc-braintree-message-functions.php:147
+msgid "Region is too long."
+msgstr ""
+
+#: includes/wc-braintree-message-functions.php:148
+msgid "Street address is required."
+msgstr ""
+
+#: includes/wc-braintree-message-functions.php:149
+msgid "Street address is too long."
+msgstr ""
+
+#: includes/wc-braintree-message-functions.php:150
+msgid ""
+"US state codes must be two characters to meet PayPal Seller Protection "
+"requirements."
+msgstr ""
+
+#: includes/wc-braintree-message-functions.php:151
+msgid "Country name is not an accepted country."
+msgstr ""
+
+#: includes/wc-braintree-message-functions.php:152
+msgid "Provided country information is inconsistent."
+msgstr ""
+
+#: includes/wc-braintree-message-functions.php:153
+msgid "Country code (alpha3) is not an accepted country."
+msgstr ""
+
+#: includes/wc-braintree-message-functions.php:154
+msgid "Country code (numeric) is not an accepted country."
+msgstr ""
+
+#: includes/wc-braintree-message-functions.php:155
+msgid "Country code (alpha2) is not an accepted country."
+msgstr ""
+
+#: includes/wc-braintree-message-functions.php:156
+msgid "Customer has already reached the maximum of 50 addresses."
+msgstr ""
+
+#: includes/wc-braintree-message-functions.php:157
+msgid "First name must be a string."
+msgstr ""
+
+#: includes/wc-braintree-message-functions.php:158
+msgid "Last name must be a string."
+msgstr ""
+
+#: includes/wc-braintree-message-functions.php:159
+msgid "Company must be a string."
+msgstr ""
+
+#: includes/wc-braintree-message-functions.php:160
+msgid "Street address must be a string."
+msgstr ""
+
+#: includes/wc-braintree-message-functions.php:161
+msgid "Extended address must be a string."
+msgstr ""
+
+#: includes/wc-braintree-message-functions.php:162
+msgid "Locality must be a string."
+msgstr ""
+
+#: includes/wc-braintree-message-functions.php:163
+msgid "Region must be a string."
+msgstr ""
+
+#: includes/wc-braintree-message-functions.php:164
+msgid "Postal code must be a string."
+msgstr ""
+
+#: includes/wc-braintree-message-functions.php:165
+msgid "Address is invalid."
+msgstr ""
+
+#: includes/wc-braintree-message-functions.php:166
+msgid "Applicant merchant id is too long."
+msgstr ""
+
+#: includes/wc-braintree-message-functions.php:167
+msgid "Applicant merchant id format is invalid."
+msgstr ""
+
+#: includes/wc-braintree-message-functions.php:168
+msgid "Applicant merchant id is in use."
+msgstr ""
+
+#: includes/wc-braintree-message-functions.php:169
+msgid "Applicant merchant id is not allowed."
+msgstr ""
+
+#: includes/wc-braintree-message-functions.php:170
+msgid "Master merchant account ID is required."
+msgstr ""
+
+#: includes/wc-braintree-message-functions.php:171
+msgid "Master merchant account ID is invalid."
+msgstr ""
+
+#: includes/wc-braintree-message-functions.php:172
+msgid "Master merchant account must be active."
+msgstr ""
+
+#: includes/wc-braintree-message-functions.php:173
+msgid "Terms Of Service needs to be accepted. Applicant tos_accepted required."
+msgstr ""
+
+#: includes/wc-braintree-message-functions.php:174
+msgid "Merchant account id can not be updated."
+msgstr ""
+
+#: includes/wc-braintree-message-functions.php:175
+msgid "Master merchant account id can not be updated."
+msgstr ""
+
+#: includes/wc-braintree-message-functions.php:176
+msgid ""
+"Merchant accounts with a status of pending or suspended cannot be updated."
+msgstr ""
+
+#: includes/wc-braintree-message-functions.php:177
+msgid "Applicant first name is required."
+msgstr ""
+
+#: includes/wc-braintree-message-functions.php:178
+msgid "Individual first name is required."
+msgstr ""
+
+#: includes/wc-braintree-message-functions.php:179
+msgid "Applicant last name is required."
+msgstr ""
+
+#: includes/wc-braintree-message-functions.php:180
+msgid "Individual last name is required."
+msgstr ""
+
+#: includes/wc-braintree-message-functions.php:181
+msgid "Applicant date of birth is required."
+msgstr ""
+
+#: includes/wc-braintree-message-functions.php:182
+msgid "Individual date of birth is required."
+msgstr ""
+
+#: includes/wc-braintree-message-functions.php:183
+msgid "Applicant routing number is required."
+msgstr ""
+
+#: includes/wc-braintree-message-functions.php:184
+msgid "Funding routing number is required."
+msgstr ""
+
+#: includes/wc-braintree-message-functions.php:185
+msgid "Applicant account number is required."
+msgstr ""
+
+#: includes/wc-braintree-message-functions.php:186
+msgid "Funding account number is required."
+msgstr ""
+
+#: includes/wc-braintree-message-functions.php:187
+msgid "Applicant SSN must be blank, last 4 digits, or full 9 digits."
+msgstr ""
+
+#: includes/wc-braintree-message-functions.php:188
+msgid "Individual SSN must be blank, last 4 digits, or full 9 digits."
+msgstr ""
+
+#: includes/wc-braintree-message-functions.php:189
+msgid "Applicant email is invalid."
+msgstr ""
+
+#: includes/wc-braintree-message-functions.php:190
+msgid "Individual email is invalid."
+msgstr ""
+
+#: includes/wc-braintree-message-functions.php:191
+msgid "Applicant first name is invalid."
+msgstr ""
+
+#: includes/wc-braintree-message-functions.php:192
+msgid "Individual first name is invalid."
+msgstr ""
+
+#: includes/wc-braintree-message-functions.php:193
+msgid "Applicant last name is invalid."
+msgstr ""
+
+#: includes/wc-braintree-message-functions.php:194
+msgid "Individual last name is invalid."
+msgstr ""
+
+#: includes/wc-braintree-message-functions.php:195
+msgid "Applicant company name is invalid."
+msgstr ""
+
+#: includes/wc-braintree-message-functions.php:196
+msgid "Applicant tax ID is invalid."
+msgstr ""
+
+#: includes/wc-braintree-message-functions.php:197
+msgid "Business params provided in an invalid format."
+msgstr ""
+
+#: includes/wc-braintree-message-functions.php:198
+msgid "Business tax ID is invalid."
+msgstr ""
+
+#: includes/wc-braintree-message-functions.php:199
+msgid "Applicant company name is required with tax ID."
+msgstr ""
+
+#: includes/wc-braintree-message-functions.php:200
+msgid "Applicant tax ID is required with company name."
+msgstr ""
+
+#: includes/wc-braintree-message-functions.php:201
+msgid "Applicant routing number is invalid."
+msgstr ""
+
+#: includes/wc-braintree-message-functions.php:202
+msgid "Funding routing number is invalid."
+msgstr ""
+
+#: includes/wc-braintree-message-functions.php:203
+msgid ""
+"An unexpected error occurred trying to save the merchant account; support "
+"has been notified and is looking into the issue. You may safely retry this "
+"request"
+msgstr ""
+
+#: includes/wc-braintree-message-functions.php:204
+msgid "Applicant declined due to OFAC."
+msgstr ""
+
+#: includes/wc-braintree-message-functions.php:205
+msgid "Applicant declined due to MasterCard MATCH."
+msgstr ""
+
+#: includes/wc-braintree-message-functions.php:206
+msgid "Applicant declined due to failed KYC."
+msgstr ""
+
+#: includes/wc-braintree-message-functions.php:207
+msgid "Applicant declined due to invalid SSN."
+msgstr ""
+
+#: includes/wc-braintree-message-functions.php:208
+msgid "Applicant declined due to SSN matching that of a deceased person."
+msgstr ""
+
+#: includes/wc-braintree-message-functions.php:209
+msgid "Applicant declined after review."
+msgstr ""
+
+#: includes/wc-braintree-message-functions.php:210
+msgid "Applicant street address is required."
+msgstr ""
+
+#: includes/wc-braintree-message-functions.php:211
+msgid "Individual street address is required."
+msgstr ""
+
+#: includes/wc-braintree-message-functions.php:212
+msgid "Applicant locality is required."
+msgstr ""
+
+#: includes/wc-braintree-message-functions.php:213
+msgid "Individual locality is required."
+msgstr ""
+
+#: includes/wc-braintree-message-functions.php:214
+msgid "Applicant postal code is required."
+msgstr ""
+
+#: includes/wc-braintree-message-functions.php:215
+msgid "Individual postal code is required."
+msgstr ""
+
+#: includes/wc-braintree-message-functions.php:216
+msgid "Applicant region is required."
+msgstr ""
+
+#: includes/wc-braintree-message-functions.php:217
+msgid "Individual region is required."
+msgstr ""
+
+#: includes/wc-braintree-message-functions.php:218
+msgid "Applicant street address is invalid."
+msgstr ""
+
+#: includes/wc-braintree-message-functions.php:219
+msgid "Individual street address is invalid."
+msgstr ""
+
+#: includes/wc-braintree-message-functions.php:220
+msgid "Applicant region is invalid."
+msgstr ""
+
+#: includes/wc-braintree-message-functions.php:221
+msgid "Individual region is invalid."
+msgstr ""
+
+#: includes/wc-braintree-message-functions.php:222
+msgid "Applicant postal code is invalid."
+msgstr ""
+
+#: includes/wc-braintree-message-functions.php:223
+msgid "Individual postal code is invalid."
+msgstr ""
+
+#: includes/wc-braintree-message-functions.php:224
+msgid "Applicant phone is invalid."
+msgstr ""
+
+#: includes/wc-braintree-message-functions.php:225
+msgid "Individual phone is invalid."
+msgstr ""
+
+#: includes/wc-braintree-message-functions.php:226
+msgid "Applicant date of birth is invalid"
+msgstr ""
+
+#: includes/wc-braintree-message-functions.php:227
+msgid "Individual date of birth is invalid."
+msgstr ""
+
+#: includes/wc-braintree-message-functions.php:228
+msgid "Applicant account number is invalid."
+msgstr ""
+
+#: includes/wc-braintree-message-functions.php:229
+msgid "Funding account number is invalid."
+msgstr ""
+
+#: includes/wc-braintree-message-functions.php:230
+msgid "Applicant email is required."
+msgstr ""
+
+#: includes/wc-braintree-message-functions.php:231
+msgid "Individual email is required."
+msgstr ""
+
+#: includes/wc-braintree-message-functions.php:232
+msgid "Business tax ID must be blank unless business legal name is present."
+msgstr ""
+
+#: includes/wc-braintree-message-functions.php:233
+msgid "Applicant tax ID must be blank unless company name present."
+msgstr ""
+
+#: includes/wc-braintree-message-functions.php:234
+msgid "Business DBA name is invalid."
+msgstr ""
+
+#: includes/wc-braintree-message-functions.php:235
+msgid "Business legal name is invalid."
+msgstr ""
+
+#: includes/wc-braintree-message-functions.php:236
+msgid "Business legal name is required with tax ID."
+msgstr ""
+
+#: includes/wc-braintree-message-functions.php:237
+msgid "Business tax ID is required with business legal name."
+msgstr ""
+
+#: includes/wc-braintree-message-functions.php:238
+msgid "Business street address is invalid."
+msgstr ""
+
+#: includes/wc-braintree-message-functions.php:239
+msgid "Business postal code is invalid."
+msgstr ""
+
+#: includes/wc-braintree-message-functions.php:240
+msgid "Business region is invalid."
+msgstr ""
+
+#: includes/wc-braintree-message-functions.php:241
+msgid "Funding destination is invalid."
+msgstr ""
+
+#: includes/wc-braintree-message-functions.php:242
+msgid "Funding destination is required."
+msgstr ""
+
+#: includes/wc-braintree-message-functions.php:243
+msgid "Funding email is invalid."
+msgstr ""
+
+#: includes/wc-braintree-message-functions.php:244
+msgid "Funding email is required when destination is email."
+msgstr ""
+
+#: includes/wc-braintree-message-functions.php:245
+msgid "Funding mobile phone is invalid."
+msgstr ""
+
+#: includes/wc-braintree-message-functions.php:246
+msgid "Funding mobile phone is required when destination is mobile phone."
+msgstr ""
+
+#: includes/wc-braintree-message-functions.php:247
+msgid "Individual params provided in an invalid format."
+msgstr ""
+
+#: includes/wc-braintree-message-functions.php:248
+msgid "Business locality is invalid."
+msgstr ""
+
+#: includes/wc-braintree-message-functions.php:249
+msgid "Individual locality is invalid."
+msgstr ""
+
+#: includes/wc-braintree-message-functions.php:250
+msgid "Applicant locality is invalid."
+msgstr ""
+
+#: includes/wc-braintree-message-functions.php:251
+msgid "Cannot specify make_default without a customer_id"
+msgstr ""
+
+#: includes/wc-braintree-message-functions.php:252
+msgid "Cannot specify verify_card without a customer_id"
+msgstr ""
+
+#: includes/wc-braintree-message-functions.php:253
+msgid "Cannot specify fail_on_duplicate_payment_method without a customer_id"
+msgstr ""
+
+#: includes/wc-braintree-message-functions.php:254
+msgid "Customer specified by customer_id does not exist"
+msgstr ""
+
+#: includes/wc-braintree-message-functions.php:255
+msgid "Unsupported client token version"
+msgstr ""
+
+#: includes/wc-braintree-message-functions.php:256
+msgid "Merchant Account specified by merchant_account_id does not exist"
+msgstr ""
+
+#: includes/wc-braintree-message-functions.php:257
+#: includes/wc-braintree-message-functions.php:467
+msgid "Custom field is invalid:"
+msgstr ""
+
+#: includes/wc-braintree-message-functions.php:258
+msgid "Customer ID has already been taken."
+msgstr ""
+
+#: includes/wc-braintree-message-functions.php:259
+msgid "Customer ID is invalid (use only letters, numbers, '-', and '_')."
+msgstr ""
+
+#: includes/wc-braintree-message-functions.php:260
+msgid "Customer ID is not an allowed ID."
+msgstr ""
+
+#: includes/wc-braintree-message-functions.php:261
+msgid "Customer ID is too long."
+msgstr ""
+
+#: includes/wc-braintree-message-functions.php:262
+#: includes/wc-braintree-message-functions.php:280
+#: includes/wc-braintree-message-functions.php:308
+#: includes/wc-braintree-message-functions.php:387
+msgid "Customer ID is required."
+msgstr ""
+
+#: includes/wc-braintree-message-functions.php:263
+msgid ""
+"Nonce references a vaulted payment instrument - cannot be transferred "
+"between customers"
+msgstr ""
+
+#: includes/wc-braintree-message-functions.php:264
+msgid ""
+"Customer attribute must be a map of keys and values representing a customer."
+msgstr ""
+
+#: includes/wc-braintree-message-functions.php:265
+msgid "Ambiguous usage of default payment method token."
+msgstr ""
+
+#: includes/wc-braintree-message-functions.php:267
+#: includes/wc-braintree-message-functions.php:459
+msgid "Custom field is too long:"
+msgstr ""
+
+#: includes/wc-braintree-message-functions.php:268
+msgid "Email is an invalid format."
+msgstr ""
+
+#: includes/wc-braintree-message-functions.php:269
+msgid "Email is too long."
+msgstr ""
+
+#: includes/wc-braintree-message-functions.php:270
+msgid "Email is required if sending a receipt."
+msgstr ""
+
+#: includes/wc-braintree-message-functions.php:271
+msgid "Fax is too long."
+msgstr ""
+
+#: includes/wc-braintree-message-functions.php:274
+msgid "Phone is too long."
+msgstr ""
+
+#: includes/wc-braintree-message-functions.php:275
+msgid "Website is too long."
+msgstr ""
+
+#: includes/wc-braintree-message-functions.php:276
+msgid "Website is an invalid format."
+msgstr ""
+
+#: includes/wc-braintree-message-functions.php:277
+msgid "Payment method params are required."
+msgstr ""
+
+#: includes/wc-braintree-message-functions.php:278
+msgid "Nonce is invalid."
+msgstr ""
+
+#: includes/wc-braintree-message-functions.php:279
+msgid "Nonce is required."
+msgstr ""
+
+#: includes/wc-braintree-message-functions.php:281
+#: includes/wc-braintree-message-functions.php:309
+#: includes/wc-braintree-message-functions.php:389
+#: includes/wc-braintree-message-functions.php:468
+msgid "Customer ID is invalid."
+msgstr ""
+
+#: includes/wc-braintree-message-functions.php:282
+msgid "Cannot forward a payment method of this type."
+msgstr ""
+
+#: includes/wc-braintree-message-functions.php:283
+#: includes/wc-braintree-message-functions.php:289
+#: includes/wc-braintree-message-functions.php:339
+#: includes/wc-braintree-message-functions.php:375
+#: includes/wc-braintree-message-functions.php:520
+msgid "Cannot use a payment_method_nonce more than once."
+msgstr ""
+
+#: includes/wc-braintree-message-functions.php:284
+#: includes/wc-braintree-message-functions.php:290
+#: includes/wc-braintree-message-functions.php:340
+#: includes/wc-braintree-message-functions.php:376
+#: includes/wc-braintree-message-functions.php:521
+msgid "Unknown or expired payment_method_nonce."
+msgstr ""
+
+#: includes/wc-braintree-message-functions.php:285
+msgid "Nonce is not vaultable."
+msgstr ""
+
+#: includes/wc-braintree-message-functions.php:286
+msgid "Apple Pay cards are not accepted by this merchant account."
+msgstr ""
+
+#: includes/wc-braintree-message-functions.php:287
+msgid "A customer ID is required to vault an Apple Pay Card."
+msgstr ""
+
+#: includes/wc-braintree-message-functions.php:288
+msgid "Apple Pay token is taken."
+msgstr ""
+
+#: includes/wc-braintree-message-functions.php:291
+#: includes/wc-braintree-message-functions.php:341
+#: includes/wc-braintree-message-functions.php:377
+msgid "Payment method nonce locked."
+msgstr ""
+
+#: includes/wc-braintree-message-functions.php:292
+#: includes/wc-braintree-message-functions.php:318
+#: includes/wc-braintree-message-functions.php:334
+#: includes/wc-braintree-message-functions.php:342
+#: includes/wc-braintree-message-functions.php:458
+msgid "Credit card type is not accepted by this merchant account."
+msgstr ""
+
+#: includes/wc-braintree-message-functions.php:293
+msgid ""
+"Payment method nonces cannot be used to update an existing Apple Pay Card."
+msgstr ""
+
+#: includes/wc-braintree-message-functions.php:294
+msgid "Number is required for Apple Pay Card"
+msgstr ""
+
+#: includes/wc-braintree-message-functions.php:295
+msgid "Expiration Month is required for Apple Pay Card"
+msgstr ""
+
+#: includes/wc-braintree-message-functions.php:296
+msgid "Expiration Year is required for Apple Pay Card"
+msgstr ""
+
+#: includes/wc-braintree-message-functions.php:297
+msgid "Cryptogram is required for Apple Pay Card"
+msgstr ""
+
+#: includes/wc-braintree-message-functions.php:298
+msgid "Apple Pay payment data decryption failed"
+msgstr ""
+
+#: includes/wc-braintree-message-functions.php:299
+msgid "Apple Pay is disabled for this merchant"
+msgstr ""
+
+#: includes/wc-braintree-message-functions.php:300
+msgid "Apple Pay certificate, private key or merchant ID not configured"
+msgstr ""
+
+#: includes/wc-braintree-message-functions.php:301
+msgid "Certificate provided is not valid"
+msgstr ""
+
+#: includes/wc-braintree-message-functions.php:302
+msgid "Public key used to sign payment data does not match stored certificate"
+msgstr ""
+
+#: includes/wc-braintree-message-functions.php:303
+msgid "Payment data is malformed"
+msgstr ""
+
+#: includes/wc-braintree-message-functions.php:304
+msgid ""
+"Private key stored does not match private key used to encrypt payment data"
+msgstr ""
+
+#: includes/wc-braintree-message-functions.php:305
+msgid "Certificate does not match stored key pair"
+msgstr ""
+
+#: includes/wc-braintree-message-functions.php:306
+msgid "Cannot provide both a billing address and a billing address ID."
+msgstr ""
+
+#: includes/wc-braintree-message-functions.php:307
+msgid "Billing address ID is invalid."
+msgstr ""
+
+#: includes/wc-braintree-message-functions.php:310
+msgid ""
+"Cannot provide expirationdate if you are also providing expiration_month and "
+"expiration_year."
+msgstr ""
+
+#: includes/wc-braintree-message-functions.php:311
+msgid "Token is invalid (use only letters, numbers, \" - \", and '')."
+msgstr ""
+
+#: includes/wc-braintree-message-functions.php:312
+msgid "Credit card token is taken."
+msgstr ""
+
+#: includes/wc-braintree-message-functions.php:313
+msgid "Credit card token is too long."
+msgstr ""
+
+#: includes/wc-braintree-message-functions.php:314
+msgid "Token is not an allowed token."
+msgstr ""
+
+#: includes/wc-braintree-message-functions.php:315
+msgid "Payment Method token is required."
+msgstr ""
+
+#: includes/wc-braintree-message-functions.php:316
+msgid "Billing address format is invalid."
+msgstr ""
+
+#: includes/wc-braintree-message-functions.php:317
+msgid "Cardholder name is too long."
+msgstr ""
+
+#: includes/wc-braintree-message-functions.php:319
+msgid ""
+"Credit card number cannot be updated to an unsupported card type when it is "
+"associated to subscriptions."
+msgstr ""
+
+#: includes/wc-braintree-message-functions.php:320
+msgid "CVV is required."
+msgstr ""
+
+#: includes/wc-braintree-message-functions.php:321
+msgid ""
+"CVV must be 4 digits for American Express and 3 digits for other card types."
+msgstr ""
+
+#: includes/wc-braintree-message-functions.php:322
+msgid "Expiration date is required."
+msgstr ""
+
+#: includes/wc-braintree-message-functions.php:323
+msgid "Expiration date is invalid."
+msgstr ""
+
+#: includes/wc-braintree-message-functions.php:324
+msgid "Expiration date year is invalid. It must be between 1975 and 2200."
+msgstr ""
+
+#: includes/wc-braintree-message-functions.php:325
+msgid "Expiration month is invalid."
+msgstr ""
+
+#: includes/wc-braintree-message-functions.php:326
+msgid "Expiration year is invalid."
+msgstr ""
+
+#: includes/wc-braintree-message-functions.php:327
+msgid "Credit card number is required."
+msgstr ""
+
+#: includes/wc-braintree-message-functions.php:328
+msgid "Credit card number is invalid."
+msgstr ""
+
+#: includes/wc-braintree-message-functions.php:329
+msgid "Credit card number must be 12-19 digits."
+msgstr ""
+
+#: includes/wc-braintree-message-functions.php:330
+msgid "Credit card number is not an accepted test number."
+msgstr ""
+
+#: includes/wc-braintree-message-functions.php:331
+msgid "Update Existing Token is invalid."
+msgstr ""
+
+#: includes/wc-braintree-message-functions.php:332
+msgid "Duplicate card exists in the vault."
+msgstr ""
+
+#: includes/wc-braintree-message-functions.php:333
+msgid ""
+"Credit card must include number, payment_method_nonce, or "
+"venmo_sdk_payment_method_code."
+msgstr ""
+
+#: includes/wc-braintree-message-functions.php:335
+msgid "Invalid VenmoSDK payment method code"
+msgstr ""
+
+#: includes/wc-braintree-message-functions.php:336
+#: includes/wc-braintree-message-functions.php:585
+msgid "Verification Merchant Account ID is invalid."
+msgstr ""
+
+#: includes/wc-braintree-message-functions.php:337
+msgid "Update Existing Token is not allowed when creating a customer."
+msgstr ""
+
+#: includes/wc-braintree-message-functions.php:338
+msgid "Verifications are not supported on this merchant account"
+msgstr ""
+
+#: includes/wc-braintree-message-functions.php:343
+msgid "Payment method nonces cannot be used to update an existing card."
+msgstr ""
+
+#: includes/wc-braintree-message-functions.php:344
+msgid "Payment method is not a credit card payment method."
+msgstr ""
+
+#: includes/wc-braintree-message-functions.php:345
+#: includes/wc-braintree-message-functions.php:586
+msgid "Verification Merchant Account is suspended."
+msgstr ""
+
+#: includes/wc-braintree-message-functions.php:346
+msgid ""
+"The current user does not have access to the specified "
+"verification_merchant_account_id"
+msgstr ""
+
+#: includes/wc-braintree-message-functions.php:347
+msgid "CVV verification failed."
+msgstr ""
+
+#: includes/wc-braintree-message-functions.php:348
+msgid "Postal code verification failed."
+msgstr ""
+
+#: includes/wc-braintree-message-functions.php:349
+#: includes/wc-braintree-message-functions.php:582
+msgid "Verification amount cannot be negative."
+msgstr ""
+
+#: includes/wc-braintree-message-functions.php:350
+#: includes/wc-braintree-message-functions.php:583
+msgid "Verification amount is invalid."
+msgstr ""
+
+#: includes/wc-braintree-message-functions.php:351
+#: includes/wc-braintree-message-functions.php:584
+msgid "Verification amount not supported by processor."
+msgstr ""
+
+#: includes/wc-braintree-message-functions.php:352
+msgid ""
+"Payment method params supplied are not valid for updating a credit card."
+msgstr ""
+
+#: includes/wc-braintree-message-functions.php:353
+msgid "Credit card number is prohibited."
+msgstr ""
+
+#: includes/wc-braintree-message-functions.php:354
+#: includes/wc-braintree-message-functions.php:588
+msgid "Verification amount is too large."
+msgstr ""
+
+#: includes/wc-braintree-message-functions.php:355
+#: includes/wc-braintree-message-functions.php:589
+msgid "Verification Merchant Account ID cannot be a sub-merchant account."
+msgstr ""
+
+#: includes/wc-braintree-message-functions.php:356
+msgid "Industry type is invalid."
+msgstr ""
+
+#: includes/wc-braintree-message-functions.php:357
+msgid "Lodging data is empty."
+msgstr ""
+
+#: includes/wc-braintree-message-functions.php:358
+msgid "Folio number is invalid."
+msgstr ""
+
+#: includes/wc-braintree-message-functions.php:359
+msgid "Check in date is invalid."
+msgstr ""
+
+#: includes/wc-braintree-message-functions.php:360
+msgid "Check out date is invalid."
+msgstr ""
+
+#: includes/wc-braintree-message-functions.php:361
+msgid "Check out date must occur during or after the check in date."
+msgstr ""
+
+#: includes/wc-braintree-message-functions.php:362
+#: includes/wc-braintree-message-functions.php:364
+msgid "Data fields are unknown."
+msgstr ""
+
+#: includes/wc-braintree-message-functions.php:363
+msgid "Travel and Cruise data is empty."
+msgstr ""
+
+#: includes/wc-braintree-message-functions.php:365
+msgid "Travel Package is invalid."
+msgstr ""
+
+#: includes/wc-braintree-message-functions.php:366
+msgid "Departure date is invalid."
+msgstr ""
+
+#: includes/wc-braintree-message-functions.php:367
+msgid "Lodging check in date is invalid."
+msgstr ""
+
+#: includes/wc-braintree-message-functions.php:368
+msgid "Lodging check out date is invalid."
+msgstr ""
+
+#: includes/wc-braintree-message-functions.php:369
+msgid "Incomplete PayPal account information."
+msgstr ""
+
+#: includes/wc-braintree-message-functions.php:370
+msgid "Pre-Approved Payment enabled PayPal account required for vaulting."
+msgstr ""
+
+#: includes/wc-braintree-message-functions.php:371
+msgid "Invalid PayPal account information."
+msgstr ""
+
+#: includes/wc-braintree-message-functions.php:372
+msgid "PayPal Accounts are not accepted by this merchant account."
+msgstr ""
+
+#: includes/wc-braintree-message-functions.php:373
+msgid "A customer ID is required to vault a PayPal Account."
+msgstr ""
+
+#: includes/wc-braintree-message-functions.php:374
+msgid "PayPal Account token is taken."
+msgstr ""
+
+#: includes/wc-braintree-message-functions.php:378
+msgid "Error communicating with PayPal."
+msgstr ""
+
+#: includes/wc-braintree-message-functions.php:379
+msgid "PayPal authentication expired."
+msgstr ""
+
+#: includes/wc-braintree-message-functions.php:380
+msgid "Funding source selection was given without an access token."
+msgstr ""
+
+#: includes/wc-braintree-message-functions.php:381
+msgid "Funding source object is invalid or missing required fields."
+msgstr ""
+
+#: includes/wc-braintree-message-functions.php:382
+msgid ""
+"Payment method nonces cannot be used to update an existing PayPal account."
+msgstr ""
+
+#: includes/wc-braintree-message-functions.php:383
+msgid ""
+"Payment method params supplied are not valid for updating a PayPal account."
+msgstr ""
+
+#: includes/wc-braintree-message-functions.php:384
+msgid "Common ID is required."
+msgstr ""
+
+#: includes/wc-braintree-message-functions.php:385
+msgid "Username is required."
+msgstr ""
+
+#: includes/wc-braintree-message-functions.php:386
+msgid "Venmo user ID is required."
+msgstr ""
+
+#: includes/wc-braintree-message-functions.php:388
+msgid "Venmo accounts are not accepted by this merchant account."
+msgstr ""
+
+#: includes/wc-braintree-message-functions.php:390
+msgid "Quantity is invalid."
+msgstr ""
+
+#: includes/wc-braintree-message-functions.php:391
+msgid "Amount is invalid."
+msgstr ""
+
+#: includes/wc-braintree-message-functions.php:392
+msgid "Amount cannot be blank."
+msgstr ""
+
+#: includes/wc-braintree-message-functions.php:393
+msgid "Quantity cannot be blank."
+msgstr ""
+
+#: includes/wc-braintree-message-functions.php:394
+msgid "Number of billing cycles is invalid."
+msgstr ""
+
+#: includes/wc-braintree-message-functions.php:395
+msgid "Quantity must be greater than zero."
+msgstr ""
+
+#: includes/wc-braintree-message-functions.php:396
+msgid "Existing ID is invalid."
+msgstr ""
+
+#: includes/wc-braintree-message-functions.php:397
+msgid "Existing ID is required."
+msgstr ""
+
+#: includes/wc-braintree-message-functions.php:398
+msgid "Inherited From ID is invalid."
+msgstr ""
+
+#: includes/wc-braintree-message-functions.php:399
+msgid "Inherited From ID is required."
+msgstr ""
+
+#: includes/wc-braintree-message-functions.php:400
+msgid "Cannot update a removed add-on or discount."
+msgstr ""
+
+#: includes/wc-braintree-message-functions.php:401
+msgid ""
+"Cannot remove add-on or discount if not already associated with subscription."
+msgstr ""
+
+#: includes/wc-braintree-message-functions.php:402
+msgid "Number of billing cycles cannot be blank."
+msgstr ""
+
+#: includes/wc-braintree-message-functions.php:403
+#: includes/wc-braintree-message-functions.php:429
+msgid "Cannot specify both number of billing cycles and never expires as true."
+msgstr ""
+
+#: includes/wc-braintree-message-functions.php:404
+msgid "Number of billing cycles must be greater than zero."
+msgstr ""
+
+#: includes/wc-braintree-message-functions.php:405
+msgid "Existing ID is not of the correct kind."
+msgstr ""
+
+#: includes/wc-braintree-message-functions.php:406
+msgid "ID to remove is incorrect kind."
+msgstr ""
+
+#: includes/wc-braintree-message-functions.php:407
+msgid "Cannot edit add-on or discount on a past due subscription."
+msgstr ""
+
+#: includes/wc-braintree-message-functions.php:408
+#: includes/wc-braintree-message-functions.php:457
+msgid "Amount is too large."
+msgstr ""
+
+#: includes/wc-braintree-message-functions.php:409
+msgid "Cannot pass null modification."
+msgstr ""
+
+#: includes/wc-braintree-message-functions.php:410
+msgid "ID to remove is invalid."
+msgstr ""
+
+#: includes/wc-braintree-message-functions.php:411
+msgid "Cannot edit a canceled subscription."
+msgstr ""
+
+#: includes/wc-braintree-message-functions.php:412
+msgid "ID has already been taken."
+msgstr ""
+
+#: includes/wc-braintree-message-functions.php:413
+msgid "Price cannot be blank."
+msgstr ""
+
+#: includes/wc-braintree-message-functions.php:414
+msgid "Price is an invalid format."
+msgstr ""
+
+#: includes/wc-braintree-message-functions.php:415
+msgid "Subscription has already been canceled."
+msgstr ""
+
+#: includes/wc-braintree-message-functions.php:416
+msgid "ID is invalid (use only letters, numbers, '-', and '')."
+msgstr ""
+
+#: includes/wc-braintree-message-functions.php:417
+msgid "Trial Duration is an invalid format."
+msgstr ""
+
+#: includes/wc-braintree-message-functions.php:418
+msgid "Trial Duration is required."
+msgstr ""
+
+#: includes/wc-braintree-message-functions.php:419
+msgid "Trial Duration Unit is invalid."
+msgstr ""
+
+#: includes/wc-braintree-message-functions.php:420
+msgid "Cannot edit an expired subscription."
+msgstr ""
+
+#: includes/wc-braintree-message-functions.php:421
+msgid "Price is too large."
+msgstr ""
+
+#: includes/wc-braintree-message-functions.php:422
+msgid "Merchant Account ID is invalid."
+msgstr ""
+
+#: includes/wc-braintree-message-functions.php:423
+msgid ""
+"Payment method token payment instrument type is not accepted by this "
+"merchant account."
+msgstr ""
+
+#: includes/wc-braintree-message-functions.php:424
+#: includes/wc-braintree-message-functions.php:477
+msgid "Payment method token is invalid."
+msgstr ""
+
+#: includes/wc-braintree-message-functions.php:425
+msgid "Plan ID is invalid."
+msgstr ""
+
+#: includes/wc-braintree-message-functions.php:426
+msgid "Payment method token does not belong to the subscription's customer."
+msgstr ""
+
+#: includes/wc-braintree-message-functions.php:427
+msgid "Number Of Billing Cycles must be numeric."
+msgstr ""
+
+#: includes/wc-braintree-message-functions.php:428
+msgid "Number Of Billing Cycles must be greater than zero."
+msgstr ""
+
+#: includes/wc-braintree-message-functions.php:430
+msgid "Number Of Billing Cycles is less than the current billing cycle."
+msgstr ""
+
+#: includes/wc-braintree-message-functions.php:431
+msgid "Cannot add duplicate add-on or discount."
+msgstr ""
+
+#: includes/wc-braintree-message-functions.php:432
+msgid "Number Of Billing Cycles cannot be blank if the subscription expires."
+msgstr ""
+
+#: includes/wc-braintree-message-functions.php:433
+msgid "Billing Day of Month must be numeric."
+msgstr ""
+
+#: includes/wc-braintree-message-functions.php:434
+msgid "Billing Day of Month must be between 1 and 28, or 31."
+msgstr ""
+
+#: includes/wc-braintree-message-functions.php:435
+msgid "First Billing Date is invalid."
+msgstr ""
+
+#: includes/wc-braintree-message-functions.php:436
+msgid "First Billing Date cannot be in the past."
+msgstr ""
+
+#: includes/wc-braintree-message-functions.php:437
+msgid "Cannot specify more than one type of start date."
+msgstr ""
+
+#: includes/wc-braintree-message-functions.php:438
+msgid "Billing Day of Month cannot be updated."
+msgstr ""
+
+#: includes/wc-braintree-message-functions.php:439
+msgid "First Billing Date cannot be updated."
+msgstr ""
+
+#: includes/wc-braintree-message-functions.php:440
+msgid ""
+"Can only edit id, merchant account id, payment method token, and descriptor "
+"on a past due subscription."
+msgstr ""
+
+#: includes/wc-braintree-message-functions.php:441
+msgid "Invalid request format."
+msgstr ""
+
+#: includes/wc-braintree-message-functions.php:442
+msgid ""
+"Cannot update subscription to a plan with a different billing frequency."
+msgstr ""
+
+#: includes/wc-braintree-message-functions.php:443
+msgid ""
+"Subscription Plan currency must be the same as the merchant account's "
+"currency."
+msgstr ""
+
+#: includes/wc-braintree-message-functions.php:444
+msgid ""
+"Payment method nonce payment instrument type is not accepted by this "
+"merchant account."
+msgstr ""
+
+#: includes/wc-braintree-message-functions.php:445
+msgid "Payment method nonce is invalid."
+msgstr ""
+
+#: includes/wc-braintree-message-functions.php:446
+msgid "Payment method nonce does not belong to the subscription's customer."
+msgstr ""
+
+#: includes/wc-braintree-message-functions.php:447
+msgid "Payment method nonce represents an un-vaulted payment instrument."
+msgstr ""
+
+#: includes/wc-braintree-message-functions.php:448
+#: includes/wc-braintree-message-functions.php:449
+msgid "Payment instrument type is not valid for subscriptions."
+msgstr ""
+
+#: includes/wc-braintree-message-functions.php:450
+msgid "Merchant Account does not support the given payment instrument type."
+msgstr ""
+
+#: includes/wc-braintree-message-functions.php:451
+msgid "Settlement Date is required"
+msgstr ""
+
+#: includes/wc-braintree-message-functions.php:452
+msgid "Settlement Date is invalid"
+msgstr ""
+
+#: includes/wc-braintree-message-functions.php:453
+msgid "Group By Custom Field is not a valid custom field"
+msgstr ""
+
+#: includes/wc-braintree-message-functions.php:454
+#: includes/wc-braintree-message-functions.php:510
+msgid "Amount cannot be negative."
+msgstr ""
+
+#: includes/wc-braintree-message-functions.php:455
+msgid "Amount is required."
+msgstr ""
+
+#: includes/wc-braintree-message-functions.php:456
+#: includes/wc-braintree-message-functions.php:511
+msgid "Amount is an invalid format."
+msgstr ""
+
+#: includes/wc-braintree-message-functions.php:460
+msgid "Order ID is too long."
+msgstr ""
+
+#: includes/wc-braintree-message-functions.php:461
+msgid "Cannot provide a billing address unless also providing a credit card."
+msgstr ""
+
+#: includes/wc-braintree-message-functions.php:462
+msgid ""
+"Transaction can only be voided if status is authorized or "
+"submitted_for_settlement."
+msgstr ""
+
+#: includes/wc-braintree-message-functions.php:463
+msgid "Credit transactions cannot be refunded."
+msgstr ""
+
+#: includes/wc-braintree-message-functions.php:464
+msgid "Cannot refund a transaction unless it is settled."
+msgstr ""
+
+#: includes/wc-braintree-message-functions.php:465
+msgid "Cannot submit for settlement unless status is authorized."
+msgstr ""
+
+#: includes/wc-braintree-message-functions.php:466
+msgid "Cannot determine payment method."
+msgstr ""
+
+#: includes/wc-braintree-message-functions.php:469
+msgid "Customer does not have any credit cards."
+msgstr ""
+
+#: includes/wc-braintree-message-functions.php:470
+msgid "Transaction has already been completely refunded."
+msgstr ""
+
+#: includes/wc-braintree-message-functions.php:471
+msgid "Merchant account ID is invalid."
+msgstr ""
+
+#: includes/wc-braintree-message-functions.php:472
+msgid "Merchant account is suspended."
+msgstr ""
+
+#: includes/wc-braintree-message-functions.php:473
+msgid "Cannot provide both payment_method_token and credit_card attributes."
+msgstr ""
+
+#: includes/wc-braintree-message-functions.php:474
+msgid ""
+"Cannot provide both payment_method_token and customer_id unless the "
+"payment_method belongs to the customer."
+msgstr ""
+
+#: includes/wc-braintree-message-functions.php:475
+msgid ""
+"Cannot provide both payment_method_token and subscription_id unless the "
+"payment_method belongs to the subscription."
+msgstr ""
+
+#: includes/wc-braintree-message-functions.php:476
+#: includes/wc-braintree-message-functions.php:522
+#: includes/wc-braintree-message-functions.php:550
+msgid "Payment instrument type is not accepted by this merchant account."
+msgstr ""
+
+#: includes/wc-braintree-message-functions.php:478
+msgid ""
+"Processor authorization code cannot be set unless for a voice authorization."
+msgstr ""
+
+#: includes/wc-braintree-message-functions.php:479
+msgid "Refund amount is too large."
+msgstr ""
+
+#: includes/wc-braintree-message-functions.php:480
+msgid "Cannot refund a transaction with a suspended merchant account."
+msgstr ""
+
+#: includes/wc-braintree-message-functions.php:481
+msgid "Settlement amount is too large."
+msgstr ""
+
+#: includes/wc-braintree-message-functions.php:482
+msgid ""
+"Cannot provide both subscription_id and customer_id unless the subscription "
+"belongs to the customer."
+msgstr ""
+
+#: includes/wc-braintree-message-functions.php:483
+msgid "Subscription ID is invalid."
+msgstr ""
+
+#: includes/wc-braintree-message-functions.php:484
+msgid "Transaction type is invalid."
+msgstr ""
+
+#: includes/wc-braintree-message-functions.php:485
+msgid "Transaction type is required."
+msgstr ""
+
+#: includes/wc-braintree-message-functions.php:486
+msgid "Vault is disabled."
+msgstr ""
+
+#: includes/wc-braintree-message-functions.php:487
+msgid "Subscription status must be Past Due in order to retry."
+msgstr ""
+
+#: includes/wc-braintree-message-functions.php:488
+msgid "Merchant account does not support refunds."
+msgstr ""
+
+#: includes/wc-braintree-message-functions.php:489
+msgid "Amount must be greater than zero."
+msgstr ""
+
+#: includes/wc-braintree-message-functions.php:490
+msgid "Tax amount cannot be negative."
+msgstr ""
+
+#: includes/wc-braintree-message-functions.php:491
+msgid "Tax amount is an invalid format."
+msgstr ""
+
+#: includes/wc-braintree-message-functions.php:492
+msgid "Tax amount is too large."
+msgstr ""
+
+#: includes/wc-braintree-message-functions.php:493
+msgid "Failed to authenticate, please try a different form of payment."
+msgstr ""
+
+#: includes/wc-braintree-message-functions.php:494
+msgid "Purchase order number is too long."
+msgstr ""
+
+#: includes/wc-braintree-message-functions.php:495
+msgid "Voice Authorization is not allowed for this card type"
+msgstr ""
+
+#: includes/wc-braintree-message-functions.php:496
+msgid "Transaction cannot be cloned if payment method is stored in vault."
+msgstr ""
+
+#: includes/wc-braintree-message-functions.php:497
+msgid "Cannot clone voice authorization transactions."
+msgstr ""
+
+#: includes/wc-braintree-message-functions.php:498
+msgid "Unsuccessful transaction cannot be cloned."
+msgstr ""
+
+#: includes/wc-braintree-message-functions.php:499
+msgid "Credits cannot be cloned."
+msgstr ""
+
+#: includes/wc-braintree-message-functions.php:500
+msgid "Cannot clone transaction without submit_for_settlement flag."
+msgstr ""
+
+#: includes/wc-braintree-message-functions.php:501
+msgid "Voice Authorizations are not supported for this processor."
+msgstr ""
+
+#: includes/wc-braintree-message-functions.php:502
+msgid "Credits are not supported by this processor."
+msgstr ""
+
+#: includes/wc-braintree-message-functions.php:503
+msgid "Purchase order number is invalid."
+msgstr ""
+
+#: includes/wc-braintree-message-functions.php:504
+msgid "Processor authorization code must be 6 characters."
+msgstr ""
+
+#: includes/wc-braintree-message-functions.php:505
+msgid ""
+"Cannot provide more than one of payment_method_token, payment_method_nonce, "
+"credit_card, and venmo_sdk_payment_method_code attributes."
+msgstr ""
+
+#: includes/wc-braintree-message-functions.php:506
+msgid "Channel is too long."
+msgstr ""
+
+#: includes/wc-braintree-message-functions.php:507
+msgid "Settlement amount cannot be less than the service fee amount."
+msgstr ""
+
+#: includes/wc-braintree-message-functions.php:508
+msgid "Credits not allowed with service fee."
+msgstr ""
+
+#: includes/wc-braintree-message-functions.php:509
+msgid "Sub-merchant account requires a service fee."
+msgstr ""
+
+#: includes/wc-braintree-message-functions.php:512
+msgid "Service fee amount is larger than transaction amount."
+msgstr ""
+
+#: includes/wc-braintree-message-functions.php:513
+msgid "Service fee not supported on master merchant account."
+msgstr ""
+
+#: includes/wc-braintree-message-functions.php:514
+msgid ""
+"Merchant account does not support MOTO transactions unless configured by "
+"processor."
+msgstr ""
+
+#: includes/wc-braintree-message-functions.php:515
+msgid "Cannot refund a transaction with a pending merchant account."
+msgstr ""
+
+#: includes/wc-braintree-message-functions.php:516
+msgid "Transaction could not be held in escrow."
+msgstr ""
+
+#: includes/wc-braintree-message-functions.php:517
+msgid "Cannot release a transaction that is not escrowed."
+msgstr ""
+
+#: includes/wc-braintree-message-functions.php:518
+msgid ""
+"Release can only be cancelled if the transaction is submitted for release."
+msgstr ""
+
+#: includes/wc-braintree-message-functions.php:519
+msgid "Escrowed transactions cannot be partially refunded."
+msgstr ""
+
+#: includes/wc-braintree-message-functions.php:523
+msgid "Three D Secure Token is invalid."
+msgstr ""
+
+#: includes/wc-braintree-message-functions.php:524
+msgid "payment_method_nonce does not contain a valid payment instrument type."
+msgstr ""
+
+#: includes/wc-braintree-message-functions.php:525
+msgid "Current payment method does not support use_billing_for_shipping flag."
+msgstr ""
+
+#: includes/wc-braintree-message-functions.php:526
+msgid ""
+"Cannot transition transaction to settled, settlement_confirmed, or "
+"settlement_declined"
+msgstr ""
+
+#: includes/wc-braintree-message-functions.php:527
+msgid "PayPal is not enabled for your merchant account."
+msgstr ""
+
+#: includes/wc-braintree-message-functions.php:528
+msgid "Merchant account does not support payment instrument."
+msgstr ""
+
+#: includes/wc-braintree-message-functions.php:529
+msgid "Transaction data does not match data from Three D Secure verify call."
+msgstr ""
+
+#: includes/wc-braintree-message-functions.php:530
+msgid "Transaction cannot be cloned if payment method is a PayPal account."
+msgstr ""
+
+#: includes/wc-braintree-message-functions.php:531
+msgid ""
+"Cannot refund a transaction transaction in settling status on this merchant "
+"account. Try again after the transaction has settled."
+msgstr ""
+
+#: includes/wc-braintree-message-functions.php:532
+msgid "Service fee can not be applied on PayPal transactions."
+msgstr ""
+
+#: includes/wc-braintree-message-functions.php:533
+msgid "PayPal custom fields must be less than 256 characters in length."
+msgstr ""
+
+#: includes/wc-braintree-message-functions.php:534
+msgid "Shipping address customer does not match customer in request."
+msgstr ""
+
+#: includes/wc-braintree-message-functions.php:535
+msgid "PayPal unilateral transactions must also be submitted for settlement."
+msgstr ""
+
+#: includes/wc-braintree-message-functions.php:536
+msgid "This PayPal account was not vaulted with the required data"
+msgstr ""
+
+#: includes/wc-braintree-message-functions.php:537
+msgid ""
+"Merchant account must match the 3D Secure authorization merchant account."
+msgstr ""
+
+#: includes/wc-braintree-message-functions.php:538
+msgid "Amount must match the 3D Secure authorization amount."
+msgstr ""
+
+#: includes/wc-braintree-message-functions.php:539
+msgid ""
+"Shared billing address ID cannot be used in the same call as a standard "
+"billing address ID"
+msgstr ""
+
+#: includes/wc-braintree-message-functions.php:540
+msgid ""
+"Shared customer ID cannot be used in the same call as a standard customer ID"
+msgstr ""
+
+#: includes/wc-braintree-message-functions.php:541
+msgid ""
+"Shared payment method token cannot be used in the same call as a standard "
+"payment method token"
+msgstr ""
+
+#: includes/wc-braintree-message-functions.php:542
+msgid ""
+"Shared payment method token cannot be used in the same call as a non-shared "
+"identifier param"
+msgstr ""
+
+#: includes/wc-braintree-message-functions.php:543
+msgid ""
+"Shared identifier param cannot be used with non-shared payment method token"
+msgstr ""
+
+#: includes/wc-braintree-message-functions.php:544
+msgid ""
+"Shared shipping address ID cannot be used in the same call as a standard "
+"shipping address ID"
+msgstr ""
+
+#: includes/wc-braintree-message-functions.php:545
+#: includes/wc-braintree-message-functions.php:546
+msgid "Shared payment methods cannot be vaulted"
+msgstr ""
+
+#: includes/wc-braintree-message-functions.php:547
+msgid "Shared shipping addresses cannot be vaulted"
+msgstr ""
+
+#: includes/wc-braintree-message-functions.php:548
+msgid "Shared payment methods cannot be updated"
+msgstr ""
+
+#: includes/wc-braintree-message-functions.php:549
+msgid ""
+"Cannot provide both shared_payment_method_token and shared_customer_id "
+"unless the payment_method belongs to the customer."
+msgstr ""
+
+#: includes/wc-braintree-message-functions.php:551
+msgid "Shared Shipping address customer does not match customer in request."
+msgstr ""
+
+#: includes/wc-braintree-message-functions.php:552
+msgid "Shared payment method token is invalid."
+msgstr ""
+
+#: includes/wc-braintree-message-functions.php:553
+msgid "Shared Customer ID is invalid."
+msgstr ""
+
+#: includes/wc-braintree-message-functions.php:554
+msgid "Cannot submit for partial settlement."
+msgstr ""
+
+#: includes/wc-braintree-message-functions.php:555
+msgid "Payment instrument type is not accepted."
+msgstr ""
+
+#: includes/wc-braintree-message-functions.php:556
+msgid "Partial settlements are not supported by this processor."
+msgstr ""
+
+#: includes/wc-braintree-message-functions.php:557
+msgid ""
+"Delayed settlements are not supported for this processor. The submit for "
+"settlement option is required."
+msgstr ""
+
+#: includes/wc-braintree-message-functions.php:558
+msgid "Merchant account does not support Amex rewards."
+msgstr ""
+
+#: includes/wc-braintree-message-functions.php:559
+msgid "Points amount is too large."
+msgstr ""
+
+#: includes/wc-braintree-message-functions.php:560
+msgid ""
+"Updating order_id on submit_for_settlement is not supported by this "
+"processor."
+msgstr ""
+
+#: includes/wc-braintree-message-functions.php:561
+msgid ""
+"Updating descriptor on submit_for_settlement is not supported by this "
+"processor."
+msgstr ""
+
+#: includes/wc-braintree-message-functions.php:562
+msgid ""
+"PayPal supplementary data fields must be less than 4001 characters in length:"
+msgstr ""
+
+#: includes/wc-braintree-message-functions.php:563
+msgid "Cannot clone facilitated transactions."
+msgstr ""
+
+#: includes/wc-braintree-message-functions.php:564
+msgid "PayPal supplementary data field count must be less than 101."
+msgstr ""
+
+#: includes/wc-braintree-message-functions.php:565
+msgid ""
+"Shared payment method token originated from another merchant and is not "
+"allowed to be shared"
+msgstr ""
+
+#: includes/wc-braintree-message-functions.php:566
+msgid "EciFlag is required."
+msgstr ""
+
+#: includes/wc-braintree-message-functions.php:567
+msgid "EciFlag is invalid."
+msgstr ""
+
+#: includes/wc-braintree-message-functions.php:568
+msgid "Xid is required for specified EciFlag."
+msgstr ""
+
+#: includes/wc-braintree-message-functions.php:569
+msgid "Cavv is required for specified EciFlag."
+msgstr ""
+
+#: includes/wc-braintree-message-functions.php:570
+msgid "Merchant account does not support 3D Secure transactions for card type."
+msgstr ""
+
+#: includes/wc-braintree-message-functions.php:571
+msgid "Transaction source must be either 'moto' or 'recurring'."
+msgstr ""
+
+#: includes/wc-braintree-message-functions.php:572
+msgid "submit_for_settlement is required and must be true."
+msgstr ""
+
+#: includes/wc-braintree-message-functions.php:573
+msgid ""
+"shared_payment_method_nonce does not contain valid payment instrument type."
+msgstr ""
+
+#: includes/wc-braintree-message-functions.php:574
+msgid "Payment instrument type is not accepted by this merchant."
+msgstr ""
+
+#: includes/wc-braintree-message-functions.php:575
+msgid "Cannot clone Braintree Marketplace transactions via the API."
+msgstr ""
+
+#: includes/wc-braintree-message-functions.php:576
+msgid "Company name/DBA section is invalid."
+msgstr ""
+
+#: includes/wc-braintree-message-functions.php:577
+msgid "Phone number is invalid."
+msgstr ""
+
+#: includes/wc-braintree-message-functions.php:578
+msgid ""
+"Dynamic descriptors have not been enabled for this account. Please contact "
+"support@braintreepayments.com."
+msgstr ""
+
+#: includes/wc-braintree-message-functions.php:579
+msgid "Descriptor format is invalid."
+msgstr ""
+
+#: includes/wc-braintree-message-functions.php:580
+msgid "International phone number is invalid."
+msgstr ""
+
+#: includes/wc-braintree-message-functions.php:581
+msgid "URL must be 13 characters or shorter."
+msgstr ""
+
+#: includes/wc-braintree-message-functions.php:587
+msgid ""
+"The current user does not have access to the specified merchant_account_id"
+msgstr ""
+
+#: includes/wc-braintree-message-functions.php:590
+msgid "Product unit amount is in an invalid format."
+msgstr ""
+
+#: templates/cart/cart-fields.php:17
+msgid "or"
+msgstr ""
+
+#: templates/cart/cart-totals.php:9 templates/cart/cart-totals.php:10
+#: templates/checkout/recurring-totals.php:9
+msgid "Recurring Totals"
+msgstr ""
+
+#: templates/cart/cart-totals.php:14 templates/cart/cart-totals.php:15
+#: templates/checkout/recurring-totals.php:26
+#: templates/paypal-cart-totals.php:18
+msgid "Subtotal"
+msgstr ""
+
+#: templates/cart/cart-totals.php:31
+#, php-format
+msgid "First renewal date: %s"
+msgstr ""
+
+#: templates/checkout/recurring-totals.php:47
+#, php-format
+msgid "First renewal: %s"
+msgstr ""
+
+#: templates/checkout/subscription-form-pay.php:60
+#, php-format
+msgid "Recurring Totals: #%1$s"
+msgstr ""
+
+#: templates/checkout/subscription-form-pay.php:68
+msgid "First Renewal"
+msgstr ""
+
+#: templates/checkout/subscription-form-pay.php:85
+#: templates/myaccount/change-payment-method.php:44
+msgid ""
+"Sorry, it seems that there are no available payment methods for your "
+"location. Please contact us if you require assistance or wish to make "
+"alternate arrangements."
+msgstr ""
+
+#: templates/custom-forms/card-shape-form.php:9
+msgid "Payment Details"
+msgstr ""
+
+#: templates/loaders/processing-plain.php:8
+#: templates/loaders/rotating-gears.php:35
+msgid "Processing..."
+msgstr ""
+
+#: templates/myaccount/change-payment-method.php:15
+#, php-format
+msgid "#%s"
+msgstr ""
+
+#: templates/myaccount/change-payment-method.php:18
+msgid "Payment Method"
+msgstr ""
+
+#: templates/myaccount/change-payment-method.php:22
+msgid "Order Total"
+msgstr ""
+
+#: templates/myaccount/my-subscriptions.php:8
+#, php-format
+msgid "You have reached the end of your subscriptions. %sFirst page%s"
+msgstr ""
+
+#: templates/myaccount/my-subscriptions.php:10
+msgid "You do not currently have any subscriptions."
+msgstr ""
+
+#: templates/myaccount/my-subscriptions.php:17
+#: templates/myaccount/view-subscription.php:24
+#: templates/order/subscription-details.php:13
+msgid "Next Payment"
+msgstr ""
+
+#: templates/myaccount/my-subscriptions.php:41
+#: templates/myaccount/my-subscriptions.php:47
+msgid "Next"
+msgstr ""
+
+#: templates/myaccount/my-subscriptions.php:43
+#: templates/myaccount/my-subscriptions.php:46
+msgid "Previous"
+msgstr ""
+
+#: templates/myaccount/my-subscriptions.php:44
+msgid "First page"
+msgstr ""
+
+#: templates/myaccount/view-subscription.php:19
+msgid "Previous Payment"
+msgstr ""
+
+#: templates/myaccount/view-subscription.php:42
+msgid "Subscription Totals"
+msgstr ""
+
+#: templates/myaccount/view-subscription.php:75
+msgid "Order"
+msgstr ""
+
+#: templates/myaccount/view-subscription.php:76
+msgid "Date"
+msgstr ""
+
+#: templates/myaccount/view-subscription.php:94
+msgid "Please click Confirm if you wish to cancel this subscription."
+msgstr ""
+
+#: templates/paypal-cart-totals.php:9
+msgid "Cart totals"
+msgstr ""
+
+#: templates/paypal-cart-totals.php:55 templates/paypal-cart-totals.php:94
+msgid "Recurring totals"
+msgstr ""
+
+#: templates/paypal-cart-totals.php:96
+msgid "Recurring total"
+msgstr ""
+
+#: templates/paypal-shipping-methods.php:19
+msgid "Ship to"
+msgstr ""
+
+#: templates/paypal-shipping-methods.php:23
+msgid "Shipping Methods"
+msgstr ""
+
+#: templates/paypal-shipping-methods.php:33
+msgid "There are no shipping methods available for the address selected."
+msgstr ""
+
+#: templates/paypal-shipping-methods.php:39
+msgid "Place Order"
+msgstr ""

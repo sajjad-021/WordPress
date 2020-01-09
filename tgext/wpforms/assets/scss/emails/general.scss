@@ -1,0 +1,25 @@
+$primary: #e27730;
+$orange: #e27730;
+$blue: #509fe2;
+$green: #74ae5e;
+$borderGray: #dddddd;
+$backgroundColor: #f1f1f1;
+$fontSize: 14px;
+$fontColor: #444444;
+$fontColorLight: #777777;
+$fontFamily: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+$linkColor: #1c75a6;
+$linkColorHover: darken( $linkColor, 20% );
+$marginBottom: 15px;
+$buttonPrimary: $primary;
+$buttonPrimaryHover: darken( $primary, 10% );
+$buttonBlue: $blue;
+$buttonBlueHover: darken( $blue, 10% );
+$buttonGreen: $green;
+$buttonGreenHover: darken( $green, 10% );
+
+@import 'partials/resets';
+@import 'partials/text';
+@import 'partials/buttons';
+@import 'partials/general';
+@import 'partials/media_queries';

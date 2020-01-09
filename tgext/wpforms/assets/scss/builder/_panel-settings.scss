@@ -1,0 +1,86 @@
+// Settings panel.
+#wpforms-panel-settings {
+
+	.wpforms-panel-content {
+
+		.wpforms-builder-settings-block {
+			border: 1px solid #d3d3d3;
+			margin: 0 0 20px 0;
+
+			.wpforms-panel-field {
+				padding: 0 20px;
+			}
+		}
+
+		.wpforms-builder-settings-block-header {
+			background-color: #f1f1f1;
+			padding: 10px 20px;
+			font-size: 16px;
+			margin: 0;
+
+			.wpforms-builder-settings-block-name-holder{
+				display: block;
+				margin-right: 100px;
+
+				.wpforms-builder-settings-block-name-edit {
+					display: none;
+					margin-top: -6px;
+					margin-bottom: -6px;
+					width: 100%;
+
+					&.active {
+						display: inline-block;
+					}
+
+					input {
+						width: 100%;
+					}
+				}
+			}
+
+			.wpforms-builder-settings-block-actions {
+				display: inline-block;
+				float: right;
+				text-align: right;
+				width: 100px;
+
+				button {
+					-webkit-appearance: none;
+					background-color: transparent;
+					border: none;
+					color: inherit;
+					cursor: pointer;
+					font-size: 16px;
+					line-height: 1;
+
+					&.wpforms-builder-settings-block-edit {}
+
+					&.wpforms-builder-settings-block-delete {
+						color: #d22222;
+						padding-right: 0;
+					}
+				}
+			}
+		}
+
+		.wpforms-builder-settings-block-content {
+			margin-top: 20px;
+		}
+
+		.wpforms-confirmation-default {
+			.wpforms-builder-settings-block-delete,
+			.wpforms-conditional-block-panel {
+				display: none;
+			}
+		}
+
+		.wpforms-panel-field-radio {
+			.row {
+				> label {
+					margin-bottom: 0;
+				}
+			}
+		}
+	}
+
+}
